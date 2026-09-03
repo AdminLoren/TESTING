@@ -18,11 +18,14 @@ COTA.lore = (function () {
   };
 
   function cardTemplate(c, isGreyedOut) {
+    // Note: intentionally no character code (A1, B3, etc.) shown anywhere
+    // in this markup — just the render and the name, fighting-game style.
     return `
       <button class="select-card ${isGreyedOut ? "greyed-out" : ""}" data-id="${c.id}" style="--char-color:${c.color}">
-        <img src="assets/images/render_${c.code}.png" alt="${c.name}" class="select-card-img" />
-        <span class="select-card-name">${c.name}</span>
-        <span class="select-card-indicator" aria-hidden="true"></span>
+        <span class="select-card-clip">
+          <img src="assets/images/render_${c.code}.png" alt="${c.name}" class="select-card-img" />
+          <span class="select-card-nameplate">${c.name}</span>
+        </span>
       </button>
     `;
   }
@@ -101,7 +104,12 @@ COTA.lore = (function () {
   function renderIndexContent(character) {
     document.getElementById("lore-index-render").src = `assets/images/render_${character.code}.png`;
     document.getElementById("lore-index-render").alt = character.name;
-    document.getElementById("lore-index-graffiti-name").textContent = character.name;
+    // The graffiti art is the actual name treatment now — a real image
+    // per character (graffiti_[code].png) instead of generated CSS text,
+    // so you can hand-typeset each name however you like.
+    const graffitiImg = document.getElementById("lore-index-graffiti-name");
+    graffitiImg.src = `assets/images/graffiti_${character.code}.png`;
+    graffitiImg.alt = character.name;
     document.getElementById("lore-index-fullname").textContent =
       character.nickname && character.nickname !== "NOT REGISTERED YET"
         ? `${character.name} "${character.nickname}"`
@@ -121,8 +129,11 @@ COTA.lore = (function () {
     // blurred, with the character's main color overlaid transparently.
     const bg = document.getElementById("lore-index-bg");
     bg.style.backgroundImage = `url('${BG_BY_GEN[character.gen]}')`;
+    // The character's color becomes a looming, semi-transparent shadow
+    // that sits above the background image but behind the render/text
+    // (see .index-color-overlay in style.css for the layered gradient).
     const overlay = document.getElementById("lore-index-color-overlay");
-    overlay.style.backgroundColor = character.color;
+    overlay.style.setProperty("--overlay-color", character.color);
   }
 
   function step(delta) {
