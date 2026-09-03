@@ -140,10 +140,17 @@ COTA.lore = (function () {
     const idx = allCharacters.findIndex((c) => c.id === openCharacterId);
     const nextIdx = (idx + delta + allCharacters.length) % allCharacters.length;
     const nextChar = allCharacters[nextIdx];
-    openCharacterId = nextChar.id;
-    selectedCode = nextChar.id;
-    COTA.audio.playMusic(nextChar.bgm.file, nextChar.bgm.title);
-    renderIndexContent(nextChar);
+
+    // Simple crossfade so it's clear a new character just swapped in.
+    const content = document.getElementById("lore-index-content");
+    content.classList.add("index-swap-out");
+    window.setTimeout(() => {
+      openCharacterId = nextChar.id;
+      selectedCode = nextChar.id;
+      COTA.audio.playMusic(nextChar.bgm.file, nextChar.bgm.title);
+      renderIndexContent(nextChar);
+      content.classList.remove("index-swap-out");
+    }, 180);
   }
 
   async function init() {
@@ -157,9 +164,13 @@ COTA.lore = (function () {
     document.getElementById("lore-prev-btn").addEventListener("click", () => step(-1));
     document.getElementById("lore-next-btn").addEventListener("click", () => step(1));
     document.getElementById("lore-back-to-select-btn").addEventListener("click", showSelectScreen);
+  }
 
-    document.getElementById("lore-select-screen").classList.add("active");
-    COTA.audio.playMusic("char_select.mp3", "Character Select Theme");
+  // Called every time the Lore tab is opened — always lands on the
+  // character select screen, never resumes a previously-open index page.
+  async function enter() {
+    await init();
+    showSelectScreen();
   }
 
   // Called from Home tab "meet the cast" cards — jumps straight to a
@@ -174,5 +185,5 @@ COTA.lore = (function () {
     showIndexScreen(character);
   }
 
-  return { init, openCharacterById, showSelectScreen };
+  return { init, enter, openCharacterById, showSelectScreen };
 })();
