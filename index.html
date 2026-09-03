@@ -104,7 +104,7 @@
           <span class="arrow-hint">next</span>
         </button>
 
-        <div class="index-content">
+        <div id="lore-index-content" class="index-content">
           <div class="index-text">
             <span class="index-eyebrow">Character</span>
             <img id="lore-index-graffiti-name" class="index-graffiti-name" src="" alt="" />
@@ -142,7 +142,27 @@
       <div id="relationship-select-screen" class="rel-select-screen">
         <h2 class="select-splash-text">Pick two characters</h2>
         <p id="rel-pick-status" class="rel-pick-status">Choose your first character</p>
-        <div id="relationship-roster" class="rel-roster"></div>
+
+        <div class="rel-slots">
+          <div id="rel-slot-0" class="rel-slot">
+            <span class="rel-slot-placeholder">Player 1</span>
+          </div>
+          <span class="rel-slots-versus">&times;</span>
+          <div id="rel-slot-1" class="rel-slot">
+            <span class="rel-slot-placeholder">Player 2</span>
+          </div>
+        </div>
+
+        <div class="rel-roster-panel">
+          <div class="rel-roster-gen-block">
+            <h3 class="rel-roster-gen-label">2nd Generation</h3>
+            <div id="rel-roster-gen2" class="rel-roster-grid"></div>
+          </div>
+          <div class="rel-roster-gen-block">
+            <h3 class="rel-roster-gen-label">1st Generation</h3>
+            <div id="rel-roster-gen1" class="rel-roster-grid"></div>
+          </div>
+        </div>
       </div>
 
       <div id="relationship-display-screen" class="rel-display-screen">
