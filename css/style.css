@@ -320,7 +320,6 @@ img { max-width: 100%; display: block; }
 }
 .select-card.is-highlighted .select-card-nameplate { color: var(--accent-gold); }
 
-.select-card.greyed-out { opacity: 0.35; filter: grayscale(1); pointer-events: auto; }
 
 /* --- Character index --- */
 .index-screen { position: relative; overflow: hidden; }
