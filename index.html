@@ -72,16 +72,20 @@
 
       <!-- Character select screen -->
       <div id="lore-select-screen" class="select-screen">
+        <!-- Fixed backdrop layer: stays put in the viewport while the
+             card grid below scrolls independently of it. -->
+        <div class="select-bg" aria-hidden="true"></div>
+
         <div class="select-splash">
           <h2 id="select-splash-text" class="select-splash-text">Choose your character</h2>
         </div>
 
         <div class="select-generation-block">
-          <h3 class="select-gen-label">2nd Generation</h3>
+          <h3 class="select-gen-label">2nd Generation — Children of the Authors</h3>
           <div id="lore-select-gen2" class="select-grid"></div>
         </div>
         <div class="select-generation-block">
-          <h3 class="select-gen-label">1st Generation</h3>
+          <h3 class="select-gen-label">1st Generation — The Originals</h3>
           <div id="lore-select-gen1" class="select-grid"></div>
         </div>
       </div>
@@ -101,11 +105,9 @@
         </button>
 
         <div class="index-content">
-          <div class="index-visual">
-            <img id="lore-index-render" class="index-render" src="" alt="" />
-          </div>
           <div class="index-text">
-            <h2 id="lore-index-graffiti-name" class="index-graffiti-name"></h2>
+            <span class="index-eyebrow">Character</span>
+            <img id="lore-index-graffiti-name" class="index-graffiti-name" src="" alt="" />
             <p id="lore-index-fullname" class="index-fullname"></p>
             <p id="lore-index-bio" class="index-bio"></p>
 
@@ -120,6 +122,9 @@
               <h4>Abilities</h4>
               <ul id="lore-index-abilities"></ul>
             </div>
+          </div>
+          <div class="index-visual">
+            <img id="lore-index-render" class="index-render" src="" alt="" />
           </div>
         </div>
 
