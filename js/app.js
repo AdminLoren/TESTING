@@ -7,8 +7,9 @@ window.COTA = window.COTA || {};
 COTA.app = (function () {
   let currentTab = "home";
 
-  function goToTab(tabName) {
-    if (tabName === currentTab) return;
+  function goToTab(tabName, opts = {}) {
+    const resetView = opts.resetView !== false; // defaults to true
+    if (tabName === currentTab && !opts.force) return;
     const overlay = document.getElementById("transition-overlay");
     overlay.classList.add("active");
 
@@ -21,9 +22,16 @@ COTA.app = (function () {
       });
       currentTab = tabName;
 
-      // Lazily boot the tab's module the first time it's opened.
-      if (tabName === "lore") COTA.lore.init();
-      if (tabName === "relationship") COTA.relationship.init();
+      // Lore/Relationship always land back on their picker/select screen
+      // when the tab is (re-)entered — never resume a previous pick.
+      // The one exception is jumping straight to a character from the
+      // Home tab, which passes resetView: false and drives the view itself.
+      if (tabName === "lore") {
+        resetView ? COTA.lore.enter() : COTA.lore.init();
+      }
+      if (tabName === "relationship") {
+        resetView ? COTA.relationship.enter() : COTA.relationship.init();
+      }
 
       window.setTimeout(() => overlay.classList.remove("active"), 250);
     }, 250);
