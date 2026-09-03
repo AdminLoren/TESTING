@@ -1,0 +1,12 @@
+{
+  "name": "cota-encyclopedia",
+  "version": "1.0.0",
+  "description": "The Happy Ever Party: Children of the Authors — C.O.T.A. Encyclopedia",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

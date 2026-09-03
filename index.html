@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Happy Ever Party: C.O.T.A. Encyclopedia</title>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER (universal on every tab) ============ -->
+  <header id="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <img src="assets/images/app_logo.png" alt="C.O.T.A. logo" class="brand-logo" />
+        <span class="brand-title">C.O.T.A.</span>
+      </div>
+
+      <nav id="tab-nav">
+        <button class="tab-btn active" data-tab="home">Home</button>
+        <button class="tab-btn" data-tab="lore">Lore</button>
+        <button class="tab-btn" data-tab="relationship">Relationship Chart</button>
+      </nav>
+
+      <button id="sound-toggle" class="sound-toggle" aria-pressed="false">
+        <span id="sound-icon">&#9835;</span>
+        <span id="now-playing-text">Sound Off</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ TRANSITION OVERLAY (universal between tabs) ============ -->
+  <div id="transition-overlay" aria-hidden="true"></div>
+
+  <!-- ============ MAIN CONTENT ============ -->
+  <main id="app-root">
+
+    <!-- ---------- HOME TAB ---------- -->
+    <section id="tab-home" class="tab-panel active">
+      <div class="home-hero">
+        <div class="home-hero-card">
+          <h1 class="home-title">The Happy Ever Party</h1>
+          <h2 class="home-subtitle">Children of the Authors</h2>
+        </div>
+      </div>
+
+      <div class="home-section">
+        <h3 class="section-label">Synopsis</h3>
+        <p class="registered-placeholder">TO BE REGISTERED</p>
+      </div>
+
+      <div class="home-section" id="home-preview-section">
+        <h3 class="section-label">Meet the Cast</h3>
+        <div id="home-character-strip" class="home-character-strip">
+          <!-- populated by home.js -->
+        </div>
+      </div>
+
+      <div class="home-section home-cta-section">
+        <button class="home-cta-btn" data-goto-tab="lore">
+          Want to know the characters? Check out the Lore tab!
+        </button>
+        <button class="home-cta-btn" data-goto-tab="relationship">
+          Curious how everyone connects? See the Relationship Charts!
+        </button>
+      </div>
+    </section>
+
+    <!-- ---------- LORE TAB ---------- -->
+    <section id="tab-lore" class="tab-panel">
+
+      <!-- Character select screen -->
+      <div id="lore-select-screen" class="select-screen">
+        <div class="select-splash">
+          <h2 id="select-splash-text" class="select-splash-text">Choose your character</h2>
+        </div>
+
+        <div class="select-generation-block">
+          <h3 class="select-gen-label">2nd Generation</h3>
+          <div id="lore-select-gen2" class="select-grid"></div>
+        </div>
+        <div class="select-generation-block">
+          <h3 class="select-gen-label">1st Generation</h3>
+          <div id="lore-select-gen1" class="select-grid"></div>
+        </div>
+      </div>
+
+      <!-- Character index (shown after a pick) -->
+      <div id="lore-index-screen" class="index-screen">
+        <div id="lore-index-bg" class="index-bg"></div>
+        <div id="lore-index-color-overlay" class="index-color-overlay"></div>
+
+        <button class="index-arrow index-arrow-prev" id="lore-prev-btn">
+          <span class="arrow-glyph">&#10094;</span>
+          <span class="arrow-hint">prev.</span>
+        </button>
+        <button class="index-arrow index-arrow-next" id="lore-next-btn">
+          <span class="arrow-glyph">&#10095;</span>
+          <span class="arrow-hint">next</span>
+        </button>
+
+        <div class="index-content">
+          <div class="index-visual">
+            <img id="lore-index-render" class="index-render" src="" alt="" />
+          </div>
+          <div class="index-text">
+            <h2 id="lore-index-graffiti-name" class="index-graffiti-name"></h2>
+            <p id="lore-index-fullname" class="index-fullname"></p>
+            <p id="lore-index-bio" class="index-bio"></p>
+
+            <dl class="index-fact-list">
+              <div class="index-fact"><dt>Birthdate</dt><dd id="lore-index-birthdate"></dd></div>
+              <div class="index-fact"><dt>Occupation</dt><dd id="lore-index-occupation"></dd></div>
+              <div class="index-fact"><dt>Cherishes</dt><dd id="lore-index-cherishes"></dd></div>
+              <div class="index-fact"><dt>Dislikes</dt><dd id="lore-index-dislikes"></dd></div>
+            </dl>
+
+            <div class="index-abilities">
+              <h4>Abilities</h4>
+              <ul id="lore-index-abilities"></ul>
+            </div>
+          </div>
+        </div>
+
+        <button class="index-back-btn" id="lore-back-to-select-btn">
+          <span class="arrow-glyph up">&#9650;</span>
+          <span class="arrow-hint">Character Select</span>
+        </button>
+      </div>
+
+    </section>
+
+    <!-- ---------- RELATIONSHIP TAB ---------- -->
+    <section id="tab-relationship" class="tab-panel">
+
+      <div id="relationship-select-screen" class="rel-select-screen">
+        <h2 class="select-splash-text">Pick two characters</h2>
+        <p id="rel-pick-status" class="rel-pick-status">Choose your first character</p>
+        <div id="relationship-roster" class="rel-roster"></div>
+      </div>
+
+      <div id="relationship-display-screen" class="rel-display-screen">
+        <div class="rel-bg"></div>
+        <div id="rel-color-overlay" class="rel-color-overlay"></div>
+
+        <div class="rel-pair-visual">
+          <div class="rel-char-card">
+            <img id="rel-char-a-render" class="rel-char-render" src="" alt="" />
+            <p id="rel-char-a-name" class="rel-char-name"></p>
+          </div>
+
+          <div class="rel-center-text">
+            <h2 id="rel-title" class="rel-title"></h2>
+            <p id="rel-specific-title" class="rel-specific-title"></p>
+            <div class="rel-bio-box">
+              <p id="rel-bio" class="rel-bio"></p>
+            </div>
+          </div>
+
+          <div class="rel-char-card">
+            <img id="rel-char-b-render" class="rel-char-render" src="" alt="" />
+            <p id="rel-char-b-name" class="rel-char-name"></p>
+          </div>
+        </div>
+
+        <button id="rel-link-another-btn" class="rel-link-another-btn">Link another pair!</button>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/home.js"></script>
+  <script src="js/lore.js"></script>
+  <script src="js/relationship.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

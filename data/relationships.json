@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ali-riku",
+    "pair": ["A2", "A4"],
+    "type": "Lovers",
+    "title": "The Nerd x Jock",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Riku always had a secret soft spot for Alicia since their younger days. As she got older, \"Who would have thought Riku-kun would grow up into such a hottie,\" Alicia thought to herself."
+  },
+  {
+    "id": "vys-mic",
+    "pair": ["A3", "B4"],
+    "type": "Special",
+    "title": "What Could Have Been?",
+    "specificTitle": "The Caretaker",
+    "bio": "At some point, Michan wished Alicia ended up with Vyse. A sweet boy guarding her baby girl would calm her nerves."
+  },
+  {
+    "id": "mea-han",
+    "pair": ["B1", "B2"],
+    "type": "Lovers",
+    "title": "One in a Million",
+    "specificTitle": "Married",
+    "bio": "NOT REGISTERED YET"
+  }
+]
