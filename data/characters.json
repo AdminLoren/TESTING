@@ -1,271 +1,1035 @@
 [
   {
-    "id": "A1", "code": "fum", "gen": 2, "name": "Fumio",
+    "id": "A1",
+    "code": "fum",
+    "gen": 2,
+    "name": "Fumio",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_fum.mp3", "title": "Casino Park (Sonic Heroes)" },
+    "bgm": {
+      "file": "bgm_fum.mp3",
+      "title": "Casino Park (Sonic Heroes)"
+    },
     "isDefault": true
   },
   {
-    "id": "A2", "code": "ali", "gen": 2, "name": "Alicia",
+    "id": "A2",
+    "code": "ali",
+    "gen": 2,
+    "name": "Alicia",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_ali.mp3", "title": "Sweet Mountain Act 1 (Sonic Colors OST)" }
+    "bgm": {
+      "file": "bgm_ali.mp3",
+      "title": "Sweet Mountain Act 1 (Sonic Colors OST)"
+    }
   },
   {
-    "id": "A3", "code": "vys", "gen": 2, "name": "Vyse",
+    "id": "A3",
+    "code": "vys",
+    "gen": 2,
+    "name": "Vyse",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_vys.mp3", "title": "Tundra Man Stage (Rockman 11 OST)" }
+    "bgm": {
+      "file": "bgm_vys.mp3",
+      "title": "Tundra Man Stage (Rockman 11 OST)"
+    }
   },
   {
-    "id": "A4", "code": "riku", "gen": 2, "name": "Riku.EXE",
+    "id": "A4",
+    "code": "riku",
+    "gen": 2,
+    "name": "Riku.EXE",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_riku.mp3", "title": "TO BE ASSIGNED" }
+    "bgm": {
+      "file": "bgm_riku.mp3",
+      "title": "TO BE ASSIGNED"
+    }
   },
   {
-    "id": "A5", "code": "emm", "gen": 2, "name": "Emma",
+    "id": "A5",
+    "code": "emm",
+    "gen": 2,
+    "name": "Emma",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_emm.mp3", "title": "TO BE ASSIGNED" }
+    "bgm": {
+      "file": "bgm_emm.mp3",
+      "title": "TO BE ASSIGNED"
+    }
   },
   {
-    "id": "A6", "code": "kar", "gen": 2, "name": "Karin",
+    "id": "A6",
+    "code": "kar",
+    "gen": 2,
+    "name": "Karin",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_kar.mp3", "title": "TO BE ASSIGNED" }
+    "bgm": {
+      "file": "bgm_kar.mp3",
+      "title": "TO BE ASSIGNED"
+    }
   },
   {
-    "id": "A7", "code": "fko", "gen": 2, "name": "Fumiko",
+    "id": "A7",
+    "code": "fko",
+    "gen": 2,
+    "name": "Fumiko",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_fko.mp3", "title": "TO BE ASSIGNED" }
+    "bgm": {
+      "file": "bgm_fko.mp3",
+      "title": "TO BE ASSIGNED"
+    }
   },
   {
-    "id": "A8", "code": "set", "gen": 2, "name": "Setsuna",
+    "id": "A8",
+    "code": "set",
+    "gen": 2,
+    "name": "Setsuna",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_set.mp3", "title": "TO BE ASSIGNED" }
+    "bgm": {
+      "file": "bgm_set.mp3",
+      "title": "TO BE ASSIGNED"
+    }
   },
   {
-    "id": "A9", "code": "shi", "gen": 2, "name": "Shioriko",
+    "id": "A9",
+    "code": "shi",
+    "gen": 2,
+    "name": "Shioriko",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_shi.mp3", "title": "TO BE ASSIGNED" }
+    "bgm": {
+      "file": "bgm_shi.mp3",
+      "title": "TO BE ASSIGNED"
+    }
   },
   {
-    "id": "A10", "code": "rik", "gen": 2, "name": "Rikki",
+    "id": "A10",
+    "code": "rik",
+    "gen": 2,
+    "name": "Rikki",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_rik.mp3", "title": "TO BE ASSIGNED" }
+    "bgm": {
+      "file": "bgm_rik.mp3",
+      "title": "TO BE ASSIGNED"
+    }
   },
   {
-    "id": "A11", "code": "geo", "gen": 2, "name": "George",
+    "id": "A11",
+    "code": "geo",
+    "gen": 2,
+    "name": "George",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_geo.mp3", "title": "TO BE ASSIGNED" }
+    "bgm": {
+      "file": "bgm_geo.mp3",
+      "title": "TO BE ASSIGNED"
+    }
   },
   {
-    "id": "A12", "code": "mak", "gen": 2, "name": "Makoto",
+    "id": "A12",
+    "code": "mak",
+    "gen": 2,
+    "name": "Makoto",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_mak.mp3", "title": "TO BE ASSIGNED" }
+    "bgm": {
+      "file": "bgm_mak.mp3",
+      "title": "TO BE ASSIGNED"
+    }
   },
   {
-    "id": "A13", "code": "meg", "gen": 2, "name": "Megumi",
+    "id": "A13",
+    "code": "meg",
+    "gen": 2,
+    "name": "Megumi",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_meg.mp3", "title": "TO BE ASSIGNED" }
+    "bgm": {
+      "file": "bgm_meg.mp3",
+      "title": "TO BE ASSIGNED"
+    }
   },
   {
-    "id": "B1", "code": "mea", "gen": 1, "name": "Meari",
+    "id": "B1",
+    "code": "mea",
+    "gen": 1,
+    "name": "Meari",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_mea.mp3", "title": "TO BE ASSIGNED" }
+    "bgm": {
+      "file": "bgm_mea.mp3",
+      "title": "TO BE ASSIGNED"
+    }
   },
   {
-    "id": "B2", "code": "han", "gen": 1, "name": "Hanzo",
+    "id": "B2",
+    "code": "han",
+    "gen": 1,
+    "name": "Hanzo",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_han.mp3", "title": "TO BE ASSIGNED" }
+    "bgm": {
+      "file": "bgm_han.mp3",
+      "title": "TO BE ASSIGNED"
+    }
   },
   {
-    "id": "B3", "code": "sat", "gen": 1, "name": "Satoshi",
+    "id": "B3",
+    "code": "sat",
+    "gen": 1,
+    "name": "Satoshi",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_sat.mp3", "title": "TO BE ASSIGNED" }
+    "bgm": {
+      "file": "bgm_sat.mp3",
+      "title": "TO BE ASSIGNED"
+    }
   },
   {
-    "id": "B4", "code": "mic", "gen": 1, "name": "Michan",
+    "id": "B4",
+    "code": "mic",
+    "gen": 1,
+    "name": "Michan",
     "nickname": "NOT REGISTERED YET",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
-    "cherishes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
-    "dislikes": ["NOT REGISTERED YET", "NOT REGISTERED YET", "NOT REGISTERED YET"],
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
     "abilities": [
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"},
-      {"name": "NOT REGISTERED YET", "desc": "NOT REGISTERED YET"}
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
     ],
     "color": "#FFFFFF",
-    "bgm": { "file": "bgm_mic.mp3", "title": "TO BE ASSIGNED" }
+    "bgm": {
+      "file": "bgm_mic.mp3",
+      "title": "TO BE ASSIGNED"
+    }
+  },
+  {
+    "id": "B5",
+    "code": "mat",
+    "gen": 1,
+    "name": "Matsuda",
+    "nickname": "NOT REGISTERED YET",
+    "bio": "NOT REGISTERED YET",
+    "birthdate": "NOT REGISTERED YET",
+    "occupation": "NOT REGISTERED YET",
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "abilities": [
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
+    ],
+    "color": "#FFFFFF",
+    "bgm": {
+      "file": "bgm_mat.mp3",
+      "title": "TO BE ASSIGNED"
+    }
+  },
+  {
+    "id": "B6",
+    "code": "kai",
+    "gen": 1,
+    "name": "Kaito",
+    "nickname": "NOT REGISTERED YET",
+    "bio": "NOT REGISTERED YET",
+    "birthdate": "NOT REGISTERED YET",
+    "occupation": "NOT REGISTERED YET",
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "abilities": [
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
+    ],
+    "color": "#FFFFFF",
+    "bgm": {
+      "file": "bgm_kai.mp3",
+      "title": "TO BE ASSIGNED"
+    }
+  },
+  {
+    "id": "B7",
+    "code": "min",
+    "gen": 1,
+    "name": "Minna",
+    "nickname": "NOT REGISTERED YET",
+    "bio": "NOT REGISTERED YET",
+    "birthdate": "NOT REGISTERED YET",
+    "occupation": "NOT REGISTERED YET",
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "abilities": [
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
+    ],
+    "color": "#FFFFFF",
+    "bgm": {
+      "file": "bgm_min.mp3",
+      "title": "TO BE ASSIGNED"
+    }
+  },
+  {
+    "id": "B8",
+    "code": "leo",
+    "gen": 1,
+    "name": "Leonardo",
+    "nickname": "NOT REGISTERED YET",
+    "bio": "NOT REGISTERED YET",
+    "birthdate": "NOT REGISTERED YET",
+    "occupation": "NOT REGISTERED YET",
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "abilities": [
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
+    ],
+    "color": "#FFFFFF",
+    "bgm": {
+      "file": "bgm_leo.mp3",
+      "title": "TO BE ASSIGNED"
+    }
+  },
+  {
+    "id": "B9",
+    "code": "rka",
+    "gen": 1,
+    "name": "Rikka",
+    "nickname": "NOT REGISTERED YET",
+    "bio": "NOT REGISTERED YET",
+    "birthdate": "NOT REGISTERED YET",
+    "occupation": "NOT REGISTERED YET",
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "abilities": [
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
+    ],
+    "color": "#FFFFFF",
+    "bgm": {
+      "file": "bgm_rka.mp3",
+      "title": "TO BE ASSIGNED"
+    }
+  },
+  {
+    "id": "B10",
+    "code": "hir",
+    "gen": 1,
+    "name": "Hirotaka",
+    "nickname": "NOT REGISTERED YET",
+    "bio": "NOT REGISTERED YET",
+    "birthdate": "NOT REGISTERED YET",
+    "occupation": "NOT REGISTERED YET",
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "abilities": [
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
+    ],
+    "color": "#FFFFFF",
+    "bgm": {
+      "file": "bgm_hir.mp3",
+      "title": "TO BE ASSIGNED"
+    }
+  },
+  {
+    "id": "B11",
+    "code": "mei",
+    "gen": 1,
+    "name": "Meili",
+    "nickname": "NOT REGISTERED YET",
+    "bio": "NOT REGISTERED YET",
+    "birthdate": "NOT REGISTERED YET",
+    "occupation": "NOT REGISTERED YET",
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "abilities": [
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
+    ],
+    "color": "#FFFFFF",
+    "bgm": {
+      "file": "bgm_mei.mp3",
+      "title": "TO BE ASSIGNED"
+    }
+  },
+  {
+    "id": "B12",
+    "code": "aki",
+    "gen": 1,
+    "name": "Akira",
+    "nickname": "NOT REGISTERED YET",
+    "bio": "NOT REGISTERED YET",
+    "birthdate": "NOT REGISTERED YET",
+    "occupation": "NOT REGISTERED YET",
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "abilities": [
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
+    ],
+    "color": "#FFFFFF",
+    "bgm": {
+      "file": "bgm_aki.mp3",
+      "title": "TO BE ASSIGNED"
+    }
+  },
+  {
+    "id": "B13",
+    "code": "aik",
+    "gen": 1,
+    "name": "Aika",
+    "nickname": "NOT REGISTERED YET",
+    "bio": "NOT REGISTERED YET",
+    "birthdate": "NOT REGISTERED YET",
+    "occupation": "NOT REGISTERED YET",
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "abilities": [
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
+    ],
+    "color": "#FFFFFF",
+    "bgm": {
+      "file": "bgm_aik.mp3",
+      "title": "TO BE ASSIGNED"
+    }
+  },
+  {
+    "id": "B14",
+    "code": "mir",
+    "gen": 1,
+    "name": "Mira",
+    "nickname": "NOT REGISTERED YET",
+    "bio": "NOT REGISTERED YET",
+    "birthdate": "NOT REGISTERED YET",
+    "occupation": "NOT REGISTERED YET",
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "abilities": [
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
+    ],
+    "color": "#FFFFFF",
+    "bgm": {
+      "file": "bgm_mir.mp3",
+      "title": "TO BE ASSIGNED"
+    }
+  },
+  {
+    "id": "B15",
+    "code": "len",
+    "gen": 1,
+    "name": "Leng",
+    "nickname": "NOT REGISTERED YET",
+    "bio": "NOT REGISTERED YET",
+    "birthdate": "NOT REGISTERED YET",
+    "occupation": "NOT REGISTERED YET",
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "abilities": [
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
+    ],
+    "color": "#FFFFFF",
+    "bgm": {
+      "file": "bgm_len.mp3",
+      "title": "TO BE ASSIGNED"
+    }
   }
 ]
