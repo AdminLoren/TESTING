@@ -218,10 +218,21 @@ img { max-width: 100%; display: block; }
 
 /* --- Character select --- */
 .select-screen {
-  background: url('../assets/images/char_select_bg.png') center / cover no-repeat;
-  padding: 32px 20px 60px;
   position: relative;
+  padding: 32px 20px 60px;
 }
+
+/* This backdrop is its own fixed-position layer, independent of the
+   scrolling card grid below — it never moves as you scroll, only the
+   cards do. (Previously the background lived on .select-screen itself,
+   which scrolled along with its content — that was the bug.) */
+.select-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: url('../assets/images/char_select_bg.png') center / cover no-repeat;
+}
+
 .select-screen.slide-in-bottom { animation: slideInBottom 0.5s ease; }
 @keyframes slideInBottom {
   from { transform: translateY(6%); opacity: 0; }
@@ -237,105 +248,168 @@ img { max-width: 100%; display: block; }
   margin: 0;
 }
 
-.select-generation-block { max-width: 1100px; margin: 0 auto 36px; }
+.select-generation-block { max-width: 1200px; margin: 0 auto 36px; }
 .select-gen-label {
   font-family: var(--font-display);
   color: var(--accent-cyan);
   letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 15px;
   border-bottom: 2px solid var(--border-soft);
   padding-bottom: 8px;
   margin-bottom: 16px;
+  background: rgba(11, 11, 18, 0.55);
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 6px;
 }
 
 .select-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 16px;
 }
 
+/* Fighting-game roster card: angled parallelogram silhouette (via
+   clip-path, so the image/text inside stay perfectly upright — no
+   skew-transform distortion to fight against), full-bleed art, and a
+   gradient nameplate along the bottom instead of a separate caption. */
 .select-card {
   position: relative;
-  background: var(--bg-panel);
-  border: 2px solid var(--border-soft);
-  border-radius: 8px;
-  padding: 8px;
-  text-align: center;
-  transition: border-color 0.15s ease, transform 0.15s ease;
+  aspect-ratio: 2 / 3;
+  padding: 0;
+  background: none;
+  transition: transform 0.15s ease, filter 0.15s ease;
 }
-.select-card:hover { transform: translateY(-3px); }
-.select-card-img { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 4px; }
-.select-card-name { display: block; margin-top: 6px; font-size: 13px; font-weight: 700; }
-.select-card-indicator {
+.select-card:hover { transform: translateY(-5px); }
+
+.select-card-clip {
   position: absolute;
-  top: 6px; right: 6px;
-  width: 10px; height: 10px;
-  border-radius: 50%;
-  background: transparent;
+  inset: 0;
+  display: block;
+  overflow: hidden;
+  clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
+  border: 2px solid var(--char-color, var(--border-soft));
+  border-radius: 2px;
+  background: var(--bg-panel);
 }
-.select-card.is-highlighted {
-  border-color: var(--char-color, var(--accent-gold));
-  box-shadow: 0 0 14px var(--char-color, var(--accent-gold));
+
+.select-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
-.select-card.is-highlighted .select-card-indicator { background: var(--accent-gold); }
-.select-card.greyed-out { opacity: 0.35; filter: grayscale(1); }
+
+.select-card-nameplate {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 22px 10px 10px;
+  background: linear-gradient(to top, rgba(0,0,0,0.92) 10%, transparent 100%);
+  color: var(--text-main);
+  font-weight: 800;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.select-card.is-highlighted .select-card-clip {
+  border-color: var(--accent-gold);
+  box-shadow: 0 0 0 2px var(--accent-gold), 0 0 22px 4px var(--char-color, var(--accent-gold));
+}
+.select-card.is-highlighted .select-card-nameplate { color: var(--accent-gold); }
+
+.select-card.greyed-out { opacity: 0.35; filter: grayscale(1); pointer-events: auto; }
 
 /* --- Character index --- */
 .index-screen { position: relative; overflow: hidden; }
 .index-screen.fade-in { animation: fadeIn 0.4s ease; }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
+/* Layer 1 (bottom): the generation background image, blurred ~10%. */
 .index-bg {
   position: absolute;
   inset: 0;
+  z-index: 0;
   background-size: cover;
   background-position: center;
-  filter: blur(10%) brightness(0.55);
+  filter: blur(10px) brightness(0.5);
   transform: scale(1.05);
 }
+
+/* Layer 2: the selected character's hex color as a looming, transparent
+   shadow above the background — sits behind the render/text (layer 3). */
 .index-color-overlay {
   position: absolute;
   inset: 0;
-  opacity: 0.28;
-  mix-blend-mode: multiply;
-  background: var(--accent-magenta);
+  z-index: 1;
+  background:
+    radial-gradient(ellipse 70% 60% at 65% 40%, var(--overlay-color, transparent) 0%, transparent 70%),
+    linear-gradient(to top, rgba(0,0,0,0.65), rgba(0,0,0,0.15) 60%);
+  opacity: 0.75;
+  mix-blend-mode: normal;
 }
 
+/* Layer 3 (top): the actual content. */
 .index-content {
   position: relative;
   z-index: 2;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
-  padding: 60px 24px 140px;
+  padding: 70px 24px 140px;
   display: grid;
-  grid-template-columns: minmax(240px, 420px) 1fr;
-  gap: 40px;
-  align-items: start;
+  grid-template-columns: minmax(320px, 1fr) minmax(320px, 640px);
+  gap: 32px;
+  align-items: center;
 }
-@media (max-width: 800px) {
-  .index-content { grid-template-columns: 1fr; }
+@media (max-width: 850px) {
+  .index-content { grid-template-columns: 1fr; padding-top: 40px; }
 }
 
 .index-visual { display: flex; justify-content: center; }
 .index-render {
-  max-height: 74vh;
+  max-height: 78vh;
   object-fit: contain;
-  filter: drop-shadow(0 20px 40px rgba(0,0,0,0.6));
+  filter: drop-shadow(0 24px 44px rgba(0,0,0,0.65));
 }
 
-.index-graffiti-name {
+.index-eyebrow {
+  display: block;
   font-family: var(--font-display);
-  font-size: clamp(40px, 6vw, 84px);
-  margin: 0;
-  color: var(--text-main);
-  -webkit-text-stroke: 2px var(--accent-magenta);
-  text-shadow: 4px 4px 0 rgba(0,0,0,0.5);
-  transform: skewX(-4deg);
-  letter-spacing: 1px;
+  color: var(--accent-gold);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 6px;
 }
-.index-fullname { color: var(--accent-cyan); font-weight: 700; margin: 4px 0 20px; }
-.index-bio { line-height: 1.6; color: var(--text-main); max-width: 60ch; }
 
-.index-fact-list { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 24px 0; }
+/* The graffiti name is now a real image per character (typeset however
+   you like in an image editor) rather than generated CSS text — this
+   just sizes and drops it in, like the big "KEN" treatment. */
+.index-graffiti-name {
+  display: block;
+  max-width: 100%;
+  max-height: 22vh;
+  width: auto;
+  height: auto;
+  margin: 0 0 6px -4px;
+  filter: drop-shadow(3px 3px 0 rgba(0,0,0,0.5));
+}
+
+.index-fullname { color: var(--accent-cyan); font-weight: 700; margin: 4px 0 20px; }
+.index-bio { line-height: 1.6; color: var(--text-main); max-width: 62ch; }
+
+.index-fact-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 24px;
+  margin: 28px 0;
+}
+.index-fact {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-soft);
+}
 .index-fact dt { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-gold); }
 .index-fact dd { margin: 4px 0 0; color: var(--text-main); }
 
