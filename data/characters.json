@@ -4,32 +4,31 @@
     "code": "fum",
     "gen": 2,
     "name": "Fumio",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "Fumio Hasashi",
+    "bio": "A mischievous boy who thrives on his over-the-top confidence, optimism and unhinged humor.\n\nAs a kid influenced by his treasured memories and passions, Fum-Fum faces the abnormal world he lives in with a smile that, in his own words, could probably last him a decade or two.",
+    "birthdate": "September 16",
+    "occupation": "Student/Spirit World Warrior in Training",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Fried Food",
+      "Sentai Figures",
+      "Platformer Games"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Mainstream Media",
+      "Keeping a low-profile"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Glaciate Barrier",
+        "desc": "His bloodline allows him to create barriers at will"
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Naginatajutsu",
+        "desc": "Trained to wield his signature naginata like a butter knife"
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Acrobatics",
+        "desc": "Posseses extraordinary agility and body coordination for parkour and tricky maneuvers"
       }
     ],
     "color": "#FFFFFF",
@@ -44,32 +43,32 @@
     "code": "ali",
     "gen": 2,
     "name": "Alicia",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "Alicia Hasashi",
+    "bio": "A hyperactive girl who rivals the sun itself in radiance.\n\nTo the public, she can be seen as the little sister of the group. But in reality, she's more akin to a golden retriever. She cuddles her friends to death, is obnoxiously loud, and is hard to control.",
+    "birthdate": "October 11",
+    "occupation": "Student Athlete",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Gyaru Fashion",
+      "Ball Sports",
+      "Money"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Killjoys",
+      "Losing to Fumio",
+      "Watching her parents' PDA"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Hyper-Metabolic Acceleration",
+        "desc": "Her body burns energy at extreme rates, letting her move, react, and process information at lightning speeds."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Marksmanship",
+        "desc": "Her honed skills in Archery refined her precision to hit targets and weak spots."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Natural Prodigy",
+        "desc": "An innate ability to pick up virtually any skill almost instantly and excel at it with little to no effort."
       }
     ],
     "color": "#FFFFFF",
@@ -83,32 +82,31 @@
     "code": "vys",
     "gen": 2,
     "name": "Vyse",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "Vyse Liang",
+    "bio": "An aesthetically gifted boy who takes the breath out of everyone in the room just by breathing the same air as them.\n\nSecretly, his introverted self hates the attention, leading him to cling to his friends. To him, they make him feel normal and less of someone who is famous for being... famous.",
+    "birthdate": "November 5",
+    "occupation": "Student",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Snow Days",
+      "The art of Sculpture"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Overestimation",
+      "Conflict",
+      "Dishonoring his parents"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Cryomancy",
+        "desc": "Can drastically drop ambient temperatures, rapidly flash-freezing surroundings and manipulating dense ice structures or weapons."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Figure Skater",
+        "desc": "Zero-friction across any terrain at will, allows him to skate effortlessly (and gracefully) at high speeds."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Phase Submersion",
+        "desc": "Can temporarily phase through solid structures like walls or ground by holding his breath, treating solid matter like a liquid medium."
       }
     ],
     "color": "#FFFFFF",
@@ -122,32 +120,30 @@
     "code": "riku",
     "gen": 2,
     "name": "Riku.EXE",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "Riku.EXE Shindou",
+    "bio": "The only son of the Shindou Family, a true boy genius.\n\nHe tries everything he can to be more of his father, masking his shortcomings behind a cold and abrasive exterior. But deep inside resides his mother's heart that treats every living thing with respect.",
+    "birthdate": "August 29",
+    "occupation": "Student/Tech Specialist",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Innovation",
+      "Fighting Games",
+      "*Dancing 🤫*"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Process of getting a Degree"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Cyber-Engineering",
+        "desc": "Genius-level intellect for designing and crafting advanced gear like his custom aeroboard, heavy combat hammer, and signature green visualizers."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Spirit-Bound Card Manipulation",
+        "desc": "Allows him to channel, throw, and manipulate spectral cards infused with spirit energy"
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Military Tactical Intellect",
+        "desc": "possesses deep, insider knowledge of high-level military protocol and lingo"
       }
     ],
     "color": "#FFFFFF",
@@ -161,110 +157,108 @@
     "code": "emm",
     "gen": 2,
     "name": "Emma",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "Emma Verde",
+    "bio": "The adopted swiss girl whose one goal is to spread happiness and spoil the ones she loves with her generosity.\n\nOnce you're caught under her spell, you can never break out, and she'll give you two big reasons why.",
+    "birthdate": "February 5",
+    "occupation": "Student",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Bread Crusts",
+      "Nature Walks",
+      "Singing"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Unhappy Loved Ones",
+      "Conflict"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Comforting Presence",
+        "desc": "Posseses a calming, therapeutic nature designed to make people smile."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Angelic Vocals",
+        "desc": "Sweet, calm, and nurturing voice, often bringing a comforting or \"healing\" tone to her songs and dialogue"
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Maid Persona",
+        "desc": "\"Big sister\" personality lets her help people regardless of intense tasks."
       }
     ],
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_emm.mp3",
       "title": "TO BE ASSIGNED"
-    }
+    },
+    "franchiseLogo": "nijigasaki_logo.svg"
   },
   {
     "id": "A6",
     "code": "kar",
     "gen": 2,
     "name": "Karin",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "Karin Asaka",
+    "bio": "The sophisticated beauty from the countryside who is the manifestation of the word \"alluring\".\n\nShe may look too cool and seductive to be swayed, but get to know her more and she'd be more akin to the word \"aloof\". It depends on you if that's a turn-off, or the complete opposite. Either way, she's not letting you see that side of hers.",
+    "birthdate": "June 29",
+    "occupation": "Student/Amateur Model",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Her performance identity",
+      "Pandas"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Navigating",
+      "being looked down upon"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Umbral Construct Manipulation",
+        "desc": "Manipulates shadows into floor-anchored strands to trap targets or shape into whip-like weapons for combat."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Shadow-Tether Tracking",
+        "desc": "Latches shadow strands onto targets to track their locations, eavesdrop from a distance, or pull herself toward them."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Psychological Subterfuge",
+        "desc": "Master of social deception, seamlessly extracting high-value intelligence from targets for her and her team's benefit."
       }
     ],
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_kar.mp3",
       "title": "TO BE ASSIGNED"
-    }
+    },
+    "franchiseLogo": "nijigasaki_logo.svg"
   },
   {
     "id": "A7",
     "code": "fko",
     "gen": 2,
     "name": "Fumiko",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "Fumiko Sakura",
+    "bio": "Nijigasaki Student Council's hardworking and trusty Secretary. There's nothing she can't do to get the job done.\n\nSomehow, this ordinary girl got roped in a group full of outliers who live in a world full of gods and magic? She's all for it, as long as it gets her out of her usual, boring everyday life.",
+    "birthdate": "October 16",
+    "occupation": "Student Council Secretary",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Honey",
+      "freetime with friends",
+      "collecting shoes"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Paperwork",
+      "societal norms"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Perfunctory",
+        "desc": "Does her duties routinely without any care, deep interest, or enthusiasm"
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Jack-of-all-trades",
+        "desc": "can do many different practical tasks regardless of expertise"
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Crisis Responder",
+        "desc": "Resists high stress, leaving only the main task to solve."
       }
     ],
     "color": "#FFFFFF",
@@ -278,117 +272,117 @@
     "code": "set",
     "gen": 2,
     "name": "Setsuna",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "Setsuna Yuki/Nana Nakagawa",
+    "bio": "The Student Council President's alter ego who became an urban legend in Nijigasaki High. An endless source of passion, energy and charisma.\n\nShe's not afraid to show enthusiasm for her obsessions, sometimes she just can't help it. If the stars align, we might see her favorite light novel referenced in her next live performance.",
+    "birthdate": "August 8",
+    "occupation": "School Idol/Student Council President",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Anime",
+      "manga",
+      "school idols",
+      "c̶̨̎o̴̦̽͌o̷̼̮̓k̶̤̲̀i̴̢͑̍n̷̖̼̏g̴͂ͅ"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Strict Restrictions",
+      "Health Class"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Vocal Powerhouse",
+        "desc": "possesses a powerful, high-energy singing voice and impressive range"
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Stage Presence",
+        "desc": "She is known for her fiery passion, charismatic delivery, and bright scarlet-themed performances"
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Double Life",
+        "desc": "Acts as the strict, proper, and orderly student council president who maintains high academic standards"
       }
     ],
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_set.mp3",
       "title": "TO BE ASSIGNED"
-    }
+    },
+    "franchiseLogo": "nijigasaki_logo.svg"
   },
   {
     "id": "A9",
     "code": "shi",
     "gen": 2,
     "name": "Shioriko",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "Shioriko Mifune",
+    "bio": "A serious and meticulous girl who believes every action must serve a clear purpose.\n\nShe approaches relationships like a master strategist, observing from afar to help everyone reach their true potential—even if her blunt honesty makes her come across as cold at first. Despite that, she is still a good person who genuinely wants to help others, and often yearns to connect with others deep down.",
+    "birthdate": "October 5",
+    "occupation": "Student Council Member",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Nihon Buyō (Dance)",
+      "Ikebana (Flower Arranging)",
+      "Sadō (Tea Ceremonies)"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Aimless Passions",
+      "Inefficiency"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Analytical Observation",
+        "desc": "Reads body language and behavior to identify a person's hidden strengths, emotional vulnerabilities, and personal limits."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Vulnerability Mapping",
+        "desc": "Spotlights flaws in plans, organizational systems, or personal dynamics simply by watching from the sidelines, finding exactly where things need improvement."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Strategic Profiling",
+        "desc": "Evaluates a person's core potential at a glance, guiding others toward their ideal path without ever putting herself in the center of attention."
       }
     ],
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_shi.mp3",
       "title": "TO BE ASSIGNED"
-    }
+    },
+    "franchiseLogo": "nijigasaki_logo.svg"
   },
   {
     "id": "A10",
     "code": "rik",
     "gen": 2,
     "name": "Rikki",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "Rikki Yinqi",
+    "bio": "An unstable, nameless artificial human created by the Nefarious Satsujin Clan through the combined blood of two Authors.\n\nGiven the name \"Rikki\" by Fumio after being taken in by Meili, his artificial anatomy leaves him with an unstable physical structure—causing him to shiver uncontrollably and act noticeably strange. Despite his bizarre bodily quirks, he is completely healthy and unbothered by them. Having escaped his chaotic creation, he asks for nothing more than an ordinary life free from trauma and conflict.",
+    "birthdate": "May 12",
+    "occupation": "Student",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Warm Meals",
+      "Photography"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Talking",
+      "Arrogance"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Construct Appendages",
+        "desc": "Releases three biological tentacles from his back. Each tentacle is permanently fused with a massive spectral weapon construct: an axe, a halberd, and a greatsword."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Coywolf Instincts",
+        "desc": "Inherits the razor-sharp survival senses of an apex predator, designed to kill. Grants him hyper-aware environmental tracking, pack-oriented awareness, and an uncanny knack for detecting danger before it strikes."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Autonomous Muscle Memory",
+        "desc": "Bypasses his erratic mental reflexes entirely by allowing his body to act on raw physical instinct in response to threats before his mind even processes the action."
       }
     ],
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_rik.mp3",
       "title": "TO BE ASSIGNED"
-    }
+    },
+    "birthdateLabel": "Fostered Date"
   },
   {
     "id": "A11",
