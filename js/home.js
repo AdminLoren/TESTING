@@ -16,8 +16,14 @@ COTA.home = (function () {
       const card = document.createElement("button");
       card.className = "home-char-card";
       card.style.setProperty("--char-color", c.color);
+      const badge = c.franchiseLogo
+        ? `<img src="assets/images/${c.franchiseLogo}" alt="" class="franchise-badge" />`
+        : "";
       card.innerHTML = `
-        <img src="assets/images/render_${c.code}.png" alt="${c.name}" class="home-char-thumb" />
+        <span class="home-char-thumb-wrap">
+          <img src="assets/images/render_${c.code}.png" alt="${c.name}" class="home-char-thumb" />
+          ${badge}
+        </span>
         <span class="home-char-name">${c.name}</span>
         <span class="home-char-gen">${c.gen === 2 ? "2nd Gen" : "1st Gen"}</span>
       `;
