@@ -400,7 +400,7 @@ img { max-width: 100%; display: block; }
 }
 
 .index-fullname { color: var(--accent-cyan); font-weight: 700; margin: 4px 0 20px; }
-.index-bio { line-height: 1.6; color: var(--text-main); max-width: 62ch; }
+.index-bio { line-height: 1.6; color: var(--text-main); max-width: 62ch; white-space: pre-line; }
 
 .index-fact-list {
   display: grid;
@@ -637,3 +637,116 @@ img { max-width: 100%; display: block; }
   border-radius: 30px;
 }
 .rel-link-another-btn:hover { background: var(--accent-cyan); }
+
+/* ==========================================================================
+   MOBILE VIEW (max-width: 700px)
+   Desktop layout above this point is untouched — everything below only
+   applies on narrow screens, to fix header overflow and control overlap
+   that don't show up at desktop widths.
+   ========================================================================== */
+@media (max-width: 700px) {
+
+  /* --- Header: wrap into two rows instead of overflowing sideways --- */
+  .header-inner {
+    flex-wrap: wrap;
+    padding: 10px 14px;
+    gap: 8px 10px;
+  }
+  .brand { order: 1; }
+  .sound-toggle {
+    order: 2;
+    margin-left: auto;
+    max-width: 42vw;
+    padding: 6px 10px;
+    font-size: 11px;
+    gap: 5px;
+  }
+  #sound-icon { font-size: 13px; }
+  #tab-nav {
+    order: 3;
+    flex-basis: 100%;
+    justify-content: center;
+    gap: 4px;
+  }
+  .tab-btn { padding: 8px 10px; font-size: 13px; }
+
+  /* --- Index page prev/next: move off the vertical center (where they
+       were overlapping bio/fact text) down to fixed bottom corners,
+       alongside the Character Select button — a single bottom toolbar. --- */
+  .index-arrow {
+    top: auto;
+    bottom: 14px;
+    transform: none;
+    background: rgba(11, 11, 18, 0.75);
+    border-radius: 50%;
+    padding: 12px;
+    border: 1px solid var(--border-soft);
+  }
+  .index-arrow-prev { left: 14px; }
+  .index-arrow-next { right: 14px; }
+  .arrow-glyph { font-size: 20px; }
+  .index-arrow .arrow-hint { display: none; }
+
+  .index-back-btn { padding: 10px 18px; }
+
+  /* Render image first, then text, on mobile — leads with the character
+     art instead of a long fact list before you even see them. */
+  .index-content { grid-template-columns: 1fr; }
+  .index-visual { order: -1; margin-bottom: 8px; }
+  .index-render { max-height: 50vh; }
+
+  /* --- Relationship picker: slots and roster cards shrink to fit --- */
+  .rel-slot { width: 104px; height: 140px; }
+  .rel-roster-grid { grid-template-columns: repeat(auto-fill, minmax(78px, 1fr)); }
+
+  /* --- Select screen cards: keep a comfortable 2-up grid --- */
+  .select-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
+}
+
+/* ==========================================================================
+   FRANCHISE CREDIT BADGE
+   A small logo pinned to the bottom-right of a character's render, for
+   characters based on/crediting an existing franchise (e.g. Nijigasaki).
+   Only added to renders that AREN'T clipped by an angled clip-path
+   (the fighting-game select/roster cards cut off that exact corner by
+   design, so the badge would get visually chopped there) — this shows
+   on the index page, relationship display, home preview, and relationship
+   slot boxes, all of which are plain rectangles.
+   ========================================================================== */
+.franchise-badge {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  width: 30%;
+  max-width: 90px;
+  min-width: 34px;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.7));
+  pointer-events: none;
+  z-index: 2;
+}
+/* These wrappers use inline-block + line-height:0 so they shrink-wrap
+   exactly to the rendered <img> box (which is scaled by object-fit/
+   max-height and often narrower than its flex/text-align container) —
+   without this, a badge positioned "bottom-right" would float off in
+   the empty space beside the image instead of touching its corner. */
+.index-render-wrap,
+.rel-char-render-wrap {
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+}
+
+/* Home preview cards and relationship slots have their name text sitting
+   right at the bottom (a nameplate strip or caption below the image), so
+   the badge goes in the top-right corner there instead to avoid colliding
+   with it. Bottom-right is reserved for the two main full-size renders
+   above (index page + relationship display), matching what was asked. */
+.home-char-thumb-wrap { position: relative; display: block; }
+.home-char-thumb-wrap .franchise-badge,
+.rel-slot .franchise-badge {
+  top: 6px;
+  bottom: auto;
+  right: 6px;
+  width: 34%;
+  max-width: 40px;
+}
