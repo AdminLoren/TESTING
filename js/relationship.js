@@ -41,6 +41,19 @@ COTA.relationship = (function () {
     });
   }
 
+  // Shows/hides a franchise-credit badge (e.g. Nijigasaki logo) for
+  // characters that are based on/credit an existing franchise.
+  function setFranchiseBadge(elementId, character) {
+    const el = document.getElementById(elementId);
+    if (!el) return;
+    if (character.franchiseLogo) {
+      el.src = `assets/images/${character.franchiseLogo}`;
+      el.style.display = "";
+    } else {
+      el.style.display = "none";
+    }
+  }
+
   function slotTemplate(index) {
     const id = slots[index];
     const slotEl = document.getElementById(`rel-slot-${index}`);
@@ -51,9 +64,13 @@ COTA.relationship = (function () {
     }
     const character = COTA.data.findCharacter(allCharacters, id);
     slotEl.classList.add("is-filled");
+    const badge = character.franchiseLogo
+      ? `<img src="assets/images/${character.franchiseLogo}" alt="" class="franchise-badge" />`
+      : "";
     slotEl.innerHTML = `
       <button class="rel-slot-remove" data-slot="${index}" aria-label="Remove ${character.name}">&times;</button>
       <img src="assets/images/render_${character.code}.png" alt="${character.name}" class="rel-slot-img" />
+      ${badge}
       <span class="rel-slot-name">${character.name}</span>
     `;
   }
@@ -107,10 +124,12 @@ COTA.relationship = (function () {
     document.getElementById("rel-char-a-render").src = `assets/images/render_${charA.code}.png`;
     document.getElementById("rel-char-a-render").alt = charA.name;
     document.getElementById("rel-char-a-name").textContent = charA.name;
+    setFranchiseBadge("rel-char-a-badge", charA);
 
     document.getElementById("rel-char-b-render").src = `assets/images/render_${charB.code}.png`;
     document.getElementById("rel-char-b-render").alt = charB.name;
     document.getElementById("rel-char-b-name").textContent = charB.name;
+    setFranchiseBadge("rel-char-b-badge", charB);
 
     const type = rel ? rel.type : "N/A";
     const title = rel ? rel.title : "NOT REGISTERED YET";
