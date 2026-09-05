@@ -17,11 +17,11 @@ COTA.lore = (function () {
     1: "assets/images/irregular_hunter_base_bg.png",
   };
 
-  function cardTemplate(c, isGreyedOut) {
+  function cardTemplate(c) {
     // Note: intentionally no character code (A1, B3, etc.) shown anywhere
     // in this markup — just the render and the name, fighting-game style.
     return `
-      <button class="select-card ${isGreyedOut ? "greyed-out" : ""}" data-id="${c.id}" style="--char-color:${c.color}">
+      <button class="select-card" data-id="${c.id}" style="--char-color:${c.color}">
         <span class="select-card-clip">
           <img src="assets/images/render_${c.code}.png" alt="${c.name}" class="select-card-img" />
           <span class="select-card-nameplate">${c.name}</span>
@@ -33,14 +33,8 @@ COTA.lore = (function () {
   function renderGrids() {
     const gen2Wrap = document.getElementById("lore-select-gen2");
     const gen1Wrap = document.getElementById("lore-select-gen1");
-    gen2Wrap.innerHTML = allCharacters
-      .filter((c) => c.gen === 2)
-      .map((c) => cardTemplate(c, c.id === openCharacterId))
-      .join("");
-    gen1Wrap.innerHTML = allCharacters
-      .filter((c) => c.gen === 1)
-      .map((c) => cardTemplate(c, c.id === openCharacterId))
-      .join("");
+    gen2Wrap.innerHTML = allCharacters.filter((c) => c.gen === 2).map(cardTemplate).join("");
+    gen1Wrap.innerHTML = allCharacters.filter((c) => c.gen === 1).map(cardTemplate).join("");
 
     document.querySelectorAll(".select-card").forEach((cardEl) => {
       cardEl.addEventListener("click", () => onCardClick(cardEl.dataset.id));
@@ -56,13 +50,10 @@ COTA.lore = (function () {
 
   function onCardClick(id) {
     const character = COTA.data.findCharacter(allCharacters, id);
-    if (id === openCharacterId) {
-      // Clicking the already-open/active character in the greyed-out state.
-      COTA.audio.playSfx("char_picked.mp3");
-      return;
-    }
     if (id === selectedCode) {
-      // Clicking the already-highlighted card again confirms the pick.
+      // Clicking the already-highlighted card again confirms the pick —
+      // this includes re-picking whatever character is currently open,
+      // which just re-opens the same index page.
       confirmSelection(character);
       return;
     }
@@ -104,6 +95,13 @@ COTA.lore = (function () {
   function renderIndexContent(character) {
     document.getElementById("lore-index-render").src = `assets/images/render_${character.code}.png`;
     document.getElementById("lore-index-render").alt = character.name;
+    const indexBadge = document.getElementById("lore-index-franchise-badge");
+    if (character.franchiseLogo) {
+      indexBadge.src = `assets/images/${character.franchiseLogo}`;
+      indexBadge.style.display = "";
+    } else {
+      indexBadge.style.display = "none";
+    }
     // The graffiti art is the actual name treatment now — a real image
     // per character (graffiti_[code].png) instead of generated CSS text,
     // so you can hand-typeset each name however you like.
@@ -112,9 +110,10 @@ COTA.lore = (function () {
     graffitiImg.alt = character.name;
     document.getElementById("lore-index-fullname").textContent =
       character.nickname && character.nickname !== "NOT REGISTERED YET"
-        ? `${character.name} "${character.nickname}"`
+        ? character.nickname
         : character.name;
     document.getElementById("lore-index-bio").textContent = character.bio;
+    document.getElementById("lore-index-birthdate-label").textContent = character.birthdateLabel || "Birthdate";
     document.getElementById("lore-index-birthdate").textContent = character.birthdate;
     document.getElementById("lore-index-occupation").textContent = character.occupation;
     document.getElementById("lore-index-cherishes").textContent = character.cherishes.join(", ");
