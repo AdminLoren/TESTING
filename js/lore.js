@@ -162,7 +162,10 @@ COTA.lore = (function () {
 
     document.getElementById("lore-prev-btn").addEventListener("click", () => step(-1));
     document.getElementById("lore-next-btn").addEventListener("click", () => step(1));
-    document.getElementById("lore-back-to-select-btn").addEventListener("click", showSelectScreen);
+    document.getElementById("lore-back-to-select-btn").addEventListener("click", () => {
+      COTA.audio.playSfx("ui_click.mp3");
+      showSelectScreen();
+    });
   }
 
   // Called every time the Lore tab is opened — always lands on the
