@@ -229,8 +229,8 @@ img { max-width: 100%; display: block; }
 .select-bg {
   position: fixed;
   inset: 0;
-  z-index: -1;
-  background: url('../assets/images/char_select_bg.png') center / cover no-repeat;
+  z-index: 0;
+  background: url('../assets/images/char_select_bg.jpg') center / cover no-repeat;
 }
 
 .select-screen.slide-in-bottom { animation: slideInBottom 0.5s ease; }
@@ -239,16 +239,20 @@ img { max-width: 100%; display: block; }
   to { transform: translateY(0); opacity: 1; }
 }
 
-.select-splash { text-align: center; padding: 20px 0 30px; }
+.select-splash { position: relative; z-index: 1; text-align: center; padding: 20px 0 30px; }
 .select-splash-text {
+  display: inline-block;
   font-family: var(--font-display);
   font-size: clamp(28px, 5vw, 46px);
   color: var(--accent-gold);
   text-shadow: 0 0 18px rgba(255, 201, 60, 0.6);
   margin: 0;
+  background: rgba(11, 11, 18, 0.6);
+  padding: 10px 28px;
+  border-radius: 10px;
 }
 
-.select-generation-block { max-width: 1200px; margin: 0 auto 36px; }
+.select-generation-block { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto 36px; }
 .select-gen-label {
   font-family: var(--font-display);
   color: var(--accent-cyan);
@@ -326,9 +330,11 @@ img { max-width: 100%; display: block; }
 .index-screen.fade-in { animation: fadeIn 0.4s ease; }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
-/* Layer 1 (bottom): the generation background image, blurred ~10%. */
+/* Layer 1 (bottom): the generation background image, blurred ~10%.
+   "fixed" (not "absolute") is what makes it stay completely still in
+   the viewport no matter how far you scroll the text/character. */
 .index-bg {
-  position: absolute;
+  position: fixed;
   inset: 0;
   z-index: 0;
   background-size: cover;
@@ -338,9 +344,10 @@ img { max-width: 100%; display: block; }
 }
 
 /* Layer 2: the selected character's hex color as a looming, transparent
-   shadow above the background — sits behind the render/text (layer 3). */
+   shadow above the background — sits behind the render/text (layer 3).
+   Also fixed, for the same reason as the background above. */
 .index-color-overlay {
-  position: absolute;
+  position: fixed;
   inset: 0;
   z-index: 1;
   background:
@@ -350,15 +357,16 @@ img { max-width: 100%; display: block; }
   mix-blend-mode: normal;
 }
 
-/* Layer 3 (top): the actual content. */
+/* Layer 3 (top): the actual content. Wider + less padding than before
+   so the page uses more of the screen instead of leaving empty margin. */
 .index-content {
   position: relative;
   z-index: 2;
-  max-width: 1300px;
+  max-width: 1600px;
   margin: 0 auto;
-  padding: 70px 24px 140px;
+  padding: 32px 32px 120px;
   display: grid;
-  grid-template-columns: minmax(320px, 1fr) minmax(320px, 640px);
+  grid-template-columns: minmax(320px, 1fr) minmax(360px, 720px);
   gap: 32px;
   align-items: start;
   transition: opacity 0.18s ease;
@@ -383,19 +391,9 @@ img { max-width: 100%; display: block; }
   height: calc(100vh - 61px);
 }
 .index-render {
-  max-height: 78vh;
+  max-height: 88vh;
   object-fit: contain;
   filter: drop-shadow(0 24px 44px rgba(0,0,0,0.65));
-}
-
-.index-eyebrow {
-  display: block;
-  font-family: var(--font-display);
-  color: var(--accent-gold);
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  font-size: 14px;
-  margin-bottom: 6px;
 }
 
 /* The graffiti name is now a real image per character (typeset however
