@@ -21,7 +21,7 @@ COTA.audio = (function () {
     if (muted) {
       label.textContent = "Sound Off";
     } else if (currentMusic && currentMusicTitle) {
-      label.textContent = `Now Playing: ${currentMusicTitle}`;
+      label.textContent = currentMusicTitle;
     } else {
       label.textContent = "Sound On";
     }
