@@ -1,181 +1,156 @@
-// relationship.js
-// Handles the "pick two characters, see their relationship" flow.
-// The picker now shows two "slot" boxes for the characters you've
-// picked so far (each removable via an X), and the roster below is
-// split into 2nd/1st Generation like the Lore tab's select screen.
-
-window.COTA = window.COTA || {};
-
-COTA.relationship = (function () {
-  let allCharacters = [];
-  let allRelationships = [];
-  let slots = [null, null]; // character ids picked so far, by slot index
-  let initialized = false;
-
-  function rosterCardTemplate(c) {
-    return `
-      <button class="rel-roster-card" data-id="${c.id}" style="--char-color:${c.color}">
-        <span class="rel-roster-clip">
-          <img src="assets/images/render_${c.code}.png" alt="${c.name}" class="rel-roster-img" />
-          <span class="rel-roster-nameplate">${c.name}</span>
-        </span>
-      </button>
-    `;
+[
+  {
+    "id": "ali-riku",
+    "pair": [
+      "A2",
+      "A4"
+    ],
+    "type": "Lovers",
+    "title": "The Nerd x Jock",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Riku always had a secret soft spot for Alicia since their younger days. As she got older, \"Who would have thought Riku-kun would grow up into such a hottie,\" Alicia thought to herself."
+  },
+  {
+    "id": "vys-mic",
+    "pair": [
+      "A3",
+      "B4"
+    ],
+    "type": "Special",
+    "title": "What Could Have Been?",
+    "specificTitle": "The Caretaker",
+    "bio": "At some point, Michan wished Alicia ended up with Vyse. A sweet boy guarding her baby girl would calm her nerves."
+  },
+  {
+    "id": "mea-han",
+    "pair": [
+      "B1",
+      "B2"
+    ],
+    "type": "Lovers",
+    "title": "One in a Million",
+    "specificTitle": "Married",
+    "bio": "NOT REGISTERED YET"
+  },
+  {
+    "id": "fum-ali",
+    "pair": [
+      "A1",
+      "A2"
+    ],
+    "type": "Cousins",
+    "title": "The Dynamic Duo",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "The cousins who act like twin siblings. Fumio and Alicia find endless possibilities to make each other laugh, embarass one another, and wrestle to the ground, 24/7/365."
+  },
+  {
+    "id": "fum-vys",
+    "pair": [
+      "A1",
+      "A3"
+    ],
+    "type": "Best Friends",
+    "title": "Attracted Opposites",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Growing up with each other, Vyse couldn't be helped but be influenced by Fumio's energy. They cover each other's flaws, so it's rare to see them not rely on each other for once."
+  },
+  {
+    "id": "fum-riku",
+    "pair": [
+      "A1",
+      "A4"
+    ],
+    "type": "Best Friends",
+    "title": "Alpha Bros",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Whenever Riku needs a lab rat, its always Fumio who's willing to step up in exchange for some chicken nuggets, so both parties are happy in the end."
+  },
+  {
+    "id": "fum-emm",
+    "pair": [
+      "A1",
+      "A5"
+    ],
+    "type": "Honorary Cousins",
+    "title": "Playdate from Switzerland",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "At a young age, Fumio and Emma were very acquainted and got along real fast. During that time, Emma has been getting intel from him for her little puppy crush, and Fumio's enjoying every single second of it."
+  },
+  {
+    "id": "fum-kar",
+    "pair": [
+      "A1",
+      "A6"
+    ],
+    "type": "Confidants",
+    "title": "The Persistent Menace",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Its always up to Karin to scold Fumio for doing something brash. At this point, she's going to pay his psychiatric bills."
+  },
+  {
+    "id": "fum-fko",
+    "pair": [
+      "A1",
+      "A7"
+    ],
+    "type": "Lovers",
+    "title": "Resonated Wonder",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "The last thing Fumiko expected was to fall for \"the weird kid\". Thank goodness she rivals his mother's patience for dealing with his madness. And, yes, them having similar names is a considered factor for them hitting it off."
+  },
+  {
+    "id": "fum-set",
+    "pair": [
+      "A1",
+      "A8"
+    ],
+    "type": "Close Friends",
+    "title": "Duo Sentai-Red!",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Two anime geeks walk into a bar... and everyone else leaves. 'Cuz once these two get their conversation going, the Sun would explode before they'd run out of fandoms."
+  },
+  {
+    "id": "fum-shi",
+    "pair": [
+      "A1",
+      "A9"
+    ],
+    "type": "Friends",
+    "title": "The Imposter Among Us",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Fumio is smart enough to not cause trouble around Shioriko... He witnessed first-hand on what punishment she did to Alicia, so thank the gods that she isn't aware of what chaos he does day-to-day."
+  },
+  {
+    "id": "fum-rik",
+    "pair": [
+      "A1",
+      "A10"
+    ],
+    "type": "Half-\"Brothers\"",
+    "title": "Guided Grattitude",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Despite a turbulent history that involved extreme violence between them, Fumio served as a key mentor figure for Rikki and offered him the guidance and opportunities needed to integrate with the group, holding no lingering resentment for past conflicts."
+  },
+  {
+    "id": "fum-geo",
+    "pair": [
+      "A1",
+      "A11"
+    ],
+    "type": "Frenemies",
+    "title": "Perpetual Nuisance",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Despite George being the expected dominant figure, Fumio constantly gets under his skin, driving him to endless exasperation. George knew it was a bad idea to associate himself with a Hasashi, but for a completely different reason than this..."
+  },
+  {
+    "id": "fum-mak",
+    "pair": [
+      "A1",
+      "A12"
+    ],
+    "type": "Acquaintances",
+    "title": "Uneasy Truce",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Fumio never lets his guard down around Makoto, harboring a persistent distrust he can't fully hide. Makoto easily sees through the uncharacteristic silent act of his and never lets him hear the end of it, in which case Fumio to simply yield and nod in agreement."
   }
-
-  function renderRoster() {
-    const gen2Wrap = document.getElementById("rel-roster-gen2");
-    const gen1Wrap = document.getElementById("rel-roster-gen1");
-    gen2Wrap.innerHTML = allCharacters.filter((c) => c.gen === 2).map(rosterCardTemplate).join("");
-    gen1Wrap.innerHTML = allCharacters.filter((c) => c.gen === 1).map(rosterCardTemplate).join("");
-
-    document.querySelectorAll(".rel-roster-card").forEach((el) => {
-      el.addEventListener("click", () => onRosterPick(el.dataset.id));
-    });
-    refreshRosterHighlight();
-  }
-
-  function refreshRosterHighlight() {
-    document.querySelectorAll(".rel-roster-card").forEach((el) => {
-      el.classList.toggle("is-picked", slots.includes(el.dataset.id));
-    });
-  }
-
-  // Shows/hides a franchise-credit badge (e.g. Nijigasaki logo) for
-  // characters that are based on/credit an existing franchise.
-  function setFranchiseBadge(elementId, character) {
-    const el = document.getElementById(elementId);
-    if (!el) return;
-    if (character.franchiseLogo) {
-      el.src = `assets/images/${character.franchiseLogo}`;
-      el.style.display = "";
-    } else {
-      el.style.display = "none";
-    }
-  }
-
-  function slotTemplate(index) {
-    const id = slots[index];
-    const slotEl = document.getElementById(`rel-slot-${index}`);
-    if (!id) {
-      slotEl.innerHTML = `<span class="rel-slot-placeholder">Player ${index + 1}</span>`;
-      slotEl.classList.remove("is-filled");
-      return;
-    }
-    const character = COTA.data.findCharacter(allCharacters, id);
-    slotEl.classList.add("is-filled");
-    const badge = character.franchiseLogo
-      ? `<img src="assets/images/${character.franchiseLogo}" alt="" class="franchise-badge" />`
-      : "";
-    slotEl.innerHTML = `
-      <button class="rel-slot-remove" data-slot="${index}" aria-label="Remove ${character.name}">&times;</button>
-      <img src="assets/images/render_${character.code}.png" alt="${character.name}" class="rel-slot-img" />
-      ${badge}
-      <span class="rel-slot-name">${character.name}</span>
-    `;
-  }
-
-  function renderSlots() {
-    slotTemplate(0);
-    slotTemplate(1);
-    document.querySelectorAll(".rel-slot-remove").forEach((btn) => {
-      btn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        removeSlot(Number(btn.dataset.slot));
-      });
-    });
-  }
-
-  function updateStatusText() {
-    const statusEl = document.getElementById("rel-pick-status");
-    const filledCount = slots.filter(Boolean).length;
-    if (filledCount === 0) statusEl.textContent = "Choose your first character";
-    else if (filledCount === 1) statusEl.textContent = "Choose your second character";
-  }
-
-  function removeSlot(index) {
-    slots[index] = null;
-    renderSlots();
-    refreshRosterHighlight();
-    updateStatusText();
-  }
-
-  function onRosterPick(id) {
-    if (slots.includes(id)) return; // already picked this round
-    const emptyIndex = slots.findIndex((s) => s === null);
-    if (emptyIndex === -1) return; // both slots already full (shouldn't happen — we transition away)
-    slots[emptyIndex] = id;
-    renderSlots();
-    refreshRosterHighlight();
-
-    if (slots[0] && slots[1]) {
-      COTA.audio.playSfx("char_pair.mp3");
-      showRelationship(slots[0], slots[1]);
-    } else {
-      updateStatusText();
-    }
-  }
-
-  function showRelationship(idA, idB) {
-    const charA = COTA.data.findCharacter(allCharacters, idA);
-    const charB = COTA.data.findCharacter(allCharacters, idB);
-    const rel = COTA.data.findRelationship(allRelationships, idA, idB);
-
-    document.getElementById("rel-char-a-render").src = `assets/images/render_${charA.code}.png`;
-    document.getElementById("rel-char-a-render").alt = charA.name;
-    document.getElementById("rel-char-a-name").textContent = charA.name;
-    setFranchiseBadge("rel-char-a-badge", charA);
-
-    document.getElementById("rel-char-b-render").src = `assets/images/render_${charB.code}.png`;
-    document.getElementById("rel-char-b-render").alt = charB.name;
-    document.getElementById("rel-char-b-name").textContent = charB.name;
-    setFranchiseBadge("rel-char-b-badge", charB);
-
-    const type = rel ? rel.type : "N/A";
-    const title = rel ? rel.title : "NOT REGISTERED YET";
-    const specificTitle = rel ? rel.specificTitle : "";
-    const bio = rel ? rel.bio : "This pairing hasn't been registered yet.";
-
-    document.getElementById("rel-title").textContent = title;
-    document.getElementById("rel-specific-title").textContent = specificTitle;
-    document.getElementById("rel-bio").textContent = bio;
-
-    const overlay = document.getElementById("rel-color-overlay");
-    overlay.style.backgroundColor = COTA.data.RELATIONSHIP_COLORS[type] || COTA.data.RELATIONSHIP_COLORS["N/A"];
-
-    document.getElementById("relationship-select-screen").classList.remove("active");
-    const display = document.getElementById("relationship-display-screen");
-    display.classList.add("active", "fade-in");
-    window.setTimeout(() => display.classList.remove("fade-in"), 400);
-  }
-
-  // Resets the whole picker (both slots) and shows the select screen.
-  // Called on "Link another pair!" AND every time the tab is (re-)entered.
-  function resetToSelect() {
-    slots = [null, null];
-    renderSlots();
-    refreshRosterHighlight();
-    updateStatusText();
-    document.getElementById("relationship-display-screen").classList.remove("active");
-    document.getElementById("relationship-select-screen").classList.add("active");
-  }
-
-  async function init() {
-    if (initialized) return;
-    initialized = true;
-    allCharacters = await COTA.data.getCharacters();
-    allRelationships = await COTA.data.getRelationships();
-    renderRoster();
-    renderSlots();
-    document.getElementById("rel-link-another-btn").addEventListener("click", resetToSelect);
-  }
-
-  // Called every time the Relationship tab is opened — always resets to
-  // the picker, never resumes a previously-shown pairing.
-  async function enter() {
-    await init();
-    resetToSelect();
-  }
-
-  return { init, enter };
-})();
+]
