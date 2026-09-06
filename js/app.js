@@ -39,7 +39,10 @@ COTA.app = (function () {
 
   function init() {
     document.querySelectorAll(".tab-btn").forEach((btn) => {
-      btn.addEventListener("click", () => goToTab(btn.dataset.tab));
+      btn.addEventListener("click", () => {
+        COTA.audio.playSfx("ui_click.mp3");
+        goToTab(btn.dataset.tab);
+      });
     });
     document.querySelectorAll("[data-goto-tab]").forEach((btn) => {
       btn.addEventListener("click", () => goToTab(btn.dataset.gotoTab));
