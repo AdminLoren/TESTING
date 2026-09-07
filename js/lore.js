@@ -23,7 +23,7 @@ COTA.lore = (function () {
     return `
       <button class="select-card" data-id="${c.id}" style="--char-color:${c.color}">
         <span class="select-card-clip">
-          <img src="assets/images/render_${c.code}.png" alt="${c.name}" class="select-card-img" />
+          <img src="assets/images/boxart_${c.code}.png" alt="${c.name}" class="select-card-img" />
           <span class="select-card-nameplate">${c.name}</span>
         </span>
       </button>
