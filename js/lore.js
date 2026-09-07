@@ -78,8 +78,9 @@ COTA.lore = (function () {
     // Reset the "currently selecting" cursor to whatever is open right now.
     selectedCode = openCharacterId || selectedCode;
     renderGrids();
-    // Character select theme plays while browsing; only if not already open.
-    COTA.audio.playMusic("char_select.mp3", "Character Select Theme");
+    // NOTE: does NOT touch the music here anymore — see enter() below for
+    // why. Pressing "Character Select" from an index page should just
+    // keep whatever character bgm was already playing.
     window.setTimeout(() => selectScreen.classList.remove("slide-in-bottom"), 500);
   }
 
@@ -171,9 +172,14 @@ COTA.lore = (function () {
 
   // Called every time the Lore tab is opened — always lands on the
   // character select screen, never resumes a previously-open index page.
+  // This is the ONLY place the select theme starts playing — pressing
+  // "Character Select" from an index page uses showSelectScreen()
+  // directly (see the back-button listener above) and does NOT touch
+  // the music, so whatever character's bgm was playing keeps playing.
   async function enter() {
     await init();
     showSelectScreen();
+    COTA.audio.playMusic("char_select.mp3", "Character Select Theme");
   }
 
   // Called from Home tab "meet the cast" cards — jumps straight to a
