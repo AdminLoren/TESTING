@@ -136,6 +136,7 @@ COTA.lore = (function () {
   }
 
   function step(delta) {
+    COTA.audio.playSfx("switch.mp3");
     const idx = allCharacters.findIndex((c) => c.id === openCharacterId);
     const nextIdx = (idx + delta + allCharacters.length) % allCharacters.length;
     const nextChar = allCharacters[nextIdx];
