@@ -74,7 +74,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_ali.mp3",
-      "title": "Sweet Mountain Act 1 (Sonic Colors OST)"
+      "title": "Tropical Resort Act 2 (Sonic Colors)"
     }
   },
   {
@@ -112,7 +112,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_vys.mp3",
-      "title": "Tundra Man Stage (Rockman 11 OST)"
+      "title": "Blizzard Valley (Sonic Racing Crossworlds)"
     }
   },
   {
@@ -149,7 +149,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_riku.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "Cyber Kujacker (Rockman X4)"
     }
   },
   {
@@ -187,7 +187,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_emm.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "Emma's theme (LL! SIFAS)"
     },
     "franchiseLogo": "nijigasaki_logo.svg"
   },
@@ -225,7 +225,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_kar.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "Karin's theme (LL! SIFAS)"
     },
     "franchiseLogo": "nijigasaki_logo.svg"
   },
@@ -264,7 +264,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_fko.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "Sakura's theme (SF Alpha 2)"
     }
   },
   {
@@ -303,7 +303,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_set.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "Setsuna's theme (LL! SIFAS)"
     },
     "franchiseLogo": "nijigasaki_logo.svg"
   },
@@ -342,7 +342,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_shi.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "Shioriko's theme (LL! SIFAS)"
     },
     "franchiseLogo": "nijigasaki_logo.svg"
   },
@@ -380,7 +380,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_rik.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "Sand Hill (Sonic Adventure)"
     },
     "birthdateLabel": "Fostered Date"
   },
@@ -459,7 +459,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_mak.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "Acid Man (Rockman 11)"
     }
   },
   {
@@ -533,7 +533,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_mea.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "Maki's theme (LL! SIFAS)"
     }
   },
   {
@@ -568,7 +568,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_han.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "Deep Dive (Fishdom H20)"
     }
   },
   {
@@ -638,7 +638,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_mic.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "SA2 in the groove (Sonic Adventure 2)"
     }
   },
   {
@@ -673,7 +673,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_mat.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "The Doom (Shadow The Hedgehog)"
     }
   },
   {
@@ -743,7 +743,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_min.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "Hanamaru's theme (LL! SIFAS)"
     }
   },
   {
@@ -883,7 +883,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_mei.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "Jolly Roger (Fishdom H20)"
     }
   },
   {
@@ -953,7 +953,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_aik.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "Collector (Fishdom H20)"
     }
   },
   {
@@ -1023,7 +1023,7 @@
     "color": "#FFFFFF",
     "bgm": {
       "file": "bgm_len.mp3",
-      "title": "TO BE ASSIGNED"
+      "title": "Cool Edge - Night (Sonic Unleashed)"
     }
   }
 ]
