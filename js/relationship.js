@@ -16,7 +16,7 @@ COTA.relationship = (function () {
     return `
       <button class="rel-roster-card" data-id="${c.id}" style="--char-color:${c.color}">
         <span class="rel-roster-clip">
-          <img src="assets/images/render_${c.code}.png" alt="${c.name}" class="rel-roster-img" />
+          <img src="assets/images/boxart_${c.code}.png" alt="${c.name}" class="rel-roster-img" />
           <span class="rel-roster-nameplate">${c.name}</span>
         </span>
       </button>
@@ -69,7 +69,7 @@ COTA.relationship = (function () {
       : "";
     slotEl.innerHTML = `
       <button class="rel-slot-remove" data-slot="${index}" aria-label="Remove ${character.name}">&times;</button>
-      <img src="assets/images/render_${character.code}.png" alt="${character.name}" class="rel-slot-img" />
+      <img src="assets/images/boxart_${character.code}.png" alt="${character.name}" class="rel-slot-img" />
       ${badge}
       <span class="rel-slot-name">${character.name}</span>
     `;
@@ -109,9 +109,12 @@ COTA.relationship = (function () {
     refreshRosterHighlight();
 
     if (slots[0] && slots[1]) {
-      COTA.audio.playSfx("char_pair.mp3");
+      // Second character picked — the pair is now complete.
+      COTA.audio.playSfx("link.mp3");
       showRelationship(slots[0], slots[1]);
     } else {
+      // First character picked.
+      COTA.audio.playSfx("switch.mp3");
       updateStatusText();
     }
   }
@@ -133,11 +136,10 @@ COTA.relationship = (function () {
 
     const type = rel ? rel.type : "N/A";
     const title = rel ? rel.title : "NOT REGISTERED YET";
-    const specificTitle = rel ? rel.specificTitle : "";
     const bio = rel ? rel.bio : "This pairing hasn't been registered yet.";
 
     document.getElementById("rel-title").textContent = title;
-    document.getElementById("rel-specific-title").textContent = specificTitle;
+    document.getElementById("rel-specific-title").textContent = type;
     document.getElementById("rel-bio").textContent = bio;
 
     const overlay = document.getElementById("rel-color-overlay");
