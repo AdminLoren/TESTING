@@ -26,6 +26,9 @@ COTA.app = (function () {
       // when the tab is (re-)entered — never resume a previous pick.
       // The one exception is jumping straight to a character from the
       // Home tab, which passes resetView: false and drives the view itself.
+      if (tabName === "home") {
+        COTA.audio.playMusic("home_bgm.mp3", "Home Theme");
+      }
       if (tabName === "lore") {
         resetView ? COTA.lore.enter() : COTA.lore.init();
       }
@@ -50,6 +53,7 @@ COTA.app = (function () {
 
     COTA.audio.init();
     COTA.home.render();
+    COTA.audio.playMusic("home_bgm.mp3", "Home Theme");
   }
 
   return { init, goToTab };
