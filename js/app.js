@@ -34,6 +34,7 @@ COTA.app = (function () {
       }
       if (tabName === "relationship") {
         resetView ? COTA.relationship.enter() : COTA.relationship.init();
+        COTA.audio.playMusic("relationship_bgm.mp3", "Relationship Chart Theme");
       }
 
       window.setTimeout(() => overlay.classList.remove("active"), 250);
