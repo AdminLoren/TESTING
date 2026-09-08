@@ -74,7 +74,9 @@
       <div id="lore-select-screen" class="select-screen">
         <!-- Fixed backdrop layer: stays put in the viewport while the
              card grid below scrolls independently of it. -->
-        <div class="select-bg" aria-hidden="true"></div>
+        <video class="select-bg" autoplay loop muted playsinline poster="assets/images/char_select.gif" aria-hidden="true">
+          <source src="assets/video/char_select.mp4" type="video/mp4" />
+        </video>
 
         <div class="select-splash">
           <h2 id="select-splash-text" class="select-splash-text">Choose your character</h2>
@@ -142,6 +144,7 @@
     <section id="tab-relationship" class="tab-panel">
 
       <div id="relationship-select-screen" class="rel-select-screen">
+        <div class="rel-select-bg" aria-hidden="true"></div>
         <h2 class="select-splash-text">Pick two characters</h2>
         <p id="rel-pick-status" class="rel-pick-status">Choose your first character</p>
 
