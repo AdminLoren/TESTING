@@ -235,7 +235,9 @@ img { max-width: 100%; display: block; }
   position: fixed;
   inset: 0;
   z-index: 0;
-  background: url('../assets/images/char_select_bg.jpg') center / cover no-repeat;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .select-screen.slide-in-bottom { animation: slideInBottom 0.5s ease; }
@@ -246,6 +248,8 @@ img { max-width: 100%; display: block; }
 
 .select-splash { position: relative; z-index: 1; text-align: center; padding: 20px 0 30px; }
 .select-splash-text {
+  position: relative;
+  z-index: 1;
   display: inline-block;
   font-family: var(--font-display);
   font-size: clamp(28px, 5vw, 46px);
@@ -479,11 +483,26 @@ img { max-width: 100%; display: block; }
 }
 .rel-select-screen.active, .rel-display-screen.active { display: block; }
 
-.rel-select-screen { padding: 32px 20px 60px; text-align: center; }
-.rel-pick-status { color: var(--accent-cyan); margin-bottom: 20px; font-weight: 600; }
+.rel-select-screen { position: relative; padding: 32px 20px 60px; text-align: center; }
+
+/* Fixed backdrop for the picker screen — stays put while the roster
+   scrolls, same trick used for the Lore select screen. */
+.rel-select-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background: url('../assets/images/relationship.png') center / cover no-repeat;
+}
+
+/* rel-pick-status also needs its own stacking layer, same reason as
+   the title above (position:fixed backgrounds always create a
+   stacking context, so plain content would paint underneath it). */
+.rel-pick-status { position: relative; z-index: 1; color: var(--accent-cyan); margin-bottom: 20px; font-weight: 600; }
 
 /* --- Picked-character "slot" boxes (medium size, removable) --- */
 .rel-slots {
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -538,6 +557,8 @@ img { max-width: 100%; display: block; }
 
 /* --- Smaller, split-generation roster --- */
 .rel-roster-panel {
+  position: relative;
+  z-index: 1;
   max-width: 1000px;
   margin: 0 auto;
   max-height: 52vh;
@@ -595,7 +616,7 @@ img { max-width: 100%; display: block; }
 .rel-bg {
   position: absolute;
   inset: 0;
-  background: url('../assets/images/relationship_bg.png') center / cover no-repeat;
+  background: url('../assets/images/pair.png') center / cover no-repeat;
   filter: brightness(0.5);
 }
 .rel-color-overlay {
