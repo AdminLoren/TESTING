@@ -179,26 +179,70 @@ img { max-width: 100%; display: block; }
   border-radius: 8px;
 }
 
-.home-character-strip {
-  display: flex;
-  gap: 14px;
-  overflow-x: auto;
-  padding-bottom: 8px;
+/* --- "The World So Far" stats --- */
+.home-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
 }
-.home-char-card {
-  flex: 0 0 auto;
-  width: 130px;
+.home-stat-card {
   background: var(--bg-panel);
   border: 1px solid var(--border-soft);
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px 16px;
   text-align: center;
+}
+.home-stat-number {
+  display: block;
+  font-family: var(--font-display);
+  font-size: clamp(30px, 4vw, 42px);
+  color: var(--accent-cyan);
+  text-shadow: 0 0 16px rgba(40, 224, 216, 0.4);
+}
+.home-stat-label {
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* --- "The Generations" teaser cards — counts only, no names/art, so
+   the Lore tab's character select screen stays a surprise. --- */
+.home-generations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+.home-gen-card {
+  background: var(--bg-panel-raised);
+  border: 1px solid var(--border-soft);
+  border-radius: 10px;
+  padding: 24px 20px;
+  text-align: left;
   transition: transform 0.15s ease, border-color 0.15s ease;
 }
-.home-char-card:hover { transform: translateY(-4px); border-color: var(--char-color, var(--accent-cyan)); }
-.home-char-thumb { width: 100%; aspect-ratio: 2 / 3; object-fit: cover; border-radius: 6px; }
-.home-char-name { display: block; font-weight: 700; margin-top: 8px; font-size: 14px; }
-.home-char-gen { display: block; font-size: 11px; color: var(--text-dim); }
+.home-gen-card:hover { transform: translateY(-4px); border-color: var(--accent-magenta); }
+.home-gen-title {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 20px;
+  color: var(--text-main);
+}
+.home-gen-count {
+  display: block;
+  margin-top: 4px;
+  color: var(--accent-gold);
+  font-weight: 700;
+}
+.home-gen-hint {
+  display: block;
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--text-dim);
+  font-style: italic;
+}
 
 .home-cta-section { display: flex; flex-direction: column; gap: 12px; }
 .home-cta-btn {
@@ -332,6 +376,41 @@ img { max-width: 100%; display: block; }
   box-shadow: 0 0 0 2px var(--accent-gold), 0 0 22px 4px var(--char-color, var(--accent-gold));
 }
 .select-card.is-highlighted .select-card-nameplate { color: var(--accent-gold); }
+
+/* --- Coming Soon section: visible, but not selectable at all --- */
+.coming-soon-label { color: var(--text-dim); }
+.select-subgen-label {
+  font-family: var(--font-display);
+  color: var(--text-dim);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin: 18px 0 10px;
+}
+/* These are plain <div>s, not <button>s, and have no click listener
+   attached at all — "not clickable" starts at the markup level, not
+   just a visual style. The dimming + "not-allowed" cursor + grayscale
+   just make that obvious at a glance too. */
+.coming-soon-card { cursor: not-allowed; opacity: 0.55; }
+.coming-soon-card:hover { transform: none; }
+.coming-soon-card .select-card-clip { filter: grayscale(0.6); }
+.coming-soon-ribbon {
+  position: absolute;
+  top: 14px;
+  left: -30%;
+  width: 160%;
+  text-align: center;
+  transform: rotate(-30deg);
+  background: rgba(11, 11, 18, 0.85);
+  color: var(--accent-gold);
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 4px 0;
+  border-top: 1px solid var(--border-soft);
+  border-bottom: 1px solid var(--border-soft);
+}
 
 
 /* --- Character index --- */
@@ -796,13 +875,11 @@ img { max-width: 100%; display: block; }
   line-height: 0;
 }
 
-/* Home preview cards and relationship slots have their name text sitting
-   right at the bottom (a nameplate strip or caption below the image), so
-   the badge goes in the top-right corner there instead to avoid colliding
-   with it. Bottom-right is reserved for the two main full-size renders
-   above (index page + relationship display), matching what was asked. */
-.home-char-thumb-wrap { position: relative; display: block; }
-.home-char-thumb-wrap .franchise-badge,
+/* Relationship slots have their name text sitting right at the bottom
+   (a nameplate strip over the image), so the badge goes in the top-right
+   corner there instead of colliding with it. Bottom-right is reserved
+   for the two main full-size renders (index page + relationship
+   display), matching what was asked. */
 .rel-slot .franchise-badge {
   top: 6px;
   bottom: auto;
