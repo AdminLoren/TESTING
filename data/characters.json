@@ -1025,5 +1025,165 @@
       "file": "bgm_len.mp3",
       "title": "Cool Edge - Night (Sonic Unleashed)"
     }
+  },
+  {
+    "id": "C1",
+    "code": "akx",
+    "name": "Aki.EXE",
+    "comingSoon": true,
+    "comingSoonGroup": "2nd Gen",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "C2",
+    "code": "rko",
+    "name": "Riko.EXE",
+    "comingSoon": true,
+    "comingSoonGroup": "2nd Gen",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "C3",
+    "code": "aix",
+    "name": "Ai.EXE",
+    "comingSoon": true,
+    "comingSoonGroup": "2nd Gen",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "C4",
+    "code": "mrl",
+    "name": "Marilu",
+    "comingSoon": true,
+    "comingSoonGroup": "2nd Gen",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "C5",
+    "code": "ama",
+    "name": "Amane",
+    "comingSoon": true,
+    "comingSoonGroup": "2nd Gen",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "C6",
+    "code": "tak",
+    "name": "Taki",
+    "comingSoon": true,
+    "comingSoonGroup": "2nd Gen",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "C7",
+    "code": "hnx",
+    "name": "Hanayo.EXE",
+    "comingSoon": true,
+    "comingSoonGroup": "2nd Gen",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S1",
+    "code": "sor",
+    "name": "Sora",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S2",
+    "code": "aya",
+    "name": "Ayaka",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S3",
+    "code": "col",
+    "name": "Colonel.EXE",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S4",
+    "code": "irx",
+    "name": "Iris.EXE",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S5",
+    "code": "dac",
+    "name": "Dachino",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S6",
+    "code": "mri",
+    "name": "Mari",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S7",
+    "code": "dia",
+    "name": "Dia",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S8",
+    "code": "kei",
+    "name": "Keiko",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S9",
+    "code": "xch",
+    "name": "X",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S10",
+    "code": "zer",
+    "name": "Zero",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S11",
+    "code": "axl",
+    "name": "Axl",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S12",
+    "code": "aly",
+    "name": "Alia",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S13",
+    "code": "iri",
+    "name": "Iris",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
   }
 ]
