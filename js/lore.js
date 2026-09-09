@@ -8,6 +8,7 @@ window.COTA = window.COTA || {};
 
 COTA.lore = (function () {
   let allCharacters = [];
+  let comingSoonCharacters = [];
   let selectedCode = null; // id of the card currently highlighted in the grid (not yet confirmed)
   let openCharacterId = null; // id of the character whose index page is (or was last) open
   let initialized = false;
@@ -28,6 +29,36 @@ COTA.lore = (function () {
         </span>
       </button>
     `;
+  }
+
+  // Coming-soon cards look similar but are NOT a <button> — they're not
+  // clickable at all, no event listener ever gets attached to them, and
+  // a "COMING SOON" ribbon makes it clear why nothing happens when you
+  // click one.
+  function comingSoonCardTemplate(c) {
+    return `
+      <div class="select-card coming-soon-card" style="--char-color:${c.color}">
+        <span class="select-card-clip">
+          <img src="assets/images/boxart_${c.code}.png" alt="${c.name}" class="select-card-img" />
+          <span class="coming-soon-ribbon">Coming Soon</span>
+          <span class="select-card-nameplate">${c.name}</span>
+        </span>
+      </div>
+    `;
+  }
+
+  function renderComingSoonGrids() {
+    const gen2Wrap = document.getElementById("lore-select-comingsoon-2nd");
+    const seniorsWrap = document.getElementById("lore-select-comingsoon-seniors");
+    if (!gen2Wrap || !seniorsWrap) return;
+    gen2Wrap.innerHTML = comingSoonCharacters
+      .filter((c) => c.comingSoonGroup === "2nd Gen")
+      .map(comingSoonCardTemplate)
+      .join("");
+    seniorsWrap.innerHTML = comingSoonCharacters
+      .filter((c) => c.comingSoonGroup === "Seniors")
+      .map(comingSoonCardTemplate)
+      .join("");
   }
 
   function renderGrids() {
@@ -157,10 +188,17 @@ COTA.lore = (function () {
   async function init() {
     if (initialized) return;
     initialized = true;
-    allCharacters = await COTA.data.getCharacters();
+    const fetched = await COTA.data.getCharacters();
+    // Coming-soon characters are shown (disabled) on the select screen
+    // only — they're kept completely out of `allCharacters`, which is
+    // what drives selecting, confirming, and prev/next stepping. That
+    // way they can never accidentally become "openable".
+    allCharacters = fetched.filter((c) => !c.comingSoon);
+    comingSoonCharacters = fetched.filter((c) => c.comingSoon);
     const defaultChar = allCharacters.find((c) => c.isDefault) || allCharacters[0];
     selectedCode = defaultChar.id;
     renderGrids();
+    renderComingSoonGrids();
 
     document.getElementById("lore-prev-btn").addEventListener("click", () => step(-1));
     document.getElementById("lore-next-btn").addEventListener("click", () => step(1));
