@@ -629,12 +629,12 @@ img { max-width: 100%; display: block; }
 .rel-pair-visual {
   position: relative;
   z-index: 2;
-  max-width: 1100px;
+  max-width: 1500px;
   margin: 0 auto;
-  padding: 60px 24px 40px;
+  padding: 40px 40px 40px;
   display: grid;
-  grid-template-columns: 1fr minmax(260px, 420px) 1fr;
-  gap: 24px;
+  grid-template-columns: 1fr minmax(300px, 460px) 1fr;
+  gap: 32px;
   align-items: center;
 }
 @media (max-width: 800px) {
@@ -659,7 +659,7 @@ img { max-width: 100%; display: block; }
 }
 
 .rel-char-card { text-align: center; }
-.rel-char-render { max-height: 50vh; margin: 0 auto; object-fit: contain; filter: drop-shadow(0 16px 30px rgba(0,0,0,0.6)); }
+.rel-char-render { max-height: 78vh; margin: 0 auto; object-fit: contain; filter: drop-shadow(0 16px 30px rgba(0,0,0,0.6)); }
 .rel-char-name { font-family: var(--font-display); margin-top: 10px; font-size: 22px; }
 
 .rel-center-text { text-align: center; }
