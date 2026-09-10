@@ -67,14 +67,20 @@ COTA.lore = (function () {
     gen2Wrap.innerHTML = allCharacters.filter((c) => c.gen === 2).map(cardTemplate).join("");
     gen1Wrap.innerHTML = allCharacters.filter((c) => c.gen === 1).map(cardTemplate).join("");
 
-    document.querySelectorAll(".select-card").forEach((cardEl) => {
+    // Scoped to just these two containers — NOT the whole document —
+    // so coming-soon cards (which share the .select-card class for
+    // styling) never accidentally get a click listener attached.
+    gen2Wrap.querySelectorAll(".select-card").forEach((cardEl) => {
+      cardEl.addEventListener("click", () => onCardClick(cardEl.dataset.id));
+    });
+    gen1Wrap.querySelectorAll(".select-card").forEach((cardEl) => {
       cardEl.addEventListener("click", () => onCardClick(cardEl.dataset.id));
     });
     highlightSelectedCard();
   }
 
   function highlightSelectedCard() {
-    document.querySelectorAll(".select-card").forEach((el) => {
+    document.querySelectorAll(".select-card:not(.coming-soon-card)").forEach((el) => {
       el.classList.toggle("is-highlighted", el.dataset.id === selectedCode);
     });
   }
