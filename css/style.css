@@ -634,7 +634,9 @@ img { max-width: 100%; display: block; }
 .rel-bg {
   position: absolute;
   inset: 0;
-  background: url('../assets/images/pair.png') center / cover no-repeat;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   filter: brightness(0.5);
 }
 .rel-color-overlay {
