@@ -179,71 +179,6 @@ img { max-width: 100%; display: block; }
   border-radius: 8px;
 }
 
-/* --- "The World So Far" stats --- */
-.home-stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 16px;
-}
-.home-stat-card {
-  background: var(--bg-panel);
-  border: 1px solid var(--border-soft);
-  border-radius: 10px;
-  padding: 20px 16px;
-  text-align: center;
-}
-.home-stat-number {
-  display: block;
-  font-family: var(--font-display);
-  font-size: clamp(30px, 4vw, 42px);
-  color: var(--accent-cyan);
-  text-shadow: 0 0 16px rgba(40, 224, 216, 0.4);
-}
-.home-stat-label {
-  display: block;
-  margin-top: 6px;
-  font-size: 13px;
-  color: var(--text-dim);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-/* --- "The Generations" teaser cards — counts only, no names/art, so
-   the Lore tab's character select screen stays a surprise. --- */
-.home-generations-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
-}
-.home-gen-card {
-  background: var(--bg-panel-raised);
-  border: 1px solid var(--border-soft);
-  border-radius: 10px;
-  padding: 24px 20px;
-  text-align: left;
-  transition: transform 0.15s ease, border-color 0.15s ease;
-}
-.home-gen-card:hover { transform: translateY(-4px); border-color: var(--accent-magenta); }
-.home-gen-title {
-  display: block;
-  font-family: var(--font-display);
-  font-size: 20px;
-  color: var(--text-main);
-}
-.home-gen-count {
-  display: block;
-  margin-top: 4px;
-  color: var(--accent-gold);
-  font-weight: 700;
-}
-.home-gen-hint {
-  display: block;
-  margin-top: 8px;
-  font-size: 13px;
-  color: var(--text-dim);
-  font-style: italic;
-}
-
 .home-cta-section { display: flex; flex-direction: column; gap: 12px; }
 .home-cta-btn {
   background: var(--bg-panel-raised);
@@ -565,12 +500,16 @@ img { max-width: 100%; display: block; }
 .rel-select-screen { position: relative; padding: 32px 20px 60px; text-align: center; }
 
 /* Fixed backdrop for the picker screen — stays put while the roster
-   scrolls, same trick used for the Lore select screen. */
+   scrolls, same trick used for the Lore select screen. Now a <video>
+   instead of a background-image div, so it can be a real animated
+   video, not just a static image or GIF. */
 .rel-select-bg {
   position: fixed;
   inset: 0;
   z-index: 0;
-  background: url('../assets/images/relationship.png') center / cover no-repeat;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* rel-pick-status also needs its own stacking layer, same reason as
