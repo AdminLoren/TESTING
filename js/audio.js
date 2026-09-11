@@ -67,7 +67,7 @@ COTA.audio = (function () {
     if (muted) return;
     try {
       const sfx = new Audio(`assets/audio/${fileName}`);
-      sfx.volume = 0.8;
+      sfx.volume = 0.2;
       sfx.play().catch(() => {});
     } catch (err) {
       /* ignore missing sfx */
