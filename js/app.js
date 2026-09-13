@@ -1,14 +1,10 @@
-// app.js
-// Wires up the header tab nav and the universal transition overlay that
-// plays between every tab switch. Also boots each tab's own module.
-
 window.COTA = window.COTA || {};
 
 COTA.app = (function () {
   let currentTab = "home";
 
   function goToTab(tabName, opts = {}) {
-    const resetView = opts.resetView !== false; // defaults to true
+    const resetView = opts.resetView !== false;
     if (tabName === currentTab && !opts.force) return;
     const overlay = document.getElementById("transition-overlay");
     overlay.classList.add("active");
@@ -22,10 +18,6 @@ COTA.app = (function () {
       });
       currentTab = tabName;
 
-      // Lore/Relationship always land back on their picker/select screen
-      // when the tab is (re-)entered — never resume a previous pick.
-      // The one exception is jumping straight to a character from the
-      // Home tab, which passes resetView: false and drives the view itself.
       if (tabName === "home") {
         COTA.audio.playMusic("home_bgm.mp3", "Home Theme");
       }
