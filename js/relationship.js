@@ -1,15 +1,9 @@
-// relationship.js
-// Handles the "pick two characters, see their relationship" flow.
-// The picker now shows two "slot" boxes for the characters you've
-// picked so far (each removable via an X), and the roster below is
-// split into 2nd/1st Generation like the Lore tab's select screen.
-
 window.COTA = window.COTA || {};
 
 COTA.relationship = (function () {
   let allCharacters = [];
   let allRelationships = [];
-  let slots = [null, null]; // character ids picked so far, by slot index
+  let slots = [null, null];
   let initialized = false;
 
   function rosterCardTemplate(c) {
@@ -41,8 +35,6 @@ COTA.relationship = (function () {
     });
   }
 
-  // Shows/hides a franchise-credit badge (e.g. Nijigasaki logo) for
-  // characters that are based on/credit an existing franchise.
   function setFranchiseBadge(elementId, character) {
     const el = document.getElementById(elementId);
     if (!el) return;
@@ -58,7 +50,7 @@ COTA.relationship = (function () {
     const id = slots[index];
     const slotEl = document.getElementById(`rel-slot-${index}`);
     if (!id) {
-      slotEl.innerHTML = `<span class="rel-slot-placeholder">Player ${index + 1}</span>`;
+      slotEl.innerHTML = `<span class="rel-slot-placeholder">${index + 1}</span>`;
       slotEl.classList.remove("is-filled");
       return;
     }
@@ -101,19 +93,17 @@ COTA.relationship = (function () {
   }
 
   function onRosterPick(id) {
-    if (slots.includes(id)) return; // already picked this round
+    if (slots.includes(id)) return;
     const emptyIndex = slots.findIndex((s) => s === null);
-    if (emptyIndex === -1) return; // both slots already full (shouldn't happen — we transition away)
+    if (emptyIndex === -1) return;
     slots[emptyIndex] = id;
     renderSlots();
     refreshRosterHighlight();
 
     if (slots[0] && slots[1]) {
-      // Second character picked — the pair is now complete.
       COTA.audio.playSfx("link.mp3");
       showRelationship(slots[0], slots[1]);
     } else {
-      // First character picked.
       COTA.audio.playSfx("switch.mp3");
       updateStatusText();
     }
@@ -124,12 +114,12 @@ COTA.relationship = (function () {
     const charB = COTA.data.findCharacter(allCharacters, idB);
     const rel = COTA.data.findRelationship(allRelationships, idA, idB);
 
-    document.getElementById("rel-char-a-render").src = `assets/images/render_${charA.code}.png`;
+    document.getElementById("rel-char-a-render").src = `assets/images/boxart_${charA.code}.png`;
     document.getElementById("rel-char-a-render").alt = charA.name;
     document.getElementById("rel-char-a-name").textContent = charA.name;
     setFranchiseBadge("rel-char-a-badge", charA);
 
-    document.getElementById("rel-char-b-render").src = `assets/images/render_${charB.code}.png`;
+    document.getElementById("rel-char-b-render").src = `assets/images/boxart_${charB.code}.png`;
     document.getElementById("rel-char-b-render").alt = charB.name;
     document.getElementById("rel-char-b-name").textContent = charB.name;
     setFranchiseBadge("rel-char-b-badge", charB);
@@ -151,8 +141,6 @@ COTA.relationship = (function () {
     window.setTimeout(() => display.classList.remove("fade-in"), 400);
   }
 
-  // Resets the whole picker (both slots) and shows the select screen.
-  // Called on "Link another pair!" AND every time the tab is (re-)entered.
   function resetToSelect() {
     slots = [null, null];
     renderSlots();
@@ -175,8 +163,6 @@ COTA.relationship = (function () {
     });
   }
 
-  // Called every time the Relationship tab is opened — always resets to
-  // the picker, never resumes a previously-shown pairing.
   async function enter() {
     await init();
     resetToSelect();
