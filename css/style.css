@@ -686,11 +686,28 @@ img { max-width: 100%; display: block; }
   .rel-char-render { max-height: 32vh; }
 }
 
-.rel-char-card { text-align: center; }
-.rel-char-render { max-height: 78vh; margin: 0 auto; object-fit: contain; filter: drop-shadow(0 16px 30px rgba(0,0,0,0.6)); }
+.rel-char-card { text-align: center; position: relative; z-index: 1; }
+@media (min-width: 801px) {
+  .rel-pair-visual > .rel-char-card:nth-of-type(1) { margin-right: -60px; }
+  .rel-pair-visual > .rel-char-card:nth-of-type(3) { margin-left: -60px; }
+}
+.rel-char-render {
+  max-height: 74vh;
+  margin: 0 auto;
+  object-fit: contain;
+  filter: drop-shadow(0 16px 30px rgba(0,0,0,0.6));
+}
 .rel-char-name { font-family: var(--font-display); margin-top: 10px; font-size: 22px; }
 
-.rel-center-text { text-align: center; }
+.rel-center-text {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  background: rgba(11, 11, 18, 0.72);
+  border: 1px solid var(--border-soft);
+  border-radius: 14px;
+  padding: 24px 20px;
+}
 .rel-title {
   font-family: var(--font-display);
   font-size: clamp(28px, 4vw, 42px);
