@@ -23,10 +23,27 @@
         <button class="tab-btn" data-tab="relationship">Relationship Chart</button>
       </nav>
 
-      <button id="sound-toggle" class="sound-toggle" aria-pressed="false">
-        <span id="sound-icon">&#9835;</span>
-        <span id="now-playing-text">Sound Off</span>
-      </button>
+      <div class="sound-controls">
+        <button id="sound-toggle" class="sound-toggle" aria-pressed="false">
+          <span id="sound-icon">&#9835;</span>
+          <span id="now-playing-text">Sound Off</span>
+        </button>
+
+        <div class="volume-control">
+          <input
+            id="volume-slider"
+            class="volume-slider"
+            type="range"
+            min="0"
+            max="100"
+            step="1"
+            value="60"
+            aria-label="Volume"
+            title="Volume"
+          />
+          <span id="volume-value" class="volume-value">60%</span>
+        </div>
+      </div>
     </div>
   </header>
 
