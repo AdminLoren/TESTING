@@ -248,11 +248,25 @@ img { max-width: 100%; display: block; }
 }
 
 .home-section { max-width: 900px; margin: 0 auto; padding: 40px 24px; }
+/* Stacked text sections (Synopsis -> Origins) shouldn't double up on padding. */
+.home-section + .home-section { padding-top: 0; }
 .section-label {
   font-family: var(--font-display);
   color: var(--accent-magenta);
   font-size: 20px;
   margin-bottom: 12px;
+}
+.home-prose {
+  color: var(--text-main);
+  font-size: 16px;
+  line-height: 1.75;
+  margin: 0 0 14px;
+  max-width: 72ch;
+}
+.home-prose:last-child { margin-bottom: 0; }
+.home-section .section-label + .home-prose {
+  border-left: 2px solid var(--accent-magenta);
+  padding-left: 16px;
 }
 .registered-placeholder {
   color: var(--text-dim);
@@ -263,6 +277,8 @@ img { max-width: 100%; display: block; }
 }
 
 .home-cta-section { display: flex; flex-direction: column; gap: 12px; }
+/* Overrides the stacked-section rule above — the buttons still want top room. */
+.home-section + .home-cta-section { padding-top: 40px; }
 .home-cta-btn {
   background: var(--bg-panel-raised);
   border: 1px solid var(--accent-magenta);
