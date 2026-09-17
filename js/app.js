@@ -19,14 +19,14 @@ COTA.app = (function () {
       currentTab = tabName;
 
       if (tabName === "home") {
-        COTA.audio.playMusic("home_bgm.mp3", "Home Theme");
+        COTA.audio.playMusic("home_bgm.mp3", "Planet Wisp - Area (Sonic Colors)");
       }
       if (tabName === "lore") {
         resetView ? COTA.lore.enter() : COTA.lore.init();
       }
       if (tabName === "relationship") {
         resetView ? COTA.relationship.enter() : COTA.relationship.init();
-        COTA.audio.playMusic("relationship_bgm.mp3", "Relationship Chart Theme");
+        COTA.audio.playMusic("relationship_bgm.mp3", "Menu (Mario Kart: Double Dash!!)");
       }
 
       window.setTimeout(() => overlay.classList.remove("active"), 250);
@@ -46,7 +46,7 @@ COTA.app = (function () {
 
     COTA.audio.init();
     COTA.home.render();
-    COTA.audio.playMusic("home_bgm.mp3", "Home Theme");
+    COTA.audio.playMusic("home_bgm.mp3", "Planet Wisp - Area (Sonic Colors)");
   }
 
   return { init, goToTab };
