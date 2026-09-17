@@ -264,7 +264,17 @@ img { max-width: 100%; display: block; }
   max-width: 72ch;
 }
 .home-prose:last-child { margin-bottom: 0; }
-.home-section .section-label + .home-prose {
+.home-section .home-prose {
+  border-left: 2px solid var(--accent-magenta);
+  padding-left: 16px;
+}
+.home-note {
+  color: var(--text-dim);
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.7;
+  margin: 0;
+  max-width: 72ch;
   border-left: 2px solid var(--accent-magenta);
   padding-left: 16px;
 }
