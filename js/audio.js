@@ -1,8 +1,8 @@
 window.COTA = window.COTA || {};
 
 COTA.audio = (function () {
-  const DEFAULT_VOLUME = 0.6; // 60%
-  const SFX_RATIO = 1 / 3;    // keeps SFX at 0.2 when music sits at the 0.6 default
+  const DEFAULT_VOLUME = 0.5; // 50%
+  const SFX_RATIO = 1 / 3;    // e.g. SFX sit at ~0.17 when music is at the 0.5 default
 
   let currentMusic = null;
   let currentMusicTitle = "";
