@@ -181,7 +181,7 @@ COTA.lore = (function () {
   async function enter() {
     await init();
     showSelectScreen();
-    COTA.audio.playMusic("char_select.mp3", "Character Select Theme");
+    COTA.audio.playMusic("char_select.mp3", "Online Menu (Sonic Generations)");
   }
 
   async function openCharacterById(id) {
