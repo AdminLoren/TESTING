@@ -866,7 +866,15 @@ img { max-width: 100%; display: block; }
   .rel-char-render { height: 32vh; max-height: 32vh; }
 }
 
-.rel-char-card { text-align: center; position: relative; z-index: 1; }
+.rel-char-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  gap: 6px;
+}
 @media (min-width: 801px) {
   .rel-pair-visual > .rel-char-card:nth-of-type(1) { margin-right: -60px; }
   .rel-pair-visual > .rel-char-card:nth-of-type(3) { margin-left: -60px; }
@@ -880,8 +888,7 @@ img { max-width: 100%; display: block; }
   filter: drop-shadow(0 16px 30px rgba(0,0,0,0.6));
 }
 .rel-char-name {
-  display: inline-block;
-  margin-bottom: 14px;
+  display: block;
   max-width: min(30vw, 320px);
   max-height: 96px;
   width: auto;
