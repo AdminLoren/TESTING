@@ -778,7 +778,7 @@ img { max-width: 100%; display: block; }
   max-width: 1760px;
   width: 94%;
   margin: 0 auto;
-  padding: 24px 24px 32px;
+  padding: 12px 24px;
   display: grid;
   grid-template-columns: 1fr minmax(300px, 480px) 1fr;
   gap: 32px;
@@ -848,7 +848,7 @@ img { max-width: 100%; display: block; }
   position: relative;
   z-index: 2;
   display: block;
-  margin: 36px auto 0;
+  margin: 12px auto 20px;
   background: var(--accent-magenta);
   color: var(--bg-void);
   font-weight: 700;
