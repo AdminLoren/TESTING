@@ -845,15 +845,17 @@ img { max-width: 100%; display: block; }
 .rel-bio { margin: 0; line-height: 1.7; font-size: clamp(14px, 1.1vw, 16px); }
 
 .rel-link-another-btn {
-  position: relative;
-  z-index: 2;
-  display: block;
-  margin: 12px auto 20px;
+  position: fixed;
+  z-index: 30;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
   background: var(--accent-magenta);
   color: var(--bg-void);
   font-weight: 700;
   padding: 14px 28px;
   border-radius: 30px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
 }
 .rel-link-another-btn:hover { background: var(--accent-cyan); }
 
