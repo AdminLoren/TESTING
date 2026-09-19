@@ -340,34 +340,29 @@ img { max-width: 100%; display: block; }
    same .active toggle as the rest of the screen, no extra JS needed. */
 .select-scroll-hint {
   position: fixed;
-  left: 50%;
-  bottom: 20px;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translateY(-50%);
   z-index: 40;
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 18px;
-  border-radius: 30px;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
   background: rgba(11, 11, 18, 0.75);
   border: 1px solid var(--border-soft);
   backdrop-filter: blur(6px);
-  color: var(--text-main);
-  font-size: 13px;
-  font-weight: 600;
+  color: var(--accent-cyan);
+  font-size: 16px;
+  line-height: 1;
   pointer-events: none;
 }
-.scroll-hint-icon {
-  font-size: 16px;
-  color: var(--accent-cyan);
-  animation: scrollHintBob 1.6s ease-in-out infinite;
-}
-@keyframes scrollHintBob {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(4px); }
-}
+.select-scroll-hint--left { left: 16px; }
+.select-scroll-hint--right { right: 16px; }
 @media (max-width: 800px) {
-  .select-scroll-hint { font-size: 12px; padding: 7px 14px; bottom: 14px; }
+  .select-scroll-hint { width: 28px; height: 28px; font-size: 14px; }
+  .select-scroll-hint--left { left: 8px; }
+  .select-scroll-hint--right { right: 8px; }
 }
 
 .select-splash { position: relative; z-index: 1; text-align: center; padding: 6px 0 10px; }
