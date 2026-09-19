@@ -849,7 +849,15 @@ img { max-width: 100%; display: block; }
   object-fit: contain;
   filter: drop-shadow(0 16px 30px rgba(0,0,0,0.6));
 }
-.rel-char-name { font-family: var(--font-display); margin-top: 10px; font-size: 22px; }
+.rel-char-name {
+  display: inline-block;
+  margin-top: 10px;
+  max-width: 220px;
+  max-height: 68px;
+  width: auto;
+  height: auto;
+  filter: drop-shadow(3px 3px 0 rgba(0,0,0,0.5));
+}
 
 .rel-center-text {
   position: relative;
