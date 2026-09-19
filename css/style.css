@@ -867,13 +867,9 @@ img { max-width: 100%; display: block; }
 }
 
 .rel-char-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   position: relative;
   z-index: 1;
-  gap: 6px;
 }
 @media (min-width: 801px) {
   .rel-pair-visual > .rel-char-card:nth-of-type(1) { margin-right: -60px; }
@@ -887,8 +883,15 @@ img { max-width: 100%; display: block; }
   object-fit: contain;
   filter: drop-shadow(0 16px 30px rgba(0,0,0,0.6));
 }
+/* Overlaps the top of the render rather than stacking in flow above it —
+   sidesteps any flow/line-height spacing entirely and guarantees the
+   graffiti sits directly on the character art, layered on top of it. */
 .rel-char-name {
-  display: block;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
   max-width: min(30vw, 320px);
   max-height: 96px;
   width: auto;
