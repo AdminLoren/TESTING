@@ -116,12 +116,14 @@ COTA.relationship = (function () {
 
     document.getElementById("rel-char-a-render").src = `assets/images/render_${charA.code}.png`;
     document.getElementById("rel-char-a-render").alt = charA.name;
-    document.getElementById("rel-char-a-name").textContent = charA.name;
+    document.getElementById("rel-char-a-name").src = `assets/images/graffiti_${charA.code}.png`;
+    document.getElementById("rel-char-a-name").alt = charA.name;
     setFranchiseBadge("rel-char-a-badge", charA);
 
     document.getElementById("rel-char-b-render").src = `assets/images/render_${charB.code}.png`;
     document.getElementById("rel-char-b-render").alt = charB.name;
-    document.getElementById("rel-char-b-name").textContent = charB.name;
+    document.getElementById("rel-char-b-name").src = `assets/images/graffiti_${charB.code}.png`;
+    document.getElementById("rel-char-b-name").alt = charB.name;
     setFranchiseBadge("rel-char-b-badge", charB);
 
     const type = rel ? rel.type : "N/A";
