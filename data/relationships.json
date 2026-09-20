@@ -152,5 +152,126 @@
     "title": "Uneasy Truce",
     "specificTitle": "NOT REGISTERED YET",
     "bio": "Fumio never lets his guard down around Makoto, harboring a persistent distrust he can't fully hide. Makoto easily sees through the uncharacteristic silent act of his and never lets him hear the end of it, in which case Fumio to simply yield and nod in agreement."
+  },
+  {
+    "id": "fum-meg",
+    "pair": [
+      "A1",
+      "A13"
+    ],
+    "type": "Friends",
+    "title": "The Geekification",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Fumio introduced to Megumi the concept of overanalyzing their childhood movies. Megumi would never be the same again after sitting through countless credits of movies in hopes of a post-credit scene."
+  },
+  {
+    "id": "fum-mea",
+    "pair": [
+      "A1",
+      "B1"
+    ],
+    "type": "Parent and Child",
+    "title": "Another Me",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Its not just the pretty face ane foul mouth Fumio inherited from his mother. It is believed that he acquired Meari's past split personality. Every now and then, she'd anticipate and act like her old chuunibyou self next to her son. Unfortunately for her, Fumio is absolutely clueless with her antics..."
+  },
+  {
+    "id": "fum-han",
+    "pair": [
+      "A1",
+      "B2"
+    ],
+    "type": "Parent and Child",
+    "title": "A Dream Come True",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "He did it... Hanzo proved his father wrong. Regardless of Fumio disappointing his ancestors, he was Hanzo's to love and care for."
+  },
+  {
+    "id": "ali-vys",
+    "pair": [
+      "A2",
+      "A3"
+    ],
+    "type": "Confidants",
+    "title": "Childhood Crush",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Growing up, Alicia always had a soft spot for the cute kid her cousin deemed his best friend, until she eventually noticed his obvious disinterest. Maybe there's someone out there who thinks of her the same way..."
+  },
+  {
+    "id": "ali-emm",
+    "pair": [
+      "A2",
+      "A5"
+    ],
+    "type": "Cousins",
+    "title": "The adopted lamb",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Once Uncle Matsuda adopted the young Emma Verde, she was Alicia's first exposure to how girls her age act. Too bad she has to share her with everyone else in the gang, she thinks..."
+  },
+  {
+    "id": "ali-kar",
+    "pair": [
+      "A2",
+      "A6"
+    ],
+    "type": "Confidants",
+    "title": "Diver Diva",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Two fashion enthusiasts refuse to half-bake their efforts when pairing their clothes when they're side-by-side. Sometimes it does go out of hand, and they'll eventually compete as rivals to push each other to an even grander style."
+  },
+  {
+    "id": "ali-fko",
+    "pair": [
+      "A2",
+      "A7"
+    ],
+    "type": "Confidants",
+    "title": "The Start of Something New",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "They met when the Student Council collaborated with the Student Athletes for a festival. To Fumiko, it was the moment that her entire world had a new breath of fresh air. Without Alicia, she couldn't have met such amazing people."
+  },
+  {
+    "id": "ali-shi",
+    "pair": [
+      "A2",
+      "A9"
+    ],
+    "type": "Friends",
+    "title": "The Problem Child",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Alicia never ceases to surprise Shioriko on finding new ways to upset her... Though went Shioriko found out that Alicia grew up around boys, things went easier between them."
+  },
+  {
+    "id": "vys-emm",
+    "pair": [
+      "A3",
+      "A5"
+    ],
+    "type": "Lovers",
+    "title": "Match Made in Heaven",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "The perfect swiss girl deserves their perfect comfort boy. Their voices harmonize with each other, they share a long history, and are the greenest of green flags. What madman would ruin such innocent young love?"
+  },
+  {
+    "id": "riku-mei",
+    "pair": [
+      "A4",
+      "B11"
+    ],
+    "type": "Appointed Guardian",
+    "title": "Celebirty Crush",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "When Riku was younger, he wouldn't stop gushing about if he was Meili's age, he would have asked for her hand. Despite having the same sentiment today, Meili just accepts it as a compliment."
+  },
+  {
+    "id": "emm-rik",
+    "pair": [
+      "A5",
+      "A10"
+    ],
+    "type": "Friends",
+    "title": "Unlikely Lifesaver",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Controlled as a weapon by the Satsujin Clan during the Battle for Rulnei, Rikki was nearly executed by Matsuda once defeated. Emma intervened, standing between them to defend Rikki as a victim of manipulation rather than a true enemy—saving his life and offering him a chance at redemption. Rikki owes Emma his life after she"
   }
 ]
