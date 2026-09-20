@@ -389,32 +389,31 @@
     "code": "geo",
     "gen": 2,
     "name": "George",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "George Fujima",
+    "bio": "Ask him where he’s from, what's his story, or why he is what he is, and George will either change the subject or give you the cold shoulder.\n\nWhat could the answer be to his reasons of being such an enigma? It's either he's hiding from something... or just really dramatic.",
+    "birthdate": "Unknown, Refuses to state",
+    "occupation": "Student/Delivery Driver",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Ideal Daily Routine",
+      "Setsuna's music"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Fumio's Tomfoolery",
+      "Intrusive Questions",
+      "Banana Juice"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Telepathic Cognition",
+        "desc": "Possesses the capacity for direct cognitive interception, allowing to access and interpret a person's unspoken thoughts"
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Retrocognitive Scry",
+        "desc": "Projects their conciousness backwards to an individual's timeline to observe their past memories"
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Drawback: Neural Strain",
+        "desc": "Using abilities triggers migraines and neorological burnouts from the unfiltered noise."
       }
     ],
     "color": "#FFFFFF",
@@ -428,32 +427,30 @@
     "code": "mak",
     "gen": 2,
     "name": "Makoto",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "Makoto Williams",
+    "bio": "Arrogant, calculating, and dangerously intelligent, Makoto operates on the single belief that the world is a stage meant for him to rule. He directs that intellect entirely toward personal dominance. \n\nA master of subtle manipulation, gaslighting, and truth-bending, He smoothly rewrites narratives to turn allies against each other and position himself as indispensable. He treats every interaction as a transaction and every person as a piece on a board, stopping at absolute nothing to seize total authority.",
+    "birthdate": "May 2",
+    "occupation": "Student Council Member",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Intellectual Superiority",
+      "Jewelry"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Being outsmarted",
+      "denying his desires"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Psychological Warfare",
+        "desc": "Master-level grasp of human behavior, gaslighting, and cold reading. He can isolate individuals, create false narratives, and break someone's confidence or alliances purely through conversation."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Cold-Calculated Strategy",
+        "desc": "Exceptional analytical intellect capable of mapping out complex, multi-step contingency plans, anticipating responses, and leveraging environmental or political situations to his absolute advantage."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Charismatic Authority",
+        "desc": "Possesses an imposing, persuasive presence that naturally coerces peers, superiors, and authority figures into following his lead or granting him influence."
       }
     ],
     "color": "#FFFFFF",
@@ -467,32 +464,29 @@
     "code": "meg",
     "gen": 2,
     "name": "Megumi",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "Megumi Williams",
+    "bio": "Raised in a strictly controlled environment, Megumi grew up isolated from standard childhood experiences, leaving her quiet, guarded, and unsure of how to express her feelings. The only constant presence she found comfort in was her protective, highly restrictive older twin-brother. \n\nHer worldview shifted permanently after crossing paths with the 2nd Generation crew, whose chaotic warmth exposed her to everything she missed, forcing her out of her shell to experience the real world for the first time.",
+    "birthdate": "May 2",
+    "occupation": "Student",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Connecting w/ friends",
+      "technology"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Social Isolation Aversion"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Cognitive Aptitude",
+        "desc": "Has an advanced technical proficiency in digital infrastructure"
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Insightful Empathy",
+        "desc": "an innate ability to see right through people when they are hiding their true feelings, intentions, or struggles."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Reserved Endurance",
+        "desc": "Possesses exceptional patience and mental focus under pressure, allowing her to stay calm and rational when chaos breaks out around her."
       }
     ],
     "color": "#FFFFFF",
@@ -507,27 +501,30 @@
     "gen": 1,
     "name": "Meari",
     "nickname": "Meari Hasashi (née Watanabe)",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "bio": "Abducted at a young age, Meari was forced into the brutal training of a Spirit World Warrior, molded specifically as an instrument for world destruction. The immense trauma fractured her psyche, splitting her original whimsical, lighthearted spirit off into a distinct alternate personality while her primary persona turned cold, distant, and survival-driven. \n\nAfter escaping the exploiter's grasp, she found a warm, nurturing environment during her teenage years that allowed her past wounds to heal, eventually enabling both fractured sides of her identity to reconcile and merge into a single, complete self. Today, she has buried her dark past to fulfill her true dream as a well-renowned chef.",
+    "birthdate": "September 8",
+    "occupation": "Restaurateur/Spirit World Warrior",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Matcha",
+      "Culinary Arts"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Tangerines",
+      "Scum Paparazzi",
+      "Wasted Food"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Glaciate Barriers",
+        "desc": "Can instantly manifest dense, semi-transparent frozen spatial walls with her hands"
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Naginata Mastery",
+        "desc": "Masterful proficiency in a fluid, spear-and-blade combat."
+      },
+      {
+        "name": "Culinary Expertise",
+        "desc": "World-class skill in flavor profiling, preparation, and kitchen leadership, turning cooking into a genuine medium for connection and healing."
       }
     ],
     "color": "#FFFFFF",
@@ -541,28 +538,29 @@
     "code": "han",
     "gen": 1,
     "name": "Hanzo",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "Jubei \"Hanzo\" Hasashi",
+    "bio": "Born into a wealthy and influential lineage, Jubei was labeled from birth as the harbinger of a ruinous prophecy, stranding him with an unnerving streak of perpetual bad luck. Shunned by his family and subjected to harsh labor while his siblings thrived, his ordeal culminated in a death sentence by drowning. \n\nSurrounding circumstances allowed him to survive the execution, escape his family's shadow, and forged a new path. Though his early life was defined by cruelty, he eventually found the genuine warmth and affection he was denied as a child, now standing as the proud co-owner of the renowned restaurant brand Parhelion.",
+    "birthdate": "August 8",
+    "occupation": "Restaurateur / Active Reservist",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Physical Affection"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Deep bodies of Water",
+      "Presumptious People"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Dual-Era Combat Arts",
+        "desc": "Mastered lethal Kenjutsu and Katana techniques throughout his youth from the Author Gods themselves, seamlessly transitioning in adulthood into high-level hand-to-hand martial arts to adapt to any range or scenario."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Conditioned Tolerance",
+        "desc": "A harrowing byproduct of lifelong mistreatment, his body possesses an unnaturally high pain threshold and durability, allowing him to push through severe physical trauma that would instantly incapacitate others."
+      },
+      {
+        "name": "Latent Spiritual Aura",
+        "desc": "gained the ability to harness inner spirit energy. He can channel this latent energy to drastically amplify his physical strikes, project concentrated force, and heighten his combat reflexes beyond normal human limits."
       }
     ],
     "color": "#FFFFFF",
@@ -576,14 +574,13 @@
     "code": "sat",
     "gen": 1,
     "name": "Satoshi",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "Satoshi Hasashi",
+    "bio": "\"Even with this old-ass body, it won't take long for me to put you down under!\"\n\nBlessed with exceptional talent and physical prowess from a young age, Satoshi was widely expected to achieve greatness. Despite the constant praise, encounters with poverty during his childhood taught him to remain grounded, humble, and deeply appreciative of his gifts. His life took a drastic turn when he uncovered a long-kept family secret: the existence of a twin brother hidden from both him and his younger sister. \n\nAbandoning his comfortable life, he embarked on a lengthy search that eventually led him to Uranoshiya High School. Reunited with his past, he now works as the school’s gym teacher and varsity basketball coach, determined to instill the discipline and mentality needed to bring the institution its very first championship.",
+    "birthdate": "August 8",
+    "occupation": "PhysEd Teacher / Active Reservist",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Worthy Opponents",
+      "Harmless Banter"
     ],
     "dislikes": [
       "NOT REGISTERED YET",
@@ -613,17 +610,15 @@
     "name": "Michan",
     "nickname": "Michan Hasashi (née Yuukashi)",
     "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "birthdate": "Feb 14",
+    "occupation": "Housewife / Professional Model",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Sweets",
+      "Gardening",
+      "Crepes"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Military Operations"
     ],
     "abilities": [
       {
