@@ -1,11 +1,3 @@
-/* ==========================================================================
-   C.O.T.A. Encyclopedia — Stylesheet
-   Palette: near-black stage, electric magenta + cyan accents, gold select cue
-   Type: condensed display face for headings/graffiti text, clean sans body
-   All transitions are declarative CSS transitions/transforms toggled by
-   classList.add/remove/toggle — no canvas, no animation frame loops.
-   ========================================================================== */
-
 :root {
   --bg-void: #0b0b12;
   --bg-panel: #15151f;
@@ -17,8 +9,8 @@
   --accent-gold: #ffc93c;
   --border-soft: rgba(245, 243, 240, 0.12);
 
-  --font-display: "Arial Black", Impact, "Segoe UI", sans-serif;
-  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Chakra Petch", "Arial Black", Impact, sans-serif;
+  --font-body: "Share Tech Mono", "Segoe UI", Roboto, monospace;
 }
 
 * { box-sizing: border-box; }
@@ -50,8 +42,6 @@ img { max-width: 100%; display: block; }
 @media (prefers-reduced-motion: reduce) {
   * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
 }
-
-/* ---------------------------- HEADER ---------------------------- */
 
 #site-header {
   position: sticky;
@@ -112,8 +102,6 @@ img { max-width: 100%; display: block; }
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-
-/* ------------------------- VOLUME SLIDER ---------------------------- */
 
 .sound-controls {
   display: flex;
@@ -196,8 +184,6 @@ img { max-width: 100%; display: block; }
   background: var(--accent-magenta);
 }
 
-/* ------------------------ TRANSITION OVERLAY ------------------------ */
-
 #transition-overlay {
   position: fixed;
   inset: 0;
@@ -209,12 +195,8 @@ img { max-width: 100%; display: block; }
 }
 #transition-overlay.active { opacity: 1; }
 
-/* ---------------------------- TAB PANELS ---------------------------- */
-
 .tab-panel { display: none; min-height: calc(100vh - 64px); }
 .tab-panel.active { display: block; }
-
-/* ============================ HOME TAB ============================ */
 
 .home-hero {
   min-height: 60vh;
@@ -248,7 +230,6 @@ img { max-width: 100%; display: block; }
 }
 
 .home-section { max-width: 1040px; margin: 0 auto; padding: 40px 24px; }
-/* Stacked text sections (Synopsis -> Origins) shouldn't double up on padding. */
 .home-section + .home-section { padding-top: 0; }
 .section-label {
   font-family: var(--font-display);
@@ -290,9 +271,6 @@ img { max-width: 100%; display: block; }
   border-radius: 8px;
 }
 
-/* Video backdrop behind Synopsis + Origins, separate from the hero's
-   static image above it — plays once the viewer scrolls past the hero
-   art. Swap the <source> and poster once the real clip is ready. */
 .home-lore-bg-wrap { position: relative; overflow: hidden; }
 .home-lore-bg {
   position: absolute;
@@ -317,7 +295,6 @@ img { max-width: 100%; display: block; }
 .home-lore-bg-wrap .home-section { position: relative; z-index: 2; }
 
 .home-cta-section { display: flex; flex-direction: column; gap: 12px; }
-/* Overrides the stacked-section rule above — the buttons still want top room. */
 .home-section + .home-cta-section { padding-top: 40px; }
 .home-cta-btn {
   background: var(--bg-panel-raised);
@@ -331,24 +308,17 @@ img { max-width: 100%; display: block; }
 }
 .home-cta-btn:hover { background: var(--accent-magenta); color: var(--bg-void); }
 
-/* ============================ LORE TAB ============================ */
-
 .select-screen, .index-screen {
   display: none;
   min-height: calc(100vh - 64px);
 }
 .select-screen.active, .index-screen.active { display: block; }
 
-/* --- Character select --- */
 .select-screen {
   position: relative;
   padding: 16px 20px 40px;
 }
 
-/* This backdrop is its own fixed-position layer, independent of the
-   scrolling card grid below — it never moves as you scroll, only the
-   cards do. (Previously the background lived on .select-screen itself,
-   which scrolled along with its content — that was the bug.) */
 .select-bg {
   position: fixed;
   inset: 0;
@@ -364,10 +334,6 @@ img { max-width: 100%; display: block; }
   to { transform: translateY(0); opacity: 1; }
 }
 
-/* Fixed hint telling viewers this grid scrolls further than the first
-   screenful — easy to miss otherwise since nothing else on the page
-   suggests it. Lives inside .select-screen so it shows/hides with the
-   same .active toggle as the rest of the screen, no extra JS needed. */
 .select-scroll-hint {
   position: fixed;
   top: 50%;
@@ -440,10 +406,6 @@ img { max-width: 100%; display: block; }
   gap: 12px;
 }
 
-/* Fighting-game roster card: angled parallelogram silhouette (via
-   clip-path, so the image/text inside stay perfectly upright — no
-   skew-transform distortion to fight against), full-bleed art, and a
-   gradient nameplate along the bottom instead of a separate caption. */
 .select-card {
   position: relative;
   aspect-ratio: 2 / 3;
@@ -490,7 +452,6 @@ img { max-width: 100%; display: block; }
 }
 .select-card.is-highlighted .select-card-nameplate { color: var(--accent-gold); }
 
-/* --- Coming Soon section: visible, but not selectable at all --- */
 .coming-soon-label { color: var(--text-dim); }
 .select-subgen-label {
   font-family: var(--font-display);
@@ -500,10 +461,6 @@ img { max-width: 100%; display: block; }
   font-size: 13px;
   margin: 18px 0 10px;
 }
-/* These are plain <div>s, not <button>s, and have no click listener
-   attached at all — "not clickable" starts at the markup level, not
-   just a visual style. The dimming + "not-allowed" cursor + grayscale
-   just make that obvious at a glance too. */
 .coming-soon-card { cursor: not-allowed; opacity: 0.55; }
 .coming-soon-card:hover { transform: none; }
 .coming-soon-card .select-card-clip { filter: grayscale(0.6); }
@@ -525,15 +482,10 @@ img { max-width: 100%; display: block; }
   border-bottom: 1px solid var(--border-soft);
 }
 
-
-/* --- Character index --- */
 .index-screen { position: relative; overflow: hidden; }
 .index-screen.fade-in { animation: fadeIn 0.4s ease; }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
 
-/* Layer 1 (bottom): the generation background image, blurred ~10%.
-   "fixed" (not "absolute") is what makes it stay completely still in
-   the viewport no matter how far you scroll the text/character. */
 .index-bg {
   position: fixed;
   inset: 0;
@@ -544,9 +496,6 @@ img { max-width: 100%; display: block; }
   transform: scale(1.05);
 }
 
-/* Layer 2: the selected character's hex color as a looming, transparent
-   shadow above the background — sits behind the render/text (layer 3).
-   Also fixed, for the same reason as the background above. */
 .index-color-overlay {
   position: fixed;
   inset: 0;
@@ -558,8 +507,6 @@ img { max-width: 100%; display: block; }
   mix-blend-mode: normal;
 }
 
-/* Layer 3 (top): the actual content. Wider + less padding than before
-   so the page uses more of the screen instead of leaving empty margin. */
 .index-content {
   position: relative;
   z-index: 2;
@@ -572,7 +519,6 @@ img { max-width: 100%; display: block; }
   align-items: start;
   transition: opacity 0.18s ease;
 }
-/* Simple crossfade whenever prev/next swaps in a new character. */
 .index-content.index-swap-out { opacity: 0; }
 @media (max-width: 850px) {
   .index-content { grid-template-columns: 1fr; padding-top: 40px; }
@@ -582,14 +528,8 @@ img { max-width: 100%; display: block; }
   display: flex;
   align-items: center;
   justify-content: center;
-  /* Keeps the render fixed in place while the text next to it scrolls.
-     "sticky" pins it once it reaches this spot, and giving it the full
-     leftover screen height (minus the header) plus centering its
-     content inside is what keeps the image looking centered on screen
-     the whole time, instead of just stuck at the top. */
-  position: sticky;
-  top: 61px; /* height of the header, so it doesn't hide underneath it */
-  height: calc(100vh - 61px);
+    position: sticky;
+  top: 61px;   height: calc(100vh - 61px);
 }
 .index-render {
   max-height: 88vh;
@@ -597,9 +537,6 @@ img { max-width: 100%; display: block; }
   filter: drop-shadow(0 24px 44px rgba(0,0,0,0.65));
 }
 
-/* The graffiti name is now a real image per character (typeset however
-   you like in an image editor) rather than generated CSS text — this
-   just sizes and drops it in, like the big "KEN" treatment. */
 .index-graffiti-name {
   display: block;
   max-width: 100%;
@@ -610,7 +547,7 @@ img { max-width: 100%; display: block; }
   filter: drop-shadow(3px 3px 0 rgba(0,0,0,0.5));
 }
 
-.index-fullname { color: var(--accent-cyan); font-weight: 700; margin: 4px 0 20px; text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.85); }
+.index-fullname { color: var(--accent-cyan); font-weight: 700; font-size: 22px; margin: 4px 0 20px; text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.85); }
 .index-bio { line-height: 1.6; color: var(--text-main); max-width: 62ch; white-space: pre-line; text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.85); }
 
 .index-fact-list {
@@ -667,8 +604,6 @@ img { max-width: 100%; display: block; }
 .arrow-glyph.up { font-size: 18px; }
 .index-back-btn .arrow-hint { opacity: 1; font-size: 13px; font-weight: 600; }
 
-/* ======================== RELATIONSHIP TAB ======================== */
-
 .rel-select-screen, .rel-display-screen {
   display: none;
   min-height: calc(100vh - 64px);
@@ -677,10 +612,6 @@ img { max-width: 100%; display: block; }
 
 .rel-select-screen { position: relative; padding: 32px 20px 60px; text-align: center; }
 
-/* Fixed backdrop for the picker screen — stays put while the roster
-   scrolls, same trick used for the Lore select screen. Now a <video>
-   instead of a background-image div, so it can be a real animated
-   video, not just a static image or GIF. */
 .rel-select-bg {
   position: fixed;
   inset: 0;
@@ -690,12 +621,8 @@ img { max-width: 100%; display: block; }
   object-fit: cover;
 }
 
-/* rel-pick-status also needs its own stacking layer, same reason as
-   the title above (position:fixed backgrounds always create a
-   stacking context, so plain content would paint underneath it). */
 .rel-pick-status { position: relative; z-index: 1; color: var(--accent-cyan); margin-bottom: 20px; font-weight: 600; }
 
-/* --- Picked-character "slot" boxes (medium size, removable) --- */
 .rel-slots {
   position: relative;
   z-index: 1;
@@ -751,7 +678,6 @@ img { max-width: 100%; display: block; }
   color: var(--text-dim);
 }
 
-/* --- Smaller, split-generation roster --- */
 .rel-roster-panel {
   position: relative;
   z-index: 1;
@@ -811,8 +737,7 @@ img { max-width: 100%; display: block; }
   overflow: hidden;
 }
 .rel-display-screen.active {
-  min-height: calc(100vh - 60px); /* 60px ~= sticky header height */
-  display: flex;
+  min-height: calc(100vh - 60px);   display: flex;
   flex-direction: column;
   justify-content: center;
 }
@@ -846,11 +771,7 @@ img { max-width: 100%; display: block; }
   align-items: center;
 }
 @media (max-width: 800px) {
-  /* On mobile we still want the two characters side by side (not
-     stacked on top of each other), with the relationship text below
-     both images instead of squeezed in the middle. We do this by
-     naming each grid area and placing them in a new order. */
-  .rel-pair-visual {
+    .rel-pair-visual {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "charA charB"
@@ -862,8 +783,7 @@ img { max-width: 100%; display: block; }
   .rel-pair-visual > .rel-center-text { grid-area: info; }
   .rel-pair-visual > .rel-char-card:nth-child(3) { grid-area: charB; }
 
-  /* Smaller renders so both fit comfortably side by side on a phone. */
-  .rel-char-render { height: 32vh; max-height: 32vh; }
+    .rel-char-render { height: 32vh; max-height: 32vh; }
 }
 
 .rel-char-card {
@@ -883,9 +803,6 @@ img { max-width: 100%; display: block; }
   object-fit: contain;
   filter: drop-shadow(0 16px 30px rgba(0,0,0,0.6));
 }
-/* Overlaps the top of the render rather than stacking in flow above it —
-   sidesteps any flow/line-height spacing entirely and guarantees the
-   graffiti sits directly on the character art, layered on top of it. */
 .rel-char-name {
   position: absolute;
   top: -10px;
@@ -938,16 +855,9 @@ img { max-width: 100%; display: block; }
 }
 .rel-link-another-btn:hover { background: var(--accent-cyan); }
 
-/* ==========================================================================
-   MOBILE VIEW (max-width: 700px)
-   Desktop layout above this point is untouched — everything below only
-   applies on narrow screens, to fix header overflow and control overlap
-   that don't show up at desktop widths.
-   ========================================================================== */
 @media (max-width: 700px) {
 
-  /* --- Header: wrap into two rows instead of overflowing sideways --- */
-  .header-inner {
+    .header-inner {
     flex-wrap: wrap;
     padding: 10px 14px;
     gap: 8px 10px;
@@ -976,10 +886,7 @@ img { max-width: 100%; display: block; }
   }
   .tab-btn { padding: 8px 10px; font-size: 13px; }
 
-  /* --- Index page prev/next: move off the vertical center (where they
-       were overlapping bio/fact text) down to fixed bottom corners,
-       alongside the Character Select button — a single bottom toolbar. --- */
-  .index-arrow {
+    .index-arrow {
     top: auto;
     bottom: 14px;
     transform: none;
@@ -995,11 +902,7 @@ img { max-width: 100%; display: block; }
 
   .index-back-btn { padding: 10px 18px; }
 
-  /* Render image first, then text, on mobile — leads with the character
-     art instead of a long fact list before you even see them. The
-     sticky/centered trick from the desktop styles is only meant for
-     desktop, so we turn it back off here. */
-  .index-content { grid-template-columns: 1fr; }
+    .index-content { grid-template-columns: 1fr; }
   .index-visual {
     order: -1;
     margin-bottom: 8px;
@@ -1008,24 +911,12 @@ img { max-width: 100%; display: block; }
   }
   .index-render { max-height: 50vh; }
 
-  /* --- Relationship picker: slots and roster cards shrink to fit --- */
-  .rel-slot { width: 104px; height: 140px; }
+    .rel-slot { width: 104px; height: 140px; }
   .rel-roster-grid { grid-template-columns: repeat(auto-fill, minmax(78px, 1fr)); }
 
-  /* --- Select screen cards: keep a comfortable 2-up grid --- */
-  .select-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
+    .select-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
 }
 
-/* ==========================================================================
-   FRANCHISE CREDIT BADGE
-   A small logo pinned to the bottom-right of a character's render, for
-   characters based on/crediting an existing franchise (e.g. Nijigasaki).
-   Only added to renders that AREN'T clipped by an angled clip-path
-   (the fighting-game select/roster cards cut off that exact corner by
-   design, so the badge would get visually chopped there) — this shows
-   on the index page, relationship display, home preview, and relationship
-   slot boxes, all of which are plain rectangles.
-   ========================================================================== */
 .franchise-badge {
   position: absolute;
   bottom: 6px;
@@ -1037,11 +928,6 @@ img { max-width: 100%; display: block; }
   pointer-events: none;
   z-index: 2;
 }
-/* These wrappers use inline-block + line-height:0 so they shrink-wrap
-   exactly to the rendered <img> box (which is scaled by object-fit/
-   max-height and often narrower than its flex/text-align container) —
-   without this, a badge positioned "bottom-right" would float off in
-   the empty space beside the image instead of touching its corner. */
 .index-render-wrap,
 .rel-char-render-wrap {
   position: relative;
@@ -1049,11 +935,6 @@ img { max-width: 100%; display: block; }
   line-height: 0;
 }
 
-/* Relationship slots have their name text sitting right at the bottom
-   (a nameplate strip over the image), so the badge goes in the top-right
-   corner there instead of colliding with it. Bottom-right is reserved
-   for the two main full-size renders (index page + relationship
-   display), matching what was asked. */
 .rel-slot .franchise-badge {
   top: 6px;
   bottom: auto;
