@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Happy Ever Party: C.O.T.A. Encyclopedia</title>
   <link rel="icon" href="favicon.ico" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <script src="js/styles.js"></script>
 </head>
 <body>
-
-  <!-- ============ HEADER (universal on every tab) ============ -->
   <header id="site-header">
     <div class="header-inner">
       <div class="brand">
@@ -46,14 +47,8 @@
       </div>
     </div>
   </header>
-
-  <!-- ============ TRANSITION OVERLAY (universal between tabs) ============ -->
   <div id="transition-overlay" aria-hidden="true"></div>
-
-  <!-- ============ MAIN CONTENT ============ -->
   <main id="app-root">
-
-    <!-- ---------- HOME TAB ---------- -->
     <section id="tab-home" class="tab-panel active">
       <div class="home-hero">
         <div class="home-hero-card">
@@ -115,14 +110,8 @@
         </button>
       </div>
     </section>
-
-    <!-- ---------- LORE TAB ---------- -->
     <section id="tab-lore" class="tab-panel">
-
-      <!-- Character select screen -->
       <div id="lore-select-screen" class="select-screen">
-        <!-- Fixed backdrop layer: stays put in the viewport while the
-             card grid below scrolls independently of it. -->
         <video class="select-bg" autoplay loop muted playsinline poster="assets/images/char_select.gif" aria-hidden="true">
           <source src="assets/video/char_select.mp4" type="video/mp4" />
         </video>
@@ -152,8 +141,6 @@
         <div class="select-scroll-hint select-scroll-hint--left" aria-hidden="true">&#8597;</div>
         <div class="select-scroll-hint select-scroll-hint--right" aria-hidden="true">&#8597;</div>
       </div>
-
-      <!-- Character index (shown after a pick) -->
       <div id="lore-index-screen" class="index-screen">
         <div id="lore-index-bg" class="index-bg"></div>
         <div id="lore-index-color-overlay" class="index-color-overlay"></div>
@@ -200,8 +187,6 @@
       </div>
 
     </section>
-
-    <!-- ---------- RELATIONSHIP TAB ---------- -->
     <section id="tab-relationship" class="tab-panel">
 
       <div id="relationship-select-screen" class="rel-select-screen">
