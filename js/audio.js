@@ -1,8 +1,8 @@
 window.COTA = window.COTA || {};
 
 COTA.audio = (function () {
-  const DEFAULT_VOLUME = 0.5; // 50%
-  const SFX_RATIO = 1 / 3;    // e.g. SFX sit at ~0.17 when music is at the 0.5 default
+  const DEFAULT_VOLUME = 0.5; 
+  const SFX_RATIO = 1 / 3;    
 
   let currentMusic = null;
   let currentMusicTitle = "";
@@ -32,14 +32,14 @@ COTA.audio = (function () {
     const percent = Math.round(volume * 100);
     if (slider) {
       slider.value = String(percent);
-      // Powers the filled portion of the track (see .volume-slider in style.css)
+      
       slider.style.setProperty("--volume-fill", `${percent}%`);
       slider.setAttribute("aria-valuetext", `${percent}%`);
     }
     if (readout) readout.textContent = `${percent}%`;
   }
 
-  // Effective volume the <audio> elements actually get.
+  
   function musicLevel() {
     return muted ? 0 : volume;
   }
@@ -47,7 +47,7 @@ COTA.audio = (function () {
   function setVolume(value, opts = {}) {
     volume = Math.min(1, Math.max(0, value));
 
-    // Nudging the slider up while muted is a clear "I want sound" gesture.
+    
     if (muted && volume > 0 && opts.fromUser) {
       muted = false;
       const btn = soundToggleBtn();
@@ -127,7 +127,7 @@ COTA.audio = (function () {
       slider.addEventListener("input", () => {
         setVolume(Number(slider.value) / 100, { fromUser: true });
       });
-      // Clicking the slider shouldn't also fire the mute button behind it.
+      
       slider.addEventListener("click", (e) => e.stopPropagation());
     }
 
