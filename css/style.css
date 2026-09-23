@@ -934,11 +934,3 @@ img { max-width: 100%; display: block; }
   display: inline-block;
   line-height: 0;
 }
-
-.rel-slot .franchise-badge {
-  top: 6px;
-  bottom: auto;
-  right: 6px;
-  width: 34%;
-  max-width: 40px;
-}
