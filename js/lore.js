@@ -90,6 +90,7 @@ COTA.lore = (function () {
   }
 
   function showSelectScreen() {
+    window.scrollTo(0, 0);
     document.getElementById("lore-index-screen").classList.remove("active");
     const selectScreen = document.getElementById("lore-select-screen");
     selectScreen.classList.add("active", "slide-in-bottom");
@@ -99,6 +100,7 @@ COTA.lore = (function () {
   }
 
   function showIndexScreen(character) {
+    window.scrollTo(0, 0);
     const selectScreen = document.getElementById("lore-select-screen");
     const indexScreen = document.getElementById("lore-index-screen");
     selectScreen.classList.remove("active");
@@ -153,6 +155,7 @@ COTA.lore = (function () {
     window.setTimeout(() => {
       openCharacterId = nextChar.id;
       selectedCode = nextChar.id;
+      window.scrollTo(0, 0);
       COTA.audio.playMusic(nextChar.bgm.file, nextChar.bgm.title);
       renderIndexContent(nextChar);
       content.classList.remove("index-swap-out");
