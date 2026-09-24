@@ -17,6 +17,7 @@ COTA.app = (function () {
         btn.classList.toggle("active", btn.dataset.tab === tabName);
       });
       currentTab = tabName;
+      window.scrollTo(0, 0);
 
       if (tabName === "home") {
         COTA.audio.playMusic("home_bgm.mp3", "Planet Wisp - Area (Sonic Colors)");
@@ -41,7 +42,10 @@ COTA.app = (function () {
       });
     });
     document.querySelectorAll("[data-goto-tab]").forEach((btn) => {
-      btn.addEventListener("click", () => goToTab(btn.dataset.gotoTab));
+      btn.addEventListener("click", () => {
+        COTA.audio.playSfx("char_confirm.mp3");
+        goToTab(btn.dataset.gotoTab);
+      });
     });
 
     COTA.audio.init();
