@@ -123,6 +123,7 @@ COTA.relationship = (function () {
     document.getElementById("relationship-select-screen").classList.remove("active");
     const display = document.getElementById("relationship-display-screen");
     display.classList.add("active", "fade-in");
+    window.scrollTo(0, 0);
     window.setTimeout(() => display.classList.remove("fade-in"), 400);
   }
 
@@ -131,6 +132,7 @@ COTA.relationship = (function () {
     renderSlots();
     refreshRosterHighlight();
     updateStatusText();
+    window.scrollTo(0, 0);
     document.getElementById("relationship-display-screen").classList.remove("active");
     document.getElementById("relationship-select-screen").classList.add("active");
   }
