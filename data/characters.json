@@ -560,7 +560,7 @@
       },
       {
         "name": "Latent Spiritual Aura",
-        "desc": "Gained the ability to harness inner spirit energy. He can channel this latent energy to drastically amplify his physical strikes, project concentrated force, and heighten his combat reflexes beyond normal human limits."
+        "desc": "gained the ability to harness inner spirit energy. He can channel this latent energy to drastically amplify his physical strikes, project concentrated force, and heighten his combat reflexes beyond normal human limits."
       }
     ],
     "color": "#FFFFFF",
@@ -583,18 +583,21 @@
       "Harmless Banter"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Pessimism",
+      "Referees"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Ignited Speed",
+        "desc": "Blends explosive, high-speed movement with pyrokinesis, blitzing the battlefield in brief bursts of speed while coating his strikes, footsteps, or weapons in intense, controllable fire."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Dual Blade Fluidity",
+        "desc": "Exceptional mastery over traditional swordsmanship and Katana techniques to expose enemy defense"
+      },
+      {
+        "name": "Adaptive Prodigy",
+        "desc": "A rare physical genius that allows him to pick up any sport or athletic discipline almost instantly, achieving a high level of proficiency and strategic understanding after only a few attempts."
       }
     ],
     "color": "#FFFFFF",
@@ -609,7 +612,7 @@
     "gen": 1,
     "name": "Michan",
     "nickname": "Michan Hasashi (née Yuukashi)",
-    "bio": "NOT REGISTERED YET",
+    "bio": "The gentle and sweet-natured daughter of an Author God, Michan’s early years were overshadowed by deceptive and malicious individuals who took advantage of her innocence, tricking her into believing their mistreatment was normal. The resulting trauma left her with a deep-seated fear of men and severe personal insecurities. \n\nHowever, through the unwavering support of genuine connections and a safe environment, she slowly unlearned her trauma, reclaimed her autonomy, and grew past her fears. Today, she lives a peaceful, fulfilling life, content and satisfied with the quiet happiness she earned for herself.",
     "birthdate": "Feb 14",
     "occupation": "Housewife / Professional Model",
     "cherishes": [
@@ -641,19 +644,18 @@
     "code": "mat",
     "gen": 1,
     "name": "Matsuda",
-    "nickname": "NOT REGISTERED YET",
+    "nickname": "Matsuda Yuukashi",
     "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
+    "birthdate": "November 7",
     "occupation": "NOT REGISTERED YET",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Firearms Collection",
+      "reading"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Strangers",
+      "Germs",
+      "Satoshi"
     ],
     "abilities": [
       {
@@ -676,19 +678,16 @@
     "code": "kai",
     "gen": 1,
     "name": "Kaito",
-    "nickname": "NOT REGISTERED YET",
+    "nickname": "Kaito Haruto",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "French Toast",
+      "Pay Day"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Attention"
     ],
     "abilities": [
       {
@@ -711,14 +710,12 @@
     "code": "min",
     "gen": 1,
     "name": "Minna",
-    "nickname": "NOT REGISTERED YET",
+    "nickname": "Minna Takashima/Shindou?",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Pastries"
     ],
     "dislikes": [
       "NOT REGISTERED YET",
@@ -746,7 +743,7 @@
     "code": "leo",
     "gen": 1,
     "name": "Leonardo",
-    "nickname": "NOT REGISTERED YET",
+    "nickname": "Leonardo Williams",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
@@ -781,7 +778,7 @@
     "code": "rka",
     "gen": 1,
     "name": "Rikka",
-    "nickname": "NOT REGISTERED YET",
+    "nickname": "Rikka Asaka nee Takahashi",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
@@ -816,7 +813,7 @@
     "code": "hir",
     "gen": 1,
     "name": "Hirotaka",
-    "nickname": "NOT REGISTERED YET",
+    "nickname": "Hirotaka Asaka",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
@@ -851,10 +848,10 @@
     "code": "mei",
     "gen": 1,
     "name": "Meili",
-    "nickname": "NOT REGISTERED YET",
+    "nickname": "Meili Yinqi",
     "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "birthdate": "April 12",
+    "occupation": "Secretary",
     "cherishes": [
       "NOT REGISTERED YET",
       "NOT REGISTERED YET",
@@ -921,7 +918,7 @@
     "code": "aik",
     "gen": 1,
     "name": "Aika",
-    "nickname": "NOT REGISTERED YET",
+    "nickname": "Aika Yuukashi nee Kobayashi",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
@@ -956,7 +953,7 @@
     "code": "mir",
     "gen": 1,
     "name": "Mira",
-    "nickname": "NOT REGISTERED YET",
+    "nickname": "Mira Liang",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
@@ -991,7 +988,7 @@
     "code": "len",
     "gen": 1,
     "name": "Leng",
-    "nickname": "NOT REGISTERED YET",
+    "nickname": "Leng Tian",
     "bio": "NOT REGISTERED YET",
     "birthdate": "NOT REGISTERED YET",
     "occupation": "NOT REGISTERED YET",
