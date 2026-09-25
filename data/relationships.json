@@ -273,5 +273,918 @@
     "title": "Unlikely Lifesaver",
     "specificTitle": "NOT REGISTERED YET",
     "bio": "Controlled as a weapon by the Satsujin Clan during the Battle for Rulnei, Rikki was nearly executed by Matsuda once defeated. Emma intervened, standing between them to defend Rikki as a victim of manipulation rather than a true enemy—saving his life and offering him a chance at redemption. Rikki owes Emma his life after she"
+  },
+  {
+    "id": "fum-sat",
+    "pair": [
+      "A1",
+      "B3"
+    ],
+    "type": "Uncle and Nephew",
+    "title": "A Different Side",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "It was always weird to Fumio how contrasting his dad's soft and calm demeneaur compared to Uncle Sato's loud and energetic one. He welcomes it though, its like he has two dads around for comfort."
+  },
+  {
+    "id": "fum-mic",
+    "pair": [
+      "A1",
+      "B4"
+    ],
+    "type": "Aunt and Nephew",
+    "title": "Bad Memories",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Fumio always loved how hospitable Auntie Michan is, but he can't help but remember the time as a kid, he'll always get choked by bosoms when Michan decides to hug him. It's way too awkward for him to bring it up in family gatherings..."
+  },
+  {
+    "id": "fum-mat",
+    "pair": [
+      "A1",
+      "B5"
+    ],
+    "type": "Legal Guardian",
+    "title": "The Appointed Uncle",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Meari HATED the idea that her son is the nephew of the one she loathes, but it was ultinately Hanzo's decision. Unfortunately for Matsuda, he hates it as much... Being forced to protect the living manifestation of all of his pet peeves."
+  },
+  {
+    "id": "fum-kai",
+    "pair": [
+      "A1",
+      "B6"
+    ],
+    "type": "Legal Guardian",
+    "title": "That one Babysitter",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Fumio would always recall his interactions with Uncle Kaito. Introducing him to such delightful food, but he worries about his french toast intake... He might explode one day."
+  },
+  {
+    "id": "fum-min",
+    "pair": [
+      "A1",
+      "B7"
+    ],
+    "type": "Legal Guardian",
+    "title": "The Missing Link",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Fumio thought Auntie Minna was pretty cool, being so kind and sweet, until she mysteriously stopped showing up. All that talk about being his mum's best friend... He wonders what happened to her."
+  },
+  {
+    "id": "fum-leo",
+    "pair": [
+      "A1",
+      "B8"
+    ],
+    "type": "Aquaintances",
+    "title": "Unlike Father Unlike Son",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Remembering Leonardo showing up in his childhood, Fumio can connect the dots with him and Makoto... He wasn't as cunning and dangerous as Makoto, but he can't help but be under the impression that they are hiding something... That's one thing in common."
+  },
+  {
+    "id": "fum-rka",
+    "pair": [
+      "A1",
+      "B9"
+    ],
+    "type": "Acquaintances",
+    "title": "\"Barbie Doll\" for a Mom",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Fumio always wondered whose genetics could make Karin. Looking at her mum... Yeah, its exactly what he envisioned. Great hair, curvy body, the \"dominant mommy\" vibes?\n \n\"That'll do...\", Fumio says, \"That'll do.\""
+  },
+  {
+    "id": "fum-mei",
+    "pair": [
+      "A1",
+      "B11"
+    ],
+    "type": "Legal Guardian",
+    "title": "Father's Old Admirer",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Finding out his Auntie Meili once had the hots for his dad, Fumio's respect for her grew exponentially. Even receiving attention from her, claiming that Meari and Hanzo's genetics mixed like jelly and peanut butter. Maybe as the symbol of women empowerment, she just likes how much of a girl he looks..."
+  },
+  {
+    "id": "fum-aki",
+    "pair": [
+      "A1",
+      "B12"
+    ],
+    "type": "Acquaintances",
+    "title": "Luckiest Man in the World",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Fumio met Akira through Auntie Meili, finding out that they hid their relationship from the public, and got busy as well. All Fumio could ever think was... \"Nice\"."
+  },
+  {
+    "id": "fum-aik",
+    "pair": [
+      "A1",
+      "B13"
+    ],
+    "type": "Legal Guardian",
+    "title": "A Nice Change of Pace",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "What Matsuda lacks in tolerating Fumio, Aika compensates. She enjoys the harmless pranks Matsuda had to suffer from him when he was just a wee-baby. It's the tough love he needs to learn, and she's thankful Fumio can teach him the hard way."
+  },
+  {
+    "id": "fum-mir",
+    "pair": [
+      "A1",
+      "B14"
+    ],
+    "type": "Legal Guardian",
+    "title": "Vyse's Go-To",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Mira bestowed Fumio the protection Vyse needs that caters to his introverted nature, so long as she promises him some fish crackers."
+  },
+  {
+    "id": "fum-len",
+    "pair": [
+      "A1",
+      "B15"
+    ],
+    "type": "Legal Guardian",
+    "title": "Hope for Young Blood",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Leng's view of his comrade's son is nothing but pure astonishment. Being able to live a peaceful life he wants while also making the old Authors proud demands his respect more than anyone would ever dare to imagine."
+  },
+  {
+    "id": "ali-set",
+    "pair": [
+      "A2",
+      "A8"
+    ],
+    "type": "Close Friends",
+    "title": "Ali-Setsu Scarlet Storm!",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "If you feel a Magnitude 5 Earthquake coming from the School Idol Club, don't fret. That's just two artists in the making, drowning in their field of ideas for the next festival. Someone get some Solar Panels and harvest that energy..."
+  },
+  {
+    "id": "ali-rik",
+    "pair": [
+      "A2",
+      "A10"
+    ],
+    "type": "Close Friends",
+    "title": "A Different Fumio",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "The more Alicia hangs out with Rikki, the more she realizes that Rikki's just a handicapped Fumio, which doesn't give her a reason to love him any less. Rikki's just happy to have a sister-figure, no matter how loud and wreckless."
+  },
+  {
+    "id": "ali-geo",
+    "pair": [
+      "A2",
+      "A11"
+    ],
+    "type": "Frenemies",
+    "title": "This is Getting Out of Hand...",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "George can't even handle a fraction of Fumio's madness... He can barely imagine handling both Hasashis at the same time.\n\nThat...sounded weird, but George would never word that better himself."
+  },
+  {
+    "id": "ali-mak",
+    "pair": [
+      "A2",
+      "A12"
+    ],
+    "type": "Acquaintances",
+    "title": "The Corrupt Secretary",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Makoto gives Alicia the creeps... She often wonders how he won the election of being a Student Council Member. Is he actually good at what he's doing? Did he bribe people with money? 'Cuz she'd admit, if she got paid enough, she'd start a campaign for him."
+  },
+  {
+    "id": "ali-meg",
+    "pair": [
+      "A2",
+      "A13"
+    ],
+    "type": "Friends",
+    "title": "Color Her World",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Alicia is an anxious person's dream. A big gateway for connections, and she respects her space, just the way she likes it. That's why she is Megumi's go-to for a good girls' night."
+  },
+  {
+    "id": "ali-mea",
+    "pair": [
+      "A2",
+      "B1"
+    ],
+    "type": "Aunt and Niece",
+    "title": "Fum-Fum's Mommy",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Alicia always saw Auntie Meari like she was a celebrity. Always owning the room whenever she went with her cool and collected demeneaur. That's why she wasn't surprised when she owned her own restauraunt, no man can ever resist such a beauty..."
+  },
+  {
+    "id": "ali-han",
+    "pair": [
+      "A2",
+      "B2"
+    ],
+    "type": "Uncle and Niece",
+    "title": "It's Always in the Eyes",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Back when they sported the same haircut, almost no one could tell the twins apart. That's why everytime they're in the same room, Alicia makes sure to spot which one is quieter, and which one...makes friends a lot."
+  },
+  {
+    "id": "ali-sat",
+    "pair": [
+      "A2",
+      "B3"
+    ],
+    "type": "Parent and Child",
+    "title": "Heritage from the Stars",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Alicia sees her daddy as her one true idol no athlete can compete. As she got older, she realized how much her dad holds back on her on the court. Only after she became competent was when he was giving it his all to his cheesecake."
+  },
+  {
+    "id": "ali-mic",
+    "pair": [
+      "A2",
+      "B4"
+    ],
+    "type": "Parent and Child",
+    "title": "The Apple and The Tree",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "It makes sense how much energy Alicia has, seeing how hyper of a couple her parents are. She does wish she would at least inherit her mum's figure... Maybe once she reaches adolescence."
+  },
+  {
+    "id": "ali-mat",
+    "pair": [
+      "A2",
+      "B5"
+    ],
+    "type": "Uncle and Niece",
+    "title": "Mini Michan",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Babysitting Alicia is as bad as Fumio, Matsuda says... Although he can't help and see a younger, happier version of his dear sister. That's something to make the pain of dealing with these kids tolerable..."
+  },
+  {
+    "id": "ali-kai",
+    "pair": [
+      "A2",
+      "B6"
+    ],
+    "type": "Acquaintances",
+    "title": "Mum's Co-Worker",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Alicia sees Uncle Kaito as that single guy who's always busy, thats why whenever he does show up, she expects gifts. Like, a lot. If you work a lot, then you must have a lot of money... \n\nOh, if only Alicia knew the real world."
+  },
+  {
+    "id": "ali-min",
+    "pair": [
+      "A2",
+      "B7"
+    ],
+    "type": "Legal Guardian",
+    "title": "The Rich Auntie",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Riku's big sister and one of Mum's Best Friends... She must be pretty loaded, Alicia thinks. Hoping she'd get some souvernirs, but instead her Auntie ends up being a no show... So much for that."
+  },
+  {
+    "id": "vys-riku",
+    "pair": [
+      "A3",
+      "A4"
+    ],
+    "type": "Best Friends",
+    "title": "Solitary Alliance",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Both prefer blending into the background whenever possible. A bind made clear by their childhood ties to the Hasashi cousins. Riku respects Vyse's quiet demeanor, while Vyse finds comfort in Riku's grounded nature amidst the constant chaos of their friend group."
+  },
+  {
+    "id": "vys-kar",
+    "pair": [
+      "A3",
+      "A6"
+    ],
+    "type": "Confidants",
+    "title": "The Unspoken Catalyst",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "As Emma's closest friend, Karin was the one who pushed her to finally make things official with Vyse. Though she secretly admitted to falling for Vyse's quiet charm herself, she chose to champion her best friend's happiness instead, keeping her own feelings to herself, projecting it through harmless teasing."
+  },
+  {
+    "id": "vys-fko",
+    "pair": [
+      "A3",
+      "A7"
+    ],
+    "type": "Close Friends",
+    "title": "The Former Flame",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Vyse was actually Fumiko's very first crush, even prompting her to write him a song in an attempt to win him over. Though it ended in a painful rejection, Fumiko handled the situation with grace, ensuring they made peace so they could remain in the same circle without any lingering tension or awkwardness."
+  },
+  {
+    "id": "vys-set",
+    "pair": [
+      "A3",
+      "A8"
+    ],
+    "type": "Friends",
+    "title": "The Uncrowned Prince",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Setsuna constantly gushes over Vyse's visuals, insisting he looks like he walked straight out of one of her favorite light novels and pushing him to try cosplaying.\n \nVyse politely took the compliment and secretly entertained the thought for a while, though his quiet nature kept him from ever actually stepping onto the stage."
+  },
+  {
+    "id": "vys-shi",
+    "pair": [
+      "A3",
+      "A9"
+    ],
+    "type": "Friends",
+    "title": "Cleared Misconceptions",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Shioriko initially confronted Vyse, assuming he had intentionally hurt Fumiko during her rejection. Once the misunderstanding was cleared up, Shioriko gained immense respect for Vyse's gentle honesty and mature handling of the situation, even admitting she wishes more people conducted themselves with his level of integrity."
+  },
+  {
+    "id": "vys-rik",
+    "pair": [
+      "A3",
+      "A10"
+    ],
+    "type": "Friends",
+    "title": "The Walking Experiment",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Vyse feels an overwhelming sense of pity for Rikki, unsettled by the unnatural experimentation done to Rikki's anatomy. He can barely fathom the horror of having one's body modified against their will, driving him to treat Rikki with extra care and quiet empathy."
+  },
+  {
+    "id": "vys-geo",
+    "pair": [
+      "A3",
+      "A11"
+    ],
+    "type": "Friends",
+    "title": "A Nice Change of Pace",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "In a circle dominated by relentless chaos, George finds Vyse to be a rare breath of fresh air. H genuinely respects him because out of everyone who teases him, Vyse's subtle humor is the only kind that is actually funny and completely tolerable."
+  },
+  {
+    "id": "vys-mak",
+    "pair": [
+      "A3",
+      "A12"
+    ],
+    "type": "One-Sided Rivals",
+    "title": "Bitter Obsession",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Vyse's relationship with Emma makes him the sole target of Makoto's intense, one-sided hatred, as Makoto views Emma as something that should belong to him. \n\nDriven by envy, Makoto tried relentlessly to dig into Vyse's past to find something to break him, only to be infuriated when Vyse's quiet composure refused to crack."
+  },
+  {
+    "id": "vys-meg",
+    "pair": [
+      "A3",
+      "A13"
+    ],
+    "type": "Friends",
+    "title": "A Quiet Endorsement",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Megumi feels a profound sense of comfort around him. Seeing his gentle and grounding nature firsthand, she openly supports his relationship with Emma, firmly believing that Vyse is exactly what Emma needs in her life."
+  },
+  {
+    "id": "vys-mea",
+    "pair": [
+      "A3",
+      "B1"
+    ],
+    "type": "Legal Guardian",
+    "title": "Striking Splendor",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Meari rarely hands out compliments on physical appearances, but even she couldn't hide her genuine impression at how strikingly mature Vyse grew up to be. Knowing his family line, she considers his refined composure completely expected. After all, he was raised by equally beautiful parents."
+  },
+  {
+    "id": "vys-han",
+    "pair": [
+      "A3",
+      "B2"
+    ],
+    "type": "Legal Guardian",
+    "title": "Echoes of Quiet Passion",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "During his visits to Fumio's house, Vyse picked up on how quiet Uncle Hanzo naturally is. But whenever Hanzo does speak, his words are so full of warmth and genuine kindness that Vyse feels a deep kinship with him, if not outright awe. Seeing his grounded demeanor only leaves Vyse completely baffled as to how Fumio turned out so wildly different from his own father."
+  },
+  {
+    "id": "vys-sat",
+    "pair": [
+      "A3",
+      "B3"
+    ],
+    "type": "Legal Guardian",
+    "title": "Unshakeable Integrity",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Satoshi holds immense respect for Vyse, constantly commending him for staying grounded, honoring his family, and resisting everyday temptations, a level of maturity he rarely sees in kids his age. He frequently teases Vyse that whoever manages to win his heart in the end is bound to be the luckiest girl in the world."
+  },
+  {
+    "id": "vys-mat",
+    "pair": [
+      "A3",
+      "B5"
+    ],
+    "type": "Legal Guardian",
+    "title": "An Incomplete Verdict",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Matsuda couldn't stand watching his adopted daughter and Vyse's painfully obvious romantic tension. \n\nWhile he initially disapproved and kept a sharp eye on him, watching Vyse's consistent integrity and genuine care proved he was the real deal, forcing Matsuda to begrudgingly admit that maybe Aika was right about the boy all along."
+  },
+  {
+    "id": "vys-rka",
+    "pair": [
+      "A3",
+      "B9"
+    ],
+    "type": "Acquaintances",
+    "title": "Unintentional Slip-Up",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Rikka was actually the one who accidentally let slip that Karin had a crush on Vyse. Upon realizing what she said, Vyse quietly promised to keep the secret to himself, fully aware of how badly Karin would freak out if she ever found out. A reaction that brought a rare, amused smile to Rikka's face."
+  },
+  {
+    "id": "vys-mei",
+    "pair": [
+      "A3",
+      "B11"
+    ],
+    "type": "Mentor and Student",
+    "title": "Between You and Me",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "As one of Leng's closest and most trusted comrades, Meili stepped up to become a vital mentor for Vyse. Knowing how strictly Leng opposed passing down their combat heritage, she actively helped train Vyse in his father's techniques behind his back, ensuring his legacy lives on through his son's growth."
+  },
+  {
+    "id": "vys-aki",
+    "pair": [
+      "A3",
+      "B12"
+    ],
+    "type": "Acquaintances",
+    "title": "Kids Nowadays...",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Akira was genuinely baffled when Vyse of all people joined in on poking fun at him for landing and \"getting freaky\" with Auntie Meili. \n\nShocked to see his pure image shatter, Akira called him out for not being the innocent kid he thought he was. Vyse just gave him a teasing smirk and casually asked him to keep it a secret, proving he’s got a mischievous side hidden under that quiet exterior."
+  },
+  {
+    "id": "vys-aik",
+    "pair": [
+      "A3",
+      "B13"
+    ],
+    "type": "Legal Guardian",
+    "title": "The Mastermind's Push",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Aika is fully and unapologetically supportive of Emma and Vyse's relationship, actively taking matters into her own hands to make sure they spend as much time together as possible. \n\nShe is the driving force behind their rapid progress, constantly pulling strings behind the scenes to assign Vyse as Emma's official partner for every event they're in."
+  },
+  {
+    "id": "vys-mir",
+    "pair": [
+      "A3",
+      "B14"
+    ],
+    "type": "Parent and Child",
+    "title": "Admiration of Ages",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Mira takes immense pride in her son, often wishing a boy with his looks and talent would become a full-fledged celebrity. However, she understands him far too well to push it, knowing the spotlight completely contradicts his quiet nature. \n\nEven so, simply hearing rumors of how surprisingly popular Vyse is back at Nijigasaki is more than enough to put a proud smile on her face."
+  },
+  {
+    "id": "vys-len",
+    "pair": [
+      "A3",
+      "B15"
+    ],
+    "type": "Parent and Child",
+    "title": "Pride in Your Legacy",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Vyse holds his prideful and stoic father in the highest regard, constantly hoping to bridge the quiet gap between them and connect on a deeper level. \n\nFortunately, pleasing Leng requires far less than Vyse thinks; beneath his strict exterior, Leng only wants the best for his son. Rather than forcing him into his own shadow, Leng’s true desire is simply to see Vyse forge a path genuinely built on his own passions."
+  },
+  {
+    "id": "riku-emm",
+    "pair": [
+      "A4",
+      "A5"
+    ],
+    "type": "Close Friends",
+    "title": "Sparks of Curiosity",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "To Emma, Riku is easily the smartest person she knows, and she loves spending time learning the intricate mechanics behind how he builds his gadgets. Even though his high-level explanations frequently leave her feeling completely dazed and ditzy, her confusion always gives way to genuine awe, leaving her endlessly astonished by just how brilliant he is."
+  },
+  {
+    "id": "riku-kar",
+    "pair": [
+      "A4",
+      "A6"
+    ],
+    "type": "Close Friends",
+    "title": "Unfathomable Genius",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Karin is constantly left bewildered by the sheer inner workings of Riku's brain, often wondering if his terrifying intellect stems from his lineage of a Youmu and a literal robot. Baffling mind aside, she is immensely grateful to have such a brilliant mind in her corner, relying on him as a dependable lifeline whenever schoolwork gets overwhelming."
+  },
+  {
+    "id": "riku-fko",
+    "pair": [
+      "A4",
+      "A7"
+    ],
+    "type": "Friends",
+    "title": "Exceptional Minds",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Riku teasingly considers Fumio one of the luckiest guys alive for ending up with his childhood crush—especially one who aged like fine wine. For her part, Fumiko holds Riku’s intellect in high regard, recognizing him as one of the exceedingly rare students at Nijigasaki capable of effortlessly breezing through Advanced Assessments."
+  },
+  {
+    "id": "riku-set",
+    "pair": [
+      "A4",
+      "A8"
+    ],
+    "type": "Friends",
+    "title": "Stage Safeguard",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Setsuna has always been eager to ride Riku's custom Aeroboard during a live performance, but Riku firmly and respectfully declines every time, prioritizing her safety above all else and preferring she express her passion through her own boundless energy. Undeterred, Setsuna is more than delighted to have him handle the stage's pyrotechnics instead to unleash the ultimate explosive performance."
+  },
+  {
+    "id": "riku-shi",
+    "pair": [
+      "A4",
+      "A9"
+    ],
+    "type": "Friends",
+    "title": "The Boundary Line",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Riku is one of the few people bold enough to snitch on Alicia directly to Shioriko, frequently serving as the catalyst for Alicia getting chewed out by the Student Council Member. While both of them genuinely wish Alicia would act a bit more orderly, they secretly hold a mutual agreement: completely stripping away her wild, chaotic charm would undo what makes her who she is."
+  },
+  {
+    "id": "riku-rik",
+    "pair": [
+      "A4",
+      "A10"
+    ],
+    "type": "Friends",
+    "title": "Biological Marvels",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "While studying Rikki's unique anatomy, Riku is left constantly unsettled by just how cruel and inhumane the Satsujin Clan's body modifications truly are.\n\nYet, from a purely scientific standpoint, he can't help but be genuinely impressed. The fact that Rikki can seamlessly store his massive signature tentacles internally within his own body is a terrifying engineering feat that Riku grudgingly commends."
+  },
+  {
+    "id": "riku-geo",
+    "pair": [
+      "A4",
+      "A11"
+    ],
+    "type": "Friends",
+    "title": "The Underlying Anomaly",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Riku easily joined in on the collective banter and teasing surrounding George, but beneath the jokes, his analytical mind detected an unsettling anomaly he couldn't quite pinpoint, something subtly tying back to Fumio's parents. Despite his growing suspicion, Riku keeps his theories to himself for now, fully aware of how touchy and reactive George gets whenever the topic shifts anywhere near his personal life."
+  },
+  {
+    "id": "riku-mak",
+    "pair": [
+      "A4",
+      "A12"
+    ],
+    "type": "Uncle and Nephew",
+    "title": "The Heavy Weight of Kin",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Makoto looks at Riku with a mix of envy and bitter resentment, watching him enjoy the normal childhood Makoto was denied through his parents' baggage. Understanding the heavy chip on his nephew's shoulder doesn't stop Riku from stepping up as the responsible relative, always standing firm to check Makoto and bring him down whenever his reckless outbursts threaten the group."
+  },
+  {
+    "id": "riku-meg",
+    "pair": [
+      "A4",
+      "A13"
+    ],
+    "type": "Nephew and Niece",
+    "title": "All in the Family",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Megumi finds a genuine sense of family warmth in  her Uncle-Brother Riku, a comforting bond she never got to experience in her own troubled household. For Riku, spending time with his niece offers something just as deeply meaningful, as he constantly sees the clear, living reflection of his elder sister Minna in her, fulfilling a quiet wish to stay connected to his sister's presence."
+  },
+  {
+    "id": "riku-mea",
+    "pair": [
+      "A4",
+      "B1"
+    ],
+    "type": "Legal Guardian",
+    "title": "Model Behavior",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Riku is always on his absolute best behavior whenever Auntie Meari is around, making sure never to give her a single reason to lose her cool. He is convinced that tangoing with her bad side would be a special kind of hell he couldn't escape, so he wisely chooses absolute compliance over testing those waters."
+  },
+  {
+    "id": "riku-han",
+    "pair": [
+      "A4",
+      "B2"
+    ],
+    "type": "Legal Guardian",
+    "title": "Test of Time",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Riku is genuinely fascinated by how Uncle Hanzo managed to build such a strong bond with Auntie Meari despite his neurodivergent background and complex past. Whenever Riku brings it up, Hanzo simply chuckles and explains that it’s a long story—one where shared history, patience, and surviving life's trials together ultimately forged an unbreakable bond between them."
+  },
+  {
+    "id": "riku-sat",
+    "pair": [
+      "A4",
+      "B3"
+    ],
+    "type": "Legal Guardian",
+    "title": "Playing it Safe",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Riku is deeply relieved that Uncle Sato is one of the most relaxed, chill figures in their circle, keeping his expectations reasonable and easy to handle. \n\nEven so, Riku maintains a healthy level of caution around him, knowing that when the time comes, he will need Satoshi's formal approval regarding his relationship with Alicia. For now, Riku relies on steady consistency, determined to prove his worth and earn his full trust over time."
+  },
+  {
+    "id": "riku-mic",
+    "pair": [
+      "A4",
+      "B4"
+    ],
+    "type": "Legal Guardian",
+    "title": "The Perfect Blueprint",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Michan has always been well aware of Riku's deep crush on Alicia, and she trusts his character enough to take him under her wing with tailored advice on how to be an exceptional partner. It is a seamless win-win: Riku gets invaluable guidance toward winning the heart of the girl he adores, while Michan gets to subtly shape the ideal companion for her daughter without ever overstepping her boundaries."
+  },
+  {
+    "id": "riku-mat",
+    "pair": [
+      "A4",
+      "B5"
+    ],
+    "type": "Acquaintances",
+    "title": "Echoes of Misstep",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Matsuda deeply respects Riku's sharp mind and his ambitious drive to join the ranks of the Irregular Hunters, though he maintains a vigilant, watchful eye on the young blood. Though Matsuda would never openly admit it, his caution is driven by a deep-seated fear of history repeating itself, unwilling to let Alicia suffer or get hurt at the hands of an incompetent partner."
+  },
+  {
+    "id": "riku-aki",
+    "pair": [
+      "A4",
+      "B12"
+    ],
+    "type": "Acquaintances",
+    "title": "A Volatile Recommendation",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Akira genuinely believes the Irregular Hunters could benefit immensely from a sharp, creative mind like Riku's, constantly hyping up his potential to join the roster. The only hurdle is Riku's absolute refusal to move past Akira’s endless, shameless bragging about sleeping with his Auntie Meili—making every attempt at a serious pitch devolve into pure exasperation."
+  },
+  {
+    "id": "emm-fko",
+    "pair": [
+      "A5",
+      "A7"
+    ],
+    "type": "Friends",
+    "title": "Unspoken Grace",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Fumiko kept her past feelings for Vyse to herself for a long time, unwilling to cause unnecessary friction after being turned down due to his commitment to Emma. However, after getting to know Emma personally, Fumiko couldn't help but admire her, eventually confessing that Emma truly is the perfect partner for Vyse, a far cry from a certain someone who forces people and circumstances to bend to his own selfish agenda."
+  },
+  {
+    "id": "emm-set",
+    "pair": [
+      "A5",
+      "A8"
+    ],
+    "type": "Best Friends",
+    "title": "Rainbow-Colored Passions!",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "As two of the original founding members of the school idol club, Emma and Setsuna share a powerful creative chemistry rooted in their absolute love for school idols. Their unwavering enthusiasm creates a perpetual feedback loop, continually pushing both of them to elevate their craft, refine their performances, and inspire one another to reach new heights."
+  },
+  {
+    "id": "emm-shi",
+    "pair": [
+      "A5",
+      "A9"
+    ],
+    "type": "Best Friends",
+    "title": "Love the Life You Live",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Emma serves as a peaceful safe space for Shioriko, gently lifting the heavy burden of duty and high expectations she constantly carries on her shoulders. In Emma's warm, welcoming presence, the tension in Shioriko's naturally stiff, composed demeanor completely melts away, giving her a rare and precious opportunity to simply breathe and be herself."
+  },
+  {
+    "id": "emm-geo",
+    "pair": [
+      "A5",
+      "A11"
+    ],
+    "type": "Friends",
+    "title": "A Gentle Sanctuary",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "George finds himself completely captivated by Emma's undeniable grace, drawn to the angelic aura and comforting charm that effortlessly puts his constant anxieties at ease. Despite finding solace in her presence, George respectfully declines any of her offers to pamper him, choosing to maintain a polite distance to honor her dignity, mindful of the fact that they aren't especially close."
+  },
+  {
+    "id": "emm-mak",
+    "pair": [
+      "A5",
+      "A12"
+    ],
+    "type": "Unrequited",
+    "title": "Captive to the Gemstones",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Even Makoto's bitter hostility dissolved in the face of Emma's genuine generosity, completely unbothered even after he publicly humiliated and intimidated her. Struck by her unconditional forgiveness, Makoto became dangerously obsessed with her, endlessly fixated on her striking turquoise-gemstone eyes. Realizing brute force won't work on someone so disarmingly soft, he has resolved to shift tactics, calculating a far more insidious approach to pull her into his orbit and get exactly what he wants."
+  },
+  {
+    "id": "emm-meg",
+    "pair": [
+      "A5",
+      "A13"
+    ],
+    "type": "Best Friends",
+    "title": "Shield Against the Shadow",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Emma was Megumi's very first friend, earning a place of permanent gratitude and deep affection in her heart. Recognizing the genuine warmth Emma brought into her life, Megumi has made it her personal mission to protect her, especially from the dangerous, obsessive tendencies of her own twin brother. Megumi routinely throws up roadblock after roadblock, making her blatant disapproval crystal clear whenever Makoto tries to maneuver his way close to Emma."
+  },
+  {
+    "id": "emm-mea",
+    "pair": [
+      "A5",
+      "B1"
+    ],
+    "type": "Legal Guardian",
+    "title": "Employee of the Year",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "During the early days of Meari's diner, Emma and the rest of the gang spent their free time helping out on the floor and keeping operations running. As a gesture of lifelong gratitude for helping lay the groundwork for Parhelion's eventual growth, Meari granted them permanent \"Charter Member\" status, entitling them to eat at her restaurant for free whenever they visit."
+  },
+  {
+    "id": "emm-han",
+    "pair": [
+      "A5",
+      "B2"
+    ],
+    "type": "Legal Guardian",
+    "title": "A Soft Harbor",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Matsuda always reminded Emma to show extra tenderness toward her Uncle Hanzo, knowing the immense hardship and pain he carried from the majority of his life. Taking the advice to heart without a second thought, Emma immediately showered Hanzo with warmth and gentle care, proving to him through every quiet gesture that she is yet another soul who values him deeply and refuses to let him feel alone."
+  },
+  {
+    "id": "emm-sat",
+    "pair": [
+      "A5",
+      "B3"
+    ],
+    "type": "Uncle and Niece-in-law",
+    "title": "Innocent Wonder",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Satoshi goes out of his way to ensure Emma has a wonderful time whenever their paths cross, bringing a bright, energetic warmth to every conversation. Emma genuinely adores his lively company, leaving her endlessly puzzled as to why her papa harbors such deep disdain and loathing toward a man who seems so remarkably sweet."
+  },
+  {
+    "id": "emm-mic",
+    "pair": [
+      "A5",
+      "B4"
+    ],
+    "type": "Aunt and Niece",
+    "title": "A Gentle Contrast",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Emma shares a remarkably sweet and easygoing bond with her Auntie Michan, feeling a natural, comforting warmth whenever they spend time together to the point its more obvious that they are related than the adoptive father. She remains endlessly fascinated by how remarkably different Michan's soft, lively personality is compared to the strict, immovable demeanor of her papa."
+  },
+  {
+    "id": "emm-mat",
+    "pair": [
+      "A5",
+      "B5"
+    ],
+    "type": "Adopted Parent and Child",
+    "title": "A Second Chance",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "As a stern, prideful man hardened by life, raising Emma proved to be a transformative shift for Matsuda, offering him the rare privilege of fatherhood and a gentle presence to truly cherish. Haunted by the mistakes and overbearing control of his past with Michan, Matsuda is determined to do right by Emma, promising to place his absolute trust in her and grant her the freedom she deserves to grow on her own terms."
+  },
+  {
+    "id": "emm-rka",
+    "pair": [
+      "A5",
+      "B9"
+    ],
+    "type": "Legal Guardian",
+    "title": "The Unofficial Co-Parent",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Rikka is profoundly grateful for Emma's presence, relying on her to keep Karin grounded and out of trouble whenever she isn't around. She practically views Emma as Karin's second mother at this point, though Rikka quietly hopes that taking on such a massive responsibility doesn't leave Emma completely burnt out from the stress."
+  },
+  {
+    "id": "emm-mei",
+    "pair": [
+      "A5",
+      "B11"
+    ],
+    "type": "Legal Guardian",
+    "title": "Cherish Your Childhood",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Meili harbors a deep fondness for Emma's endearing naivety and boundless energy, quietly admiring her pure, child-like heart full of wonder and unyielding dreams. Wishing nothing but the absolute best for her future, Meili gently guides Emma whenever they meet, stoking her bright optimism while continually encouraging her to blossom into a strong, capable, and independent woman."
+  },
+  {
+    "id": "emm-aik",
+    "pair": [
+      "A5",
+      "B13"
+    ],
+    "type": "Adopted Parent and Child",
+    "title": "Unconditional Hearth",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Aika pours her full heart into raising Emma, going out of her way to ensure she never feels like anything less than her trueborn child. Constantly surrounding her with warmth, reassurance, and unwavering support for all of her dreams, Aika serves as the solid emotional foundation that gives Emma the confidence to pursue her passions without fear."
+  },
+  {
+    "id": "emm-mir",
+    "pair": [
+      "A5",
+      "B14"
+    ],
+    "type": "Legal Guardian",
+    "title": "A New Breath of Life",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Mira is deeply grateful for Emma's impact on their lives, recognizing how her presence brought genuine warmth and animation to Vyse during a time when he showed little to no emotion. Seeing the profound change in him, Mira warmly supports their bond, encouraging Emma to cherish Vyse, grow alongside him, and continuously inspire one another to become better versions of themselves."
+  },
+  {
+    "id": "emm-len",
+    "pair": [
+      "A5",
+      "B15"
+    ],
+    "type": "Legal Guardian",
+    "title": "Silent Shield",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Emma initially felt intimidated by Leng's naturally quiet demeanor and unintentionally cold presence, often unsure of how to approach him. However, her unease melted away upon realizing that Leng harbors deep gratitude for her, viewing her bond with Vyse as a transformative force in his life. Leng has since made his intentions clear, offering her a quiet sense of security by promising that she will always be safe under his protection."
+  },
+  {
+    "id": "kar-fko",
+    "pair": [
+      "A6",
+      "A7"
+    ],
+    "type": "Confidants",
+    "title": "Beauty in the Eye of the Beholder",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Karin and Fumiko love spending their quality time hanging out and enjoying classic, effortless \"girly stuff\" together. Karin fully believes that Fumiko harbors the natural beauty to be a high-end model herself, frequently hyping up her potential. Fumiko, on the other hand, stubbornly rejects the idea and convinced her own awkwardness and inability to strike a natural pose in ridiculous, high-fashion outfits completely disqualifies her from ever stepping onto a runway."
+  },
+  {
+    "id": "kar-set",
+    "pair": [
+      "A6",
+      "A8"
+    ],
+    "type": "Close Friends",
+    "title": "The Unsolved Mystery",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Karin was the single person sharp enough to deduce that Setsuna Yuki and Nana Nakagawa were actually the same person. Rather than blowing open Nijigasaki's \"mystery of the decade\" for the clout, Karin quietly chose to keep the secret locked away, valuing Setsuna's trust and their friendship far more than the thrill of exposing the truth."
+  },
+  {
+    "id": "kar-shi",
+    "pair": [
+      "A6",
+      "A9"
+    ],
+    "type": "Close Friends",
+    "title": "Sparks of Ambition",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Karin opened up to a curious Shioriko about her roots, revealing how she was once just an ordinary countryside girl before stumbling upon fashion magazines that ignited her dream to become a model. Hearing Karin's journey struck a deep chord with Shioriko, inspiring her to take control of her own destiny and make bold life choices driven by what she genuinely loves rather than rigid expectations."
+  },
+  {
+    "id": "kar-rik",
+    "pair": [
+      "A6",
+      "A10"
+    ],
+    "type": "Friends",
+    "title": "Calm After the Storm",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Rikki felt deep remorse for the unsaid trouble he had caused during his time under enemy control, eventually offering Karin a sincere and long-overdue apology. Understanding that he was merely an unwilling pawn in a cruel game, Karin offered her full forgiveness without hesitation. Now, with the past put to rest, she takes on the role of another big sister in his life, guiding a version of Rikki that feels much calmer and more in control of himself."
+  },
+  {
+    "id": "kar-geo",
+    "pair": [
+      "A6",
+      "A11"
+    ],
+    "type": "Acquaintances",
+    "title": "I got nothing",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Nothing particularly notable ever occurs between Karin and George. They simply maintain a quiet, mutual distance, opting to politely ignore each other whenever their paths happen to cross."
+  },
+  {
+    "id": "kar-mak",
+    "pair": [
+      "A6",
+      "A12"
+    ],
+    "type": "Ex-\"Lovers\"",
+    "title": "Transactional Fallout",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Karin and Makoto were once in a strictly strategic, calculated relationship, a purely transactional arrangement used to extract high-value intelligence from each other until it served no further purpose. Since dropping the facade, Karin harbors an intense, burning hatred for Makoto, utterly repulsed by his smug, snarky attitude and infuriated by how effortlessly he gets away with being a manipulative, rude bastard who constantly hurts her friends."
+  },
+  {
+    "id": "kar-meg",
+    "pair": [
+      "A6",
+      "A13"
+    ],
+    "type": "Confidants",
+    "title": "Unexpected Night Owls",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Karin frequently takes on a protective, teasing elder-sister role with Megumi, keeping a watchful eye over her during their group outings. Whenever the girls gather for a night out, the two surprisingly end up talking far more than anyone would expect, forging an unexpectedly deep, comfortable connection that catches the rest of the group off guard."
+  },
+  {
+    "id": "kar-rka",
+    "pair": [
+      "A6",
+      "B9"
+    ],
+    "type": "Parent and Child",
+    "title": "The Black Sheep",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "Karin does seem to only inherit her mum's looks. Her choice of solitude and disinterest in being a Student Council Member seems to be stemmed from her dad..."
+  },
+  {
+    "id": "kar-hir",
+    "pair": [
+      "A6",
+      "B10"
+    ],
+    "type": "Parent and Child",
+    "title": "Role Reversal",
+    "specificTitle": "NOT REGISTERED YET",
+    "bio": "NOT REGISTERED YET"
   }
 ]
