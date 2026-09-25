@@ -7,7 +7,7 @@
     "nickname": "Fumio Hasashi",
     "bio": "A mischievous boy who thrives on his over-the-top confidence, optimism and unhinged humor.\n\nAs a kid influenced by his treasured memories and passions, Fum-Fum faces the abnormal world he lives in with a smile that, in his own words, could probably last him a decade or two.",
     "birthdate": "September 16",
-    "occupation": "Student/Spirit World Warrior in Training",
+    "occupation": "Student / Spirit World Warrior in Training",
     "cherishes": [
       "Fried Food",
       "Sentai Figures",
@@ -48,7 +48,7 @@
     "birthdate": "October 11",
     "occupation": "Student Athlete",
     "cherishes": [
-      "Sporty Fashion",
+      "Gyaru Fashion",
       "Ball Sports",
       "Money"
     ],
@@ -102,7 +102,7 @@
       },
       {
         "name": "Figure Skater",
-        "desc": "Zero-friction across any terrain at will, allows him to skate effortlessly (and gracefully) at high speeds."
+        "desc": "Zero-friction across any terrain at will, allows him to skate effortlessly (and gracefully) at high speeds.\n Ability 3: Phase Submersion - Can temporarily phase through solid structures like walls or ground by holding his breath, treating solid matter like a liquid medium."
       },
       {
         "name": "Phase Submersion",
@@ -123,11 +123,10 @@
     "nickname": "Riku.EXE Shindou",
     "bio": "The only son of the Shindou Family, a true boy genius.\n\nHe tries everything he can to be more of his father, masking his shortcomings behind a cold and abrasive exterior. But deep inside resides his mother's heart that treats every living thing with respect.",
     "birthdate": "August 29",
-    "occupation": "Student/Tech Specialist",
+    "occupation": "Student / Tech Specialist",
     "cherishes": [
       "Innovation",
-      "Fighting Games",
-      "Skipping Useless Classes"
+      "Fighting Games"
     ],
     "dislikes": [
       "Process of getting a Degree"
@@ -181,7 +180,7 @@
       },
       {
         "name": "Maid Persona",
-        "desc": "\"Big sister\" personality lets her help people regardless of intense tasks."
+        "desc": "\"Big sister\" personality lets her help people regardless of intense tasks.\n\nOWNED BY LOVE LIVE NIJIGASAKI"
       }
     ],
     "color": "#FFFFFF",
@@ -199,7 +198,7 @@
     "nickname": "Karin Asaka",
     "bio": "The sophisticated beauty from the countryside who is the manifestation of the word \"alluring\".\n\nShe may look too cool and seductive to be swayed, but get to know her more and she'd be more akin to the word \"aloof\". It depends on you if that's a turn-off, or the complete opposite. Either way, she's not letting you see that side of hers.",
     "birthdate": "June 29",
-    "occupation": "Student/Amateur Model",
+    "occupation": "Student / Amateur Model",
     "cherishes": [
       "Her performance identity",
       "Pandas"
@@ -219,7 +218,7 @@
       },
       {
         "name": "Psychological Subterfuge",
-        "desc": "Master of social deception, seamlessly extracting high-value intelligence from targets for her and her team's benefit."
+        "desc": "Master of social deception, seamlessly extracting high-value intelligence from targets for her and her team's benefit.\n\nOWNED BY LOVE LIVE NIJIGASAKI"
       }
     ],
     "color": "#FFFFFF",
@@ -272,15 +271,15 @@
     "code": "set",
     "gen": 2,
     "name": "Setsuna",
-    "nickname": "Setsuna Yuki/Nana Nakagawa",
+    "nickname": "Setsuna Yuki / Nana Nakagawa",
     "bio": "The Student Council President's alter ego who became an urban legend in Nijigasaki High. An endless source of passion, energy and charisma.\n\nShe's not afraid to show enthusiasm for her obsessions, sometimes she just can't help it. If the stars align, we might see her favorite light novel referenced in her next live performance.",
     "birthdate": "August 8",
-    "occupation": "School Idol/Student Council President",
+    "occupation": "School Idol / Student Council President",
     "cherishes": [
       "Anime",
       "manga",
       "school idols",
-      "c̶̨̎o̴̦̽͌o̷̼̮̓k̶̤̲̀i̴̢͑̍n̷̖̼̏g̴͂ͅ"
+      "c̶̨̎o̴̦̽͌o̷̼̮̓k̶̤̲̀i̴̢͑̍n̷̖̼̏g̴͂ͅ"
     ],
     "dislikes": [
       "Strict Restrictions",
@@ -313,7 +312,7 @@
     "gen": 2,
     "name": "Shioriko",
     "nickname": "Shioriko Mifune",
-    "bio": "A serious and meticulous girl who believes every action must serve a clear purpose.\n\nShe approaches relationships like a master strategist, observing from afar to help everyone reach their true potential—even if her blunt honesty makes her come across as cold at first. Despite that, she is still a good person who genuinely wants to help others, and often yearns to connect with others deep down.",
+    "bio": "A serious and meticulous girl who believes every action must serve a clear purpose.\n\nShe observes from afar to help everyone reach their true potential—even if her blunt honesty makes her come across as cold at first. Despite that, she is still a good person who genuinely wants to help others, and often yearns to connect with others deep down.",
     "birthdate": "October 5",
     "occupation": "Student Council Member",
     "cherishes": [
@@ -352,7 +351,7 @@
     "gen": 2,
     "name": "Rikki",
     "nickname": "Rikki Yinqi",
-    "bio": "An unstable, nameless artificial human created by the Nefarious Satsujin Clan through the combined blood of two Authors.\n\nGiven the name \"Rikki\" by Fumio after being taken in by Meili, his artificial anatomy leaves him with an unstable physical structure—causing him to shiver uncontrollably and act noticeably strange. Despite his bizarre bodily quirks, he is completely healthy and unbothered by them. Having escaped his chaotic creation, he asks for nothing more than an ordinary life free from trauma and conflict.",
+    "bio": "An unstable, nameless artificial human created by the Nefarious Satsujin Clan through the combined blood of two Authors.\n\nGiven the name \"Rikki\" by Fumio, his artificial anatomy leaves him with an unstable physical structure—causing him to shiver uncontrollably and act noticeably strange. Despite his bizarre bodily quirks, he is completely healthy and unbothered by them. Having escaped his chaotic creation, he asks for nothing more than an ordinary life free from trauma and conflict.",
     "birthdate": "May 12",
     "occupation": "Student",
     "cherishes": [
@@ -392,7 +391,7 @@
     "nickname": "George Fujima",
     "bio": "Ask him where he’s from, what's his story, or why he is what he is, and George will either change the subject or give you the cold shoulder.\n\nWhat could the answer be to his reasons of being such an enigma? It's either he's hiding from something... or just really dramatic.",
     "birthdate": "Unknown, Refuses to state",
-    "occupation": "Student/Delivery Driver",
+    "occupation": "Student / Delivery Driver",
     "cherishes": [
       "Ideal Daily Routine",
       "Setsuna's music"
@@ -503,7 +502,7 @@
     "nickname": "Meari Hasashi (née Watanabe)",
     "bio": "Abducted at a young age, Meari was forced into the brutal training of a Spirit World Warrior, molded specifically as an instrument for world destruction. The immense trauma fractured her psyche, splitting her original whimsical, lighthearted spirit off into a distinct alternate personality while her primary persona turned cold, distant, and survival-driven. \n\nAfter escaping the exploiter's grasp, she found a warm, nurturing environment during her teenage years that allowed her past wounds to heal, eventually enabling both fractured sides of her identity to reconcile and merge into a single, complete self. Today, she has buried her dark past to fulfill her true dream as a well-renowned chef.",
     "birthdate": "September 8",
-    "occupation": "Restaurateur/Spirit World Warrior",
+    "occupation": "Restaurateur / Spirit World Warrior",
     "cherishes": [
       "Matcha",
       "Culinary Arts"
@@ -575,7 +574,7 @@
     "gen": 1,
     "name": "Satoshi",
     "nickname": "Satoshi Hasashi",
-    "bio": "Blessed with exceptional talent and physical prowess from a young age, Satoshi was widely expected to achieve greatness. Despite the constant praise, encounters with poverty during his childhood taught him to remain grounded, humble, and deeply appreciative of his gifts. His life took a drastic turn when he uncovered a long-kept family secret: the existence of a twin brother hidden from both him and his younger sister. \n\nAbandoning his comfortable life, he embarked on a lengthy search that eventually led him to Uranoshiya High School. Reunited with his past, he now works as the school’s gym teacher and varsity basketball coach, determined to instill the discipline and mentality needed to bring the institution its very first championship.",
+    "bio": "Blessed with exceptional talent and physical prowess from a young age, Satoshi was widely expected to achieve greatness. Despite the constant praise, encounters with people in poverty during his childhood taught him to remain grounded, humble, and deeply appreciative of his gifts. His life took a drastic turn when he uncovered a long-kept family secret: the existence of a twin brother hidden from both him and his younger sister. \n\nAbandoning his comfortable life, he embarked on a lengthy search that eventually led him to Uranoshiya High School. He now works as the school’s gym teacher and varsity basketball coach, determined to instill the discipline and mentality needed to bring the institution its very first championship.",
     "birthdate": "August 8",
     "occupation": "PhysEd Teacher / Active Reservist",
     "cherishes": [
@@ -621,16 +620,21 @@
       "Crepes"
     ],
     "dislikes": [
-      "Military Operations"
+      "Military Operations",
+      "Deceit"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Alchemical Concoctions",
+        "desc": "Brews potions to heal, harm, or manipulate target behavior and status."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Scythe Mastery",
+        "desc": "Wields a scythe for wide-reach, high-lethality melee combat."
+      },
+      {
+        "name": "Unqualified Triage",
+        "desc": "Performs fast, effective emergency first aid using raw instinct and improvised materials."
       }
     ],
     "color": "#FFFFFF",
@@ -645,7 +649,7 @@
     "gen": 1,
     "name": "Matsuda",
     "nickname": "Matsuda Yuukashi",
-    "bio": "NOT REGISTERED YET",
+    "bio": "The son of an Author God, Matsuda was subjected to ruthless, military-grade firearms training from a young age to forge him into an elite S-Class Soldier. His life became entirely defined by a single-minded vow: to protect his sister from any further pain, regardless of the toll it took on his own safety.\n\nAfter integrating into Michan’s circle, he slowly unlearned his hyper-vigilance, let down his guard, and built genuine trust with others. Today, he lives as a calm, settled family man, resting easy with the peace he fought so hard to secure and the knowledge that his sister is is in the hands of a good, semi-tolerable man",
     "birthdate": "November 7",
     "occupation": "NOT REGISTERED YET",
     "cherishes": [
@@ -659,12 +663,16 @@
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Eagle Precision",
+        "desc": "Hits virtually any target with near-perfect accuracy using ranged firearms."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Counter Mastery",
+        "desc": "Executes high-level hand-to-hand combat maneuvers designed to parry and counter incoming strikes."
+      },
+      {
+        "name": "Akuma's Heritage",
+        "desc": "Taps into his divine bloodline to temporarily augment all physical traits and combat abilities."
       }
     ],
     "color": "#FFFFFF",
@@ -710,26 +718,31 @@
     "code": "min",
     "gen": 1,
     "name": "Minna",
-    "nickname": "Minna Takashima/Shindou?",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
+    "nickname": "Minna Shindou (née Takashima)",
+    "bio": "Born into the Takashima family, Minna was disowned early in life and sought refuge in literature, using books to cope with isolation while developing an exceptionally high IQ. Despite being shy and plagued by self-doubt, her warmth naturally draws people to her, making her surprisingly adept at forging deep connections.\nIn her adulthood, she believed she was living her absolute dream beside her childhood crush, only to suffer a devastating betrayal when she was abandoned and replaced once he grew bored of her. Devastated by the heartbreak, Minna now lives in complete isolation, cutting off all contact from both her friends and family.",
+    "birthdate": "March 25",
+    "occupation": "Unknown",
     "cherishes": [
-      "Pastries"
+      "Pastries",
+      "Reading",
+      "Baking"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Abandonment",
+      "Excercise"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Genius Intellect",
+        "desc": "Uses her high IQ and extensive literary knowledge to analyze situations, spot patterns, and solve complex problems rapidly."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Magnetic Presence",
+        "desc": "Unconsciously projects a gentle, relatable aura that lowers the guards of those around her and earns their trust."
+      },
+      {
+        "name": "Absolute Reclusion",
+        "desc": "Enters a state of complete emotional and sensory detachment, making her untraceable and difficult to reach or influence."
       }
     ],
     "color": "#FFFFFF",
@@ -778,9 +791,9 @@
     "code": "rka",
     "gen": 1,
     "name": "Rikka",
-    "nickname": "Rikka Asaka nee Takahashi",
+    "nickname": "Rikka Asaka (née Takahashi)",
     "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
+    "birthdate": "December 24",
     "occupation": "NOT REGISTERED YET",
     "cherishes": [
       "NOT REGISTERED YET",
@@ -849,27 +862,29 @@
     "gen": 1,
     "name": "Meili",
     "nickname": "Meili Yinqi",
-    "bio": "NOT REGISTERED YET",
+    "bio": "As the Princess of the Grand Kingdom of Rulnei, Meili grew tired of passively waiting for a proper suitor to claim her hand in marriage. Seeking purpose, she mistakenly aligned herself with the Satsujin Clan, only to be manipulated into helping conquer civilizations before being callously discarded once her usefulness ran out.\n\nHer awakening as an Author offered her a second chance at life, allowing her to claim true independence, earn the honor of her royal title on her own terms, and accept that her homeland no longer required her as a princess. Though saddened in adulthood as her original companion group drifted apart onto separate paths, she eventually found renewed purpose and a vibrant new circle while working alongside the Irregular Hunters.",
     "birthdate": "April 12",
-    "occupation": "Secretary",
+    "occupation": "Military Secretary",
     "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Meat",
+      "Strong Women"
     ],
     "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
+      "Being Restrained",
+      "Vegetables"
     ],
     "abilities": [
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Gale Force",
+        "desc": "Controls and manipulates sharp, high-velocity wind currents granted by her Author status."
       },
       {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
+        "name": "Hidden Brawn",
+        "desc": "Leverages her sleeper build to hide her immense physical strength that rivals the brawn of seasoned male fighters."
+      },
+      {
+        "name": "Combat Sambo",
+        "desc": "Utilizes specialized military grappling, throws, and striking techniques to neutralize opponents in close quarters."
       }
     ],
     "color": "#FFFFFF",
