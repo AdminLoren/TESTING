@@ -47,6 +47,14 @@ COTA.lore = (function () {
       .filter((c) => c.comingSoonGroup === "Seniors")
       .map(comingSoonCardTemplate)
       .join("");
+
+    const authorGodsWrap = document.getElementById("lore-select-authorgods");
+    if (authorGodsWrap) {
+      authorGodsWrap.innerHTML = comingSoonCharacters
+        .filter((c) => c.comingSoonGroup === "Author Gods")
+        .map(comingSoonCardTemplate)
+        .join("");
+    }
   }
 
   function renderGrids() {
