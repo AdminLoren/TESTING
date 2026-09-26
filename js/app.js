@@ -43,7 +43,7 @@ COTA.app = (function () {
     });
     document.querySelectorAll("[data-goto-tab]").forEach((btn) => {
       btn.addEventListener("click", () => {
-        COTA.audio.playSfx("char_confirm.mp3");
+        COTA.audio.playSfx("ui_click.mp3");
         goToTab(btn.dataset.gotoTab);
       });
     });
