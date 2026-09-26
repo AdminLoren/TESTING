@@ -754,37 +754,10 @@
   {
     "id": "B8",
     "code": "leo",
-    "gen": 1,
     "name": "Leonardo",
-    "nickname": "Leonardo Williams",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
-    "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
-    ],
-    "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
-    ],
-    "abilities": [
-      {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
-      },
-      {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
-      }
-    ],
-    "color": "#FFFFFF",
-    "bgm": {
-      "file": "bgm_leo.mp3",
-      "title": "TO BE ASSIGNED"
-    }
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
   },
   {
     "id": "B9",
@@ -824,37 +797,10 @@
   {
     "id": "B10",
     "code": "hir",
-    "gen": 1,
     "name": "Hirotaka",
-    "nickname": "Hirotaka Asaka",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
-    "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
-    ],
-    "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
-    ],
-    "abilities": [
-      {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
-      },
-      {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
-      }
-    ],
-    "color": "#FFFFFF",
-    "bgm": {
-      "file": "bgm_hir.mp3",
-      "title": "TO BE ASSIGNED"
-    }
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
   },
   {
     "id": "B11",
@@ -894,41 +840,6 @@
     }
   },
   {
-    "id": "B12",
-    "code": "aki",
-    "gen": 1,
-    "name": "Akira",
-    "nickname": "NOT REGISTERED YET",
-    "bio": "NOT REGISTERED YET",
-    "birthdate": "NOT REGISTERED YET",
-    "occupation": "NOT REGISTERED YET",
-    "cherishes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
-    ],
-    "dislikes": [
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET",
-      "NOT REGISTERED YET"
-    ],
-    "abilities": [
-      {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
-      },
-      {
-        "name": "NOT REGISTERED YET",
-        "desc": "NOT REGISTERED YET"
-      }
-    ],
-    "color": "#FFFFFF",
-    "bgm": {
-      "file": "bgm_aki.mp3",
-      "title": "TO BE ASSIGNED"
-    }
-  },
-  {
     "id": "B13",
     "code": "aik",
     "gen": 1,
@@ -961,6 +872,41 @@
     "bgm": {
       "file": "bgm_aik.mp3",
       "title": "Sunshine Airport (Mario Kart 8)"
+    }
+  },
+  {
+    "id": "B12",
+    "code": "aki",
+    "gen": 1,
+    "name": "Akira",
+    "nickname": "NOT REGISTERED YET",
+    "bio": "NOT REGISTERED YET",
+    "birthdate": "NOT REGISTERED YET",
+    "occupation": "NOT REGISTERED YET",
+    "cherishes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "dislikes": [
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET",
+      "NOT REGISTERED YET"
+    ],
+    "abilities": [
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      },
+      {
+        "name": "NOT REGISTERED YET",
+        "desc": "NOT REGISTERED YET"
+      }
+    ],
+    "color": "#FFFFFF",
+    "bgm": {
+      "file": "bgm_aki.mp3",
+      "title": "TO BE ASSIGNED"
     }
   },
   {
@@ -1192,5 +1138,149 @@
     "comingSoon": true,
     "comingSoonGroup": "Seniors",
     "color": "#FFFFFF"
+  },
+  {
+    "id": "S14",
+    "code": "har",
+    "name": "Harumi",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S15",
+    "code": "sut",
+    "name": "Suteru",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S16",
+    "code": "mia",
+    "name": "Mirai",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S17",
+    "code": "akh",
+    "name": "Akihito",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S18",
+    "code": "mit",
+    "name": "Mitsuki",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S19",
+    "code": "hro",
+    "name": "Hiroomi",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S20",
+    "code": "may",
+    "name": "Maya",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S21",
+    "code": "ata",
+    "name": "Atashi",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "S22",
+    "code": "ara",
+    "name": "Arashi",
+    "comingSoon": true,
+    "comingSoonGroup": "Seniors",
+    "color": "#FFFFFF"
+  },
+  {
+    "id": "G1",
+    "code": "yuk",
+    "name": "Yuka",
+    "comingSoon": true,
+    "comingSoonGroup": "Author Gods",
+    "color": "#FFC93C"
+  },
+  {
+    "id": "G2",
+    "code": "bar",
+    "name": "Barron",
+    "comingSoon": true,
+    "comingSoonGroup": "Author Gods",
+    "color": "#FFC93C"
+  },
+  {
+    "id": "G3",
+    "code": "eri",
+    "name": "Erina",
+    "comingSoon": true,
+    "comingSoonGroup": "Author Gods",
+    "color": "#FFC93C"
+  },
+  {
+    "id": "G4",
+    "code": "shj",
+    "name": "Shinjiro",
+    "comingSoon": true,
+    "comingSoonGroup": "Author Gods",
+    "color": "#FFC93C"
+  },
+  {
+    "id": "G5",
+    "code": "hid",
+    "name": "Hideyuki",
+    "comingSoon": true,
+    "comingSoonGroup": "Author Gods",
+    "color": "#FFC93C"
+  },
+  {
+    "id": "G6",
+    "code": "ain",
+    "name": "Aina",
+    "comingSoon": true,
+    "comingSoonGroup": "Author Gods",
+    "color": "#FFC93C"
+  },
+  {
+    "id": "G7",
+    "code": "akm",
+    "name": "Akuma",
+    "comingSoon": true,
+    "comingSoonGroup": "Author Gods",
+    "color": "#FFC93C"
+  },
+  {
+    "id": "G8",
+    "code": "hyu",
+    "name": "Hyung",
+    "comingSoon": true,
+    "comingSoonGroup": "Author Gods",
+    "color": "#FFC93C"
+  },
+  {
+    "id": "G9",
+    "code": "yam",
+    "name": "Yamato",
+    "comingSoon": true,
+    "comingSoonGroup": "Author Gods",
+    "color": "#FFC93C"
   }
 ]
