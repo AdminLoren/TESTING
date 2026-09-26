@@ -453,6 +453,7 @@ img { max-width: 100%; display: block; }
 .select-card.is-highlighted .select-card-nameplate { color: var(--accent-gold); }
 
 .coming-soon-label { color: var(--text-dim); }
+.author-gods-label { color: var(--accent-gold); border-bottom-color: var(--accent-gold); }
 .select-subgen-label {
   font-family: var(--font-display);
   color: var(--text-dim);
