@@ -37,12 +37,19 @@ COTA.lore = (function () {
 
   function renderComingSoonGrids() {
     const gen2Wrap = document.getElementById("lore-select-comingsoon-2nd");
+    const gen1Wrap = document.getElementById("lore-select-comingsoon-1st");
     const seniorsWrap = document.getElementById("lore-select-comingsoon-seniors");
     if (!gen2Wrap || !seniorsWrap) return;
     gen2Wrap.innerHTML = comingSoonCharacters
       .filter((c) => c.comingSoonGroup === "2nd Gen")
       .map(comingSoonCardTemplate)
       .join("");
+    if (gen1Wrap) {
+      gen1Wrap.innerHTML = comingSoonCharacters
+        .filter((c) => c.comingSoonGroup === "1st Gen")
+        .map(comingSoonCardTemplate)
+        .join("");
+    }
     seniorsWrap.innerHTML = comingSoonCharacters
       .filter((c) => c.comingSoonGroup === "Seniors")
       .map(comingSoonCardTemplate)
